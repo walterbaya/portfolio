@@ -1,0 +1,346 @@
+* {
+  image-rendering: -webkit-optimize-contrast;
+}
+
+#app {
+  height: 100vh;
+}
+
+.title {
+  font-weight: 500;
+  font-family: "Merienda One", cursive;
+  color: white;
+  display: flex;
+  text-decoration: underline;
+  text-underline-offset: 1.2vw;
+  align-items: center;
+  margin-right: 1em;
+  font-size: 2.7vw;
+}
+
+.general-container {
+  margin-top: 0px;
+  position: absolute;
+  z-index: 1;
+  margin-right: 1em;
+}
+
+@media (min-width: 767px) {
+  .logo {
+    height: 100px !important;
+    margin-right: 10px !important;
+    margin-bottom: 25px !important;
+  }
+
+  #navigation-bar {
+    font-size: 1.9vw;
+    height: 100vw;
+    position: fixed;
+  }
+
+  #biography h1 {
+    font-size: 1.9vw;
+    font-weight: 500;
+    font-family: "Merienda One", cursive;
+    color: #4F4F4F;
+  }
+  #biography h2 {
+    font-size: 1.2vw;
+    width: fit-content;
+    font-weight: 400;
+    color: #828282;
+    border: solid 0.1vw;
+  }
+  #biography img {
+    background: #C4C4C4;
+    border-radius: 60px;
+    height: auto;
+    max-width: min-content;
+    max-height: 18vw;
+    padding: 1vw;
+    margin-top: 1.2vw;
+  }
+  #biography #biography-title {
+    font-size: 2.7vw;
+  }
+  #biography p {
+    font-size: 1.2vw;
+    font-weight: 400;
+    margin-left: 0.1vw;
+    max-width: 400px;
+    text-align: left;
+  }
+  #biography a {
+    color: #828282;
+    font-size: 1.2vw;
+    font-style: italic;
+    font-weight: 300;
+    padding: 1vw;
+  }
+
+  #certificates h1 {
+    font-size: 2.7vw;
+    font-weight: 500;
+    font-family: "Merienda One", cursive;
+    color: white;
+    margin-right: 1.2em;
+  }
+  #certificates #certificate-logo {
+    max-height: 9vw;
+  }
+  #certificates #certificate {
+    filter: grayscale(1);
+  }
+  #certificates #certificate #text {
+    display: none;
+  }
+
+  #experiencies {
+    height: 100vh;
+  }
+  #experiencies #experience {
+    font-weight: 500;
+    font-family: Montserrat;
+    font-size: 1.2vw;
+    line-height: 1.2vw;
+  }
+  #experiencies #experience img {
+    height: auto;
+    max-width: 3.8vw;
+  }
+  #experiencies #experience h2 {
+    line-height: 17px;
+    color: #828282;
+    font-size: 1.9vw;
+  }
+  #experiencies #experience h1 {
+    font-weight: 600;
+    color: #4F4F4F;
+    font-size: 1.9vw;
+  }
+  #experiencies #experience p {
+    color: #828282;
+    max-width: 360px;
+  }
+  #experiencies #experience #image-container {
+    padding: 1.9vw;
+  }
+
+  #habilities h1 {
+    font-size: 2.7vw;
+    font-weight: 500;
+    font-family: "Merienda One", cursive;
+    color: white;
+    display: flex;
+    text-decoration: underline;
+    text-underline-offset: 1vw;
+    align-items: center;
+    margin-right: 0.6em;
+  }
+  #habilities #hability {
+    padding-top: 2vw;
+    display: flex;
+    max-height: 10vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+  }
+  #habilities #hability img {
+    height: auto;
+    max-width: 4vw;
+  }
+  #habilities #hability p {
+    font-size: 1.2vw;
+    padding-left: 1vw;
+    text-align: center;
+  }
+
+  #projects h1 {
+    font-size: 2.7vw;
+    font-weight: 500;
+    font-family: "Merienda One", cursive;
+    color: white;
+    display: flex;
+    text-decoration: underline;
+    text-underline-offset: 1.2vw;
+    align-items: center;
+  }
+  #projects #project {
+    height: min-content;
+    padding-right: 10vw;
+    padding-left: 10vw;
+    padding-top: 1.6vw;
+  }
+  #projects #project p,
+#projects #project a {
+    font-size: 1.2vw;
+  }
+  #projects #project li {
+    font-size: 1.9vw;
+  }
+  #projects #project img {
+    height: 24vw;
+    object-fit: fill;
+  }
+
+  #blogs {
+    height: 100vh;
+  }
+  #blogs h1 {
+    font-weight: 600;
+    line-height: 29px;
+    color: #4F4F4F;
+    font-size: 3.8vw;
+  }
+
+  #blog img {
+    object-fit: fill;
+    height: 100%;
+  }
+  #blog h1 {
+    font-weight: 600;
+    line-height: 29px;
+    color: #4F4F4F;
+    font-size: 2.7vw;
+  }
+  #blog h2 {
+    font-size: 1.9vw;
+  }
+  #blog p {
+    font-size: 1.2vw;
+    text-align: left;
+    max-width: 445px;
+  }
+}
+@media (max-width: 767px) {
+  .general-container {
+    margin-top: 70px;
+    position: absolute;
+    z-index: 1;
+  }
+
+  .logo {
+    height: 80px !important;
+    margin-right: 10px !important;
+    margin: 10px !important;
+  }
+
+  #biography {
+    margin-left: 1em;
+  }
+  #biography h1 {
+    font-size: 6vw;
+    font-weight: 500;
+    font-family: "Merienda One", cursive;
+    color: #4F4F4F;
+  }
+  #biography h2 {
+    font-size: 2.7vw;
+    width: fit-content;
+    font-weight: 400;
+    color: #828282;
+    border: solid 0.1vw;
+  }
+  #biography p {
+    font-size: 2.7vw;
+    font-weight: 400;
+  }
+  #biography img {
+    height: auto;
+    border-radius: 60px;
+    opacity: 0.8;
+  }
+  #biography a {
+    padding: 1.7vw;
+    color: #828282;
+    font-size: 2.7vw;
+    font-style: italic;
+    font-weight: 400;
+  }
+
+  #habilities h1 {
+    font-size: 6vw;
+    font-weight: 500;
+    font-family: "Merienda One", cursive;
+    color: white;
+    display: flex;
+    text-decoration: underline;
+    text-underline-offset: 1.9vw;
+    align-items: center;
+    margin-right: 0.6em;
+  }
+  #habilities #hability {
+    padding: 1.5vw;
+    padding-top: 5vw;
+    display: flex;
+    max-height: 10vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #habilities #hability img {
+    height: auto;
+    max-width: 10vw;
+  }
+  #habilities #hability p {
+    font-size: 2.7vw;
+    padding-left: 1vw;
+    text-align: center;
+  }
+
+  #experiencies {
+    margin-top: 70px;
+    height: 100vh;
+  }
+  #experiencies #experience p {
+    font-size: 1.9vw;
+    line-height: 1.9vw;
+  }
+  #experiencies #experience h1 {
+    line-height: 1vw;
+    font-size: 2.7vw;
+  }
+
+  #certificates h1 {
+    font-size: 6vw;
+    font-weight: 500;
+    font-family: "Merienda One", cursive;
+    color: white;
+    margin-right: 1.2em;
+  }
+  #certificates #certificate {
+    margin: 5px;
+    filter: grayscale(1);
+  }
+  #certificates #certificate #text {
+    display: none;
+  }
+
+  #projects h1 {
+    font-size: 6vw;
+    font-weight: 500;
+    font-family: "Merienda One", cursive;
+    color: white;
+    display: flex;
+    text-decoration: underline;
+    text-underline-offset: 1.9vw;
+    align-items: center;
+  }
+  #projects #project {
+    margin-top: 4vw;
+  }
+  #projects #project p,
+#projects #project a {
+    font-size: 2.7vw;
+  }
+  #projects #project li {
+    font-size: 3.8vw;
+  }
+  #projects #project img {
+    height: 45vw;
+    object-fit: fill;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,131 @@
+<template>
+  <nav
+    class="
+      navbar navbar-light
+      bg-light
+      d-flex
+      flex-md-column
+      p-md-5
+      py-3
+      border-bottom border-secondary
+      navbar-expand-lg
+    "
+    id="navigation-bar"
+  >
+    <!--navbar-expand-lg
+      fixed-top-->
+    <div class="container-fluid">
+      <button
+        class="navbar-toggler d-block d-md-none"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbar"
+        type="button"
+        id="hamburguer"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-collapse collapse" id="navbar">
+        <ul class="navbar-nav d-md-none">
+          <li class="nav-item">
+            <router-link to="/biography" class="nav-link mt-2"
+              >Biografía</router-link
+            >
+          </li>
+          <!--
+          <li class="nav-item">
+            <router-link to="/blogs" class="nav-link">Blogs</router-link>
+          </li>-->
+          <li class="nav-item">
+            <router-link to="/certificates" class="nav-link"
+              >Certificados</router-link
+            >
+          </li>
+          <!--<li class="nav-item">
+            <router-link to="/experiencies" class="nav-link"
+              >Experiencies</router-link
+            >
+          </li>-->
+          <li class="nav-item">
+            <router-link to="/habilities" class="nav-link"
+              >Habilidades</router-link
+            >
+          </li>
+          <li class="nav-item">
+            <router-link to="/projects" class="nav-link">Proyectos</router-link>
+          </li>
+        </ul>
+      </div>
+
+      <ul class="navbar-nav d-none d-md-flex flex-md-column">
+        <li class="nav-item">
+          <router-link to="/biography" class="nav-link">Biografía</router-link>
+        </li>
+        <!--<li class="nav-item">
+          <router-link to="/blogs" class="nav-link">Blogs</router-link>
+        </li>
+        -->
+        <li class="nav-item">
+          <router-link to="/certificates" class="nav-link"
+            >Certificates</router-link
+          >
+        </li>
+        <!--
+        <li class="nav-item">
+          <router-link to="/experiencies" class="nav-link"
+            >Experiencies</router-link
+          >
+          </li>
+          -->
+
+        <li class="nav-item">
+          <router-link to="/habilities" class="nav-link"
+            >Habilidades</router-link
+          >
+        </li>
+        <li class="nav-item">
+          <router-link to="/projects" class="nav-link">Proyectos</router-link>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</template>
+
+<script>
+export default {
+  name: "Navbar",
+  mounted() {
+    document.addEventListener("scroll", this.fixedScrollingHandler);
+  },
+  data() {
+    return {
+      currentScrollPosition: 0,
+    };
+  },
+  methods: {
+    fixedScrollingHandler: function () {
+      //We keep the current scroll position updated all the time.
+      const pastScrollPosition = this.currentScrollPosition;
+      this.currentScrollPosition = window.scrollY;
+      const div_content = document.getElementById("navigation-bar");
+      const navbar = document.getElementById("navbar");
+
+      if (window.outerWidth <= 767) {
+        div_content.classList.add('fixed-top');
+        if (this.currentScrollPosition > pastScrollPosition) {
+          navbar.classList.remove("show");
+          navbar.classList.add("hide");
+          div_content.classList.remove("d-flex");
+          div_content.classList.add("d-none");
+        }
+        if (this.currentScrollPosition < pastScrollPosition) {
+          div_content.classList.add("d-flex");
+          div_content.classList.remove("d-none");
+        }
+      }
+      else{
+        div_content.classList.remove('fixed-top');
+      }
+    },
+  },
+};
+</script>

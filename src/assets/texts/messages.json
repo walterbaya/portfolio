@@ -1,0 +1,184 @@
+{
+  "habilities": {
+    "Bootstrap": [
+      {
+        "title": "Bootstrap",
+        "image": "Bootstrap.svg",
+        "percentage": 100
+      }
+    ],
+    "Git": [
+      {
+        "title": "Git",
+        "image": "Git.svg",
+        "percentage": 65
+      }
+    ],
+    "Html_CSS": [
+      {
+        "title": "Html CSS",
+        "image": "Html_CSS.svg",
+        "percentage": 80
+      }
+    ],
+    "Java": [
+      {
+        "title": "Java",
+        "image": "Java.svg",
+        "percentage": 55
+      }
+    ],
+    "Javascript": [
+      {
+        "title": "Javascript",
+        "image": "Javascript.svg",
+        "percentage": 60
+      }
+    ],
+    "My_SQL": [
+      {
+        "title": "My SQL",
+        "image": "My_SQL.svg",
+        "percentage": 30
+      }
+    ],
+    "Patrones_de_diseño": [
+      {
+        "title": "Patrones de Diseño",
+        "image": "Patrones_de_diseño.svg",
+        "percentage": 50
+      }
+    ],
+    "Programación_Orientada_a_Objetos": [
+      {
+        "title": "Programación Orientada a Objetos",
+        "image": "Programación_Orientada_a_Objetos.svg",
+        "percentage": 80
+      }
+    ],
+    "SASS_SCSS": [
+      {
+        "title": "SASS SCSS",
+        "image": "SASS_SCSS.svg",
+        "percentage": 50
+      }
+    ],
+    "Springboot": [
+      {
+        "title": "Springboot",
+        "image": "Springboot.svg",
+        "percentage": 65
+      }
+    ],
+    "Vue JS": [
+      {
+        "title": "Vue JS",
+        "image": "Vue_JS.svg",
+        "percentage": 45
+      }
+    ]
+  },
+  "projects": {
+    "toon-shader": [
+      {
+        "title": "Toon: Shader",
+        "text": "Este fue mi proyecto de fin de curso para la materia fundamentos de la computación gráfica, se realizó junto con un informe que describe como se realizan las sombras para dar ese aspecto a caricatura.",
+        "link": "aca va el link al repositorio",
+        "image": "Toon-shader.jpg"
+      }
+    ],
+    "mockup1": [
+      {
+        "title": "Sitio web a partir de un mockup",
+        "text": "Hice este sitio web básico como projecto durante mi curso de HTML5, la idea de este proyecto, fue aprender a utilizar google fonts y poner las primeras imagenes en un sitio de forma adecuada, siguiendo las reglas dadas en un mockup.",
+        "link": "aca va el link al repositorio",
+        "image": "mockup1.jpg"
+      }
+    ],
+    "musiquita-viajera": [
+      {
+        "title": "Musiquita Viajera",
+        "text": "Hice el sitio musiquita viajera como parte de mi curso de Maquetación Web, fue uno de los primeros proyectos que debía desarrollar",
+        "link": "aca va el link al repositorio",
+        "image": "musiquita-viajera.jpg"
+      }
+    ],
+    "skylight": [
+      {
+        "title": "Skylight",
+        "text": "Skylight fue el proyecto final de mi curso de maquetado web, la idea era a partir de un mockup copiar el diseño utilizando HTML5 y CSS3",
+        "link": "aca va el link al repositorio",
+        "image": "skylight.jpg"
+      }
+    ],
+    "Ta-Te-Ti": [
+      {
+        "title": "Ta Te Ti",
+        "text": "El Ta Te Ti fue desarrollado utilizando Java y Java FX, nos permite jugar una partida contra la PC.",
+        "link": "aca va el link al repositorio",
+        "image": "Ta-Te-Ti.jpg"
+      }
+    ],
+    "Concesionaria": [
+      {
+        "title": "Concesionaria",
+        "text": "Este es el proyecto integrador del curso de Java Standard Programming, es una aplicación de gestión para una concesionaria, se aplicaron aquí todas las tecnologías vistas en el curso.",
+        "link": "aca va el link al repositorio",
+        "image": "concesionaria.jpg"
+      }
+    ],
+    "AnalisisHabitacional": [
+      {
+        "title": "Analisis Habitacional",
+        "text": "Se realizó la especificación y la implementación de algoritmos para realizar un análisis habitacional, se utilizó GoogleTest para testear los resultados además de exigir un porcentaje de cobertura particular",
+        "link": "aca va el link al repositorio",
+        "image": "analisisHabitacional.jpg"
+      }
+    ]
+    ,
+    "Base de Datos": [
+      {
+        "title": "Implementación de una Base de Datos",
+        "text": "Se realizó la especificación, diseño y la implementación de algoritmos para realizar operaciones propias de una base de datos, el objetivo era cumplir con ciertas complejidades temporales y espaciales con el fin de conseguir un funcionamiento similar al de una base de datos del mundo real.",
+        "link": "aca va el link al repositorio",
+        "image": "algoritmosII.jpg"
+      }
+    ]
+  },
+  "blogs": {
+    "blog1": [
+      {
+        "title": "Blog de algoritmos y estructuras de datos",
+        "text": "Este fue mi primer proyecto web, es un blog sobre algoritmos y estructuras de datos, el contenido del mismo es sobre muchas cosas aprendidas durante mi segundo curso de algoritmos en la universidad.",
+        "link": "aca va el link al blog",
+        "image": "blog1.jpg"
+      }
+    ]
+  },
+  "experiencies": {
+    "experiencie1": [
+      {
+        "image": "adidas.png",
+        "date": "Feb 2017 - Current",
+        "title": "Front-end developer",
+        "text": "Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie."
+      }
+    ],
+    "experiencie2": [
+      {
+        "image": "hym.png",
+        "date": "Aug 2016 - Feb 2018",
+        "title": "Full-stack developer",
+        "text": "Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie."
+      }
+    ],
+    "experiencie3": [
+      {
+        "image": "nivea.png",
+        "date": "Jun 2015 - Aug 2016",
+        "title": "Junior front-end developer",
+        "text": "Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie."
+      }
+    ]
+  }
+}

@@ -1,5 +1,5 @@
 <template>
-  <div id="project" class="bg-white d-flex justify-content-center mt-5 border border-1 p-md-0">
+  <div id="project" class="bg-dark d-flex justify-content-center mt-5 border border-1 p-md-0">
     <div class="card w-100">
       <img
         v-bind:alt="image"

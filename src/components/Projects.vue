@@ -1,5 +1,5 @@
 <template>
-  <div id="projects" class="bg-white general-container px-5 py-2">
+  <div id="projects" class="bg-white general-container container px-5 py-2">
     <div class="row">
       <div
         class="

@@ -1,10 +1,10 @@
 <template>
-  <div id="app" class="p-0 m-0 bg-dark h-100">
-    <div class="row m-0 p-0">
-      <div class="col-12 col-md-3 m-0 p-0 h-100">
+  <div id="app" class="container-fluid">
+    <div class="row">
+      <div class="col-12 col-md-2">
         <Navbar></Navbar>
       </div>
-      <div class="col-12 col-md-9 m-0 p-0">
+      <div class="col-12 col-md-10">
         <router-view></router-view>
       </div>
     </div>
@@ -20,7 +20,7 @@ export default {
     Navbar,
   },
   created: function () {
-    document.body.style.background = "white";
+    document.body.style.background = "#f8f9fa";
   },
   destroyed: function () {
     document.body.style.backgroundColor = null;

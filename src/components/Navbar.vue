@@ -5,8 +5,8 @@
       bg-light
       d-flex
       flex-md-column
-      p-md-5
-      py-3
+      justify-content-md-start
+      justify-content-end
       border-bottom border-secondary
       navbar-expand-lg
     "
@@ -14,7 +14,7 @@
   >
     <!--navbar-expand-lg
       fixed-top-->
-    <div class="container-fluid">
+    <div class="px-3">
       <button
         class="navbar-toggler d-block d-md-none"
         data-bs-toggle="collapse"
@@ -55,8 +55,8 @@
           </li>
         </ul>
       </div>
-
-      <ul class="navbar-nav d-none d-md-flex flex-md-column">
+      <div class="align-items-center justify-content-center d-flex"><img class="img-fluid rounded" src="../assets/img/walterbayaicon.png" alt="WalterBayaLogo"></div>
+      <ul class="navbar-nav d-none d-md-flex flex-md-column px-md-5 m-md-5">
         <li class="nav-item">
           <router-link to="/biography" class="nav-link">Biografía</router-link>
         </li>

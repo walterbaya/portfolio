@@ -1,7 +1,7 @@
 <template>
   <div
     id="biography"
-    class=" general-container bg-white text-dark px-5 py-2"
+    class="container bg-white text-dark px-5 py-2 general-container"
   >
     <div class="row bg-light rounded">
       <div class="col-12 d-flex justify-content-center align-items-center border border-1">
@@ -13,7 +13,7 @@
         <h1 class="text-dark p-1 title" id="biography-title">Biografía</h1>
       </div>
     </div>
-    <div class="row mt-4 mb-1 px-5">
+    <div class="row mt-4 mb-1">
       <div class="col-12 col-md-4 p-0 m-0 d-flex justify-content-center">
         <img
           src="../assets/img/face.jpg"
@@ -24,8 +24,8 @@
       <div class="col-12 col-md-8 px-md-3 px-md-5 mt-3 d-flex flex-column justify-content-center">
         <h1 class="p-2 mt-1">Walter Baya</h1>
         <h2 class="mx-2 p-2 mt-1">Desarrollador de Software</h2>
-        <p class="p-2 mt-1">
-          Apasionado por la tecnología y la computación, me motiva seguir
+        <p class="p-2 mt-1 ">
+          <strong>Apasionado por la tecnología y la computación</strong>, me motiva seguir
           aprendiendo cosas nuevas y realizar proyectos poniendo a prueba dichos
           aprendizajes.
         </p>
@@ -45,7 +45,7 @@
         </ul>
       </div>
     </div>
-    <div class="row px-5">
+    <div class="row">
       <hr />
       <div class="col-12 px-3">
         <h1 class="mt-1 p-2">Estudios Universitarios</h1>

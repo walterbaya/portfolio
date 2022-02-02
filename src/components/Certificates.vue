@@ -1,5 +1,5 @@
 <template>
-  <div id="certificates" class="bg-white p-4 py-md-2 px-lg-5 my-md-0 d-flex flex-column general-container ">
+  <div id="certificates" class="bg-white px-5 py-4 py-md-2 px-lg-5 d-flex flex-column container general-container">
     <div class="row rounded">
       <div class="col-12 p-1 d-flex justify-content-center align-items-center bg-light rounded border border-1">
         <img src="../assets/img/certificates-icon.svg" alt="" class="py-md-0 mt-4 logo">

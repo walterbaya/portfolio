@@ -6,10 +6,67 @@
   height: 100vh;
 }
 
+.hoverWhite:hover {
+  color: white !important;
+}
+
+.color-seagrey {
+  color: #5f6366 !important;
+}
+
+.color-seablue {
+  color: #4d6d9a !important;
+}
+
+.color-greyblue {
+  color: #88bdbc !important;
+}
+
+.color-pinkblue {
+  color: #99ced3 !important;
+}
+
+.color-pink {
+  color: #edb5bf !important;
+}
+
+.background-seagrey {
+  background: #5f6366 !important;
+}
+
+.background-seablue {
+  background: #4d6d9a !important;
+}
+
+.background-greyblue {
+  background: #88bdbc !important;
+}
+
+.background-pinkblue {
+  background: #99ced3 !important;
+}
+
+.background-pink {
+  background: #edb5bf !important;
+}
+
+#university {
+  font-weight: 600 !important;
+}
+
+#degree {
+  font-weight: 100 !important;
+}
+
+.logo {
+  height: 100px !important;
+  margin-right: 10px !important;
+  margin-bottom: 25px !important;
+}
+
 .title {
   font-weight: 500;
   font-family: "Merienda One", cursive;
-  color: white;
   display: flex;
   text-decoration: underline;
   text-underline-offset: 1.2vw;
@@ -19,12 +76,6 @@
 }
 
 @media (min-width: 767px) {
-  .logo {
-    height: 100px !important;
-    margin-right: 10px !important;
-    margin-bottom: 25px !important;
-  }
-
   #navigation-bar {
     font-size: 1.9vw;
     position: fixed;
@@ -37,54 +88,48 @@
     margin-bottom: 2em;
     margin-top: 2em;
   }
-  #navigation-bar .hoverWhite:hover {
-    color: white;
-  }
 
   #biography {
     max-width: 100vw;
+    height: 100vh;
   }
   #biography h1 {
     font-size: 0.8 1.9vw;
     font-weight: 500;
     font-family: "Merienda One", cursive;
-    color: #C4C4C4;
   }
   #biography h2 {
     font-size: 1.33vw;
     width: fit-content;
+    font-style: italic;
     font-weight: 400;
-    color: #C4C4C4;
-    border: solid 0.1vw;
   }
   #biography img {
-    background: #C4C4C4;
     height: auto;
     max-width: min-content;
     max-height: 18vw;
     margin-top: 1.2vw;
   }
   #biography #biography-title {
-    font-size: 2.7vw;
+    font-size: 3.8vw;
   }
   #biography p {
     font-size: 1vw;
     font-weight: 400;
     text-align: left;
+    font-style: italic;
   }
   #biography a {
-    color: #828282;
     font-size: 1.2vw;
     font-style: italic;
     font-weight: 300;
-    margin-left: 0.58vw;
+    margin-left: 1.2vw;
   }
 
   #certificates h1 {
     font-size: 2.7vw;
     font-weight: 500;
     font-family: "Merienda One", cursive;
-    color: white;
     margin-right: 1.2em;
   }
   #certificates #certificate-logo {
@@ -112,16 +157,13 @@
   }
   #experiencies #experience h2 {
     line-height: 17px;
-    color: #828282;
     font-size: 1.9vw;
   }
   #experiencies #experience h1 {
     font-weight: 600;
-    color: #4F4F4F;
     font-size: 1.9vw;
   }
   #experiencies #experience p {
-    color: #828282;
     max-width: 360px;
   }
   #experiencies #experience #image-container {
@@ -132,7 +174,6 @@
     font-size: 2.7vw;
     font-weight: 500;
     font-family: "Merienda One", cursive;
-    color: white;
     display: flex;
     text-decoration: underline;
     text-underline-offset: 1vw;
@@ -183,7 +224,6 @@
   #blogs h1 {
     font-weight: 600;
     line-height: 29px;
-    color: #4F4F4F;
     font-size: 3.8vw;
   }
 
@@ -194,7 +234,6 @@
   #blog h1 {
     font-weight: 600;
     line-height: 29px;
-    color: #4F4F4F;
     font-size: 2.7vw;
   }
   #blog h2 {
@@ -208,13 +247,7 @@
 }
 @media (max-width: 767px) {
   .general-container {
-    margin-top: 80px;
-  }
-
-  .logo {
-    height: 80px !important;
-    margin-right: 10px !important;
-    margin: 10px !important;
+    margin-top: 100px;
   }
 
   #navigation-bar {
@@ -222,6 +255,11 @@
     min-height: 80px;
     position: fixed;
     left: 0;
+    /*
+    .hoverWhite:hover{
+        color: white;
+    }
+    */
   }
   #navigation-bar img {
     width: 18%;
@@ -231,21 +269,16 @@
     left: 10px;
     padding: 5px;
   }
-  #navigation-bar .hoverWhite:hover {
-    color: white;
-  }
 
   #biography h1 {
     font-size: 6vw;
     font-weight: 500;
     font-family: "Merienda One", cursive;
-    color: #4F4F4F;
   }
   #biography h2 {
     font-size: 2.7vw;
     width: fit-content;
     font-weight: 400;
-    color: #828282;
     border: solid 0.1vw;
   }
   #biography p {
@@ -259,7 +292,6 @@
   }
   #biography a {
     padding: 1.7vw;
-    color: #828282;
     font-size: 2.7vw;
     font-style: italic;
     font-weight: 400;
@@ -269,7 +301,6 @@
     font-size: 6vw;
     font-weight: 500;
     font-family: "Merienda One", cursive;
-    color: white;
     display: flex;
     text-decoration: underline;
     text-underline-offset: 1.9vw;
@@ -312,7 +343,6 @@
     font-size: 6vw;
     font-weight: 500;
     font-family: "Merienda One", cursive;
-    color: white;
     margin-right: 1.2em;
   }
   #certificates #certificate {
@@ -327,7 +357,6 @@
     font-size: 6vw;
     font-weight: 500;
     font-family: "Merienda One", cursive;
-    color: white;
     display: flex;
     text-decoration: underline;
     text-underline-offset: 1.9vw;

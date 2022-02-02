@@ -1,6 +1,8 @@
-$gray-1: #4F4F4F;
-$gray-2: #C4C4C4;
-$gray-3: #828282;
+$seagrey: #5f6366;
+$seablue: #4d6d9a;
+$greyblue: #88bdbc;
+$pinkblue: #99ced3;
+$pink: #edb5bf;
 $font-weight-500 : 500;
 $font-weight-600 : 600;
 $width-medium: 360px;
@@ -23,11 +25,62 @@ $line-height-small: 17px;
     height: 100vh;
 }
 
+.hoverWhite:hover {
+    color: white !important;
+}
+
+.color-seagrey {
+    color: #5f6366 !important;
+}
+
+.color-seablue {
+    color: #4d6d9a !important;
+}
+
+.color-greyblue {
+    color: #88bdbc !important;
+}
+
+.color-pinkblue {
+    color: #99ced3 !important;
+}
+
+.color-pink {
+    color: #edb5bf !important;
+}
+.background-seagrey{
+    background: #5f6366 !important;
+}
+.background-seablue{
+    background: #4d6d9a !important;
+}
+.background-greyblue{
+    background: #88bdbc !important;
+}
+.background-pinkblue{
+    background: #99ced3 !important;
+}
+
+.background-pink{
+    background: #edb5bf !important;
+}
+
+#university{
+    font-weight: 600 !important;
+}
+#degree{
+    font-weight: 100 !important;
+}
+
+.logo {
+    height: 100px !important;
+    margin-right: 10px !important;
+    margin-bottom: 25px !important;
+}
 
 .title {
     font-weight: 500;
     font-family: 'Merienda One', cursive;
-    color: white;
     display: flex;
     text-decoration: underline;
     text-underline-offset: $medium;
@@ -38,49 +91,38 @@ $line-height-small: 17px;
 
 @media (min-width: 767px) {
 
-    .logo {
-        height: 100px !important;
-        margin-right: 10px !important;
-        margin-bottom: 25px !important;
-    }
-
     #navigation-bar {
         font-size: $big;
         position: fixed;
         width: inherit;
         height: 100vw;
         max-width: 100% !important;
-        img{
+
+        img {
             width: 80%;
             margin-bottom: 2em;
             margin-top: 2em;
-        }
-        .hoverWhite:hover{
-            color: white;
         }
     }
 
     #biography {
         max-width: 100vw;
-        
+        height: 100vh;
         h1 {
             font-size: 0.8$big;
             font-weight: 500;
             font-family: 'Merienda One', cursive;
-            color:#C4C4C4;
         }
 
         h2 {
             font-size: 0.7*$big;
             width: fit-content;
+            font-style: italic;
             font-weight: 400;
-            color:#C4C4C4;
-            border: solid 0.1vw;
         }
 
 
         img {
-            background: $gray-2;
             height: auto;
             max-width: min-content;
             max-height: 3*$enormous;
@@ -88,21 +130,20 @@ $line-height-small: 17px;
         }
 
         #biography-title {
-            font-size: $very-big;
+            font-size: $very-very-big;
         }
-
         p {
             font-size: $small;
             font-weight: 400;
             text-align: left;
+            font-style: italic;
         }
 
         a {
-            color: #828282;
             font-size: $medium;
             font-style: italic;
             font-weight: 300;
-            margin-left: 0.58vw;
+            margin-left: 1.2vw;
         }
     }
 
@@ -111,7 +152,6 @@ $line-height-small: 17px;
             font-size: $very-big;
             font-weight: 500;
             font-family: 'Merienda One', cursive;
-            color: white;
             margin-right: 1.2em;
         }
 
@@ -144,18 +184,15 @@ $line-height-small: 17px;
 
             h2 {
                 line-height: $line-height-small;
-                color: $gray-3;
                 font-size: $big;
             }
 
             h1 {
                 font-weight: $font-weight-600;
-                color: $gray-1;
                 font-size: $big;
             }
 
             p {
-                color: $gray-3;
                 max-width: $width-medium;
             }
 
@@ -170,7 +207,6 @@ $line-height-small: 17px;
             font-size: $very-big;
             font-weight: 500;
             font-family: 'Merienda One', cursive;
-            color: white;
             display: flex;
             text-decoration: underline;
             text-underline-offset: $small;
@@ -202,13 +238,14 @@ $line-height-small: 17px;
     }
 
     #projects {
-        #firstrow{
+        #firstrow {
             max-height: 150px;
         }
 
         #project {
             max-height: 600px !important;
-            height:min-content !important;
+            height: min-content !important;
+
             p,
             a {
                 font-size: $medium;
@@ -231,7 +268,6 @@ $line-height-small: 17px;
         h1 {
             font-weight: $font-weight-600;
             line-height: 29px;
-            color: $gray-1;
             font-size: $very-very-big;
         }
     }
@@ -246,7 +282,6 @@ $line-height-small: 17px;
         h1 {
             font-weight: $font-weight-600;
             line-height: 29px;
-            color: $gray-1;
             font-size: $very-big;
         }
 
@@ -263,24 +298,18 @@ $line-height-small: 17px;
 }
 
 @media (max-width: 767px) {
-
     .general-container {
-        margin-top: 80px;
+        margin-top: 100px;
     }
 
-    .logo {
-        height: 80px !important;
-        margin-right: 10px !important;
-        margin: 10px !important;
-    }
 
-    
     #navigation-bar {
         min-width: 100% !important;
         min-height: 80px;
         position: fixed;
         left: 0;
-        img{
+
+        img {
             width: 18%;
             height: 80px;
             position: absolute;
@@ -288,9 +317,12 @@ $line-height-small: 17px;
             left: 10px;
             padding: 5px;
         }
+
+        /*
         .hoverWhite:hover{
             color: white;
         }
+        */
     }
 
     #biography {
@@ -298,14 +330,12 @@ $line-height-small: 17px;
             font-size: $enormous;
             font-weight: 500;
             font-family: 'Merienda One', cursive;
-            color: #4F4F4F;
         }
 
         h2 {
             font-size: $very-big;
             width: fit-content;
             font-weight: 400;
-            color: #828282;
             border: solid 0.1vw;
         }
 
@@ -322,7 +352,6 @@ $line-height-small: 17px;
 
         a {
             padding: 1.7vw;
-            color: #828282;
             font-size: $very-big;
             font-style: italic;
             font-weight: 400;
@@ -335,7 +364,6 @@ $line-height-small: 17px;
             font-size: $enormous;
             font-weight: 500;
             font-family: 'Merienda One', cursive;
-            color: white;
             display: flex;
             text-decoration: underline;
             text-underline-offset: $big;
@@ -390,7 +418,6 @@ $line-height-small: 17px;
             font-size: $enormous;
             font-weight: 500;
             font-family: 'Merienda One', cursive;
-            color: white;
             margin-right: 1.2em;
         }
 
@@ -409,7 +436,6 @@ $line-height-small: 17px;
             font-size: $enormous;
             font-weight: 500;
             font-family: 'Merienda One', cursive;
-            color: white;
             display: flex;
             text-decoration: underline;
             text-underline-offset: $big;

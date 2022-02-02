@@ -8,7 +8,7 @@
       justify-content-sm-start
       justify-content-end
       navbar-expand-lg
-    "
+      "
     id="navigation-bar"
   >
     <!--navbar-expand-lg

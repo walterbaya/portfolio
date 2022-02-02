@@ -2,12 +2,11 @@
   <nav
     class="
       navbar navbar-light
-      bg-light
+      bg-secondary
       d-flex
       flex-md-column
       justify-content-sm-start
       justify-content-end
-      border-bottom border-secondary
       navbar-expand-lg
     "
     id="navigation-bar"

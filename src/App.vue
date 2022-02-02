@@ -20,7 +20,7 @@ export default {
     Navbar,
   },
   created: function () {
-    document.body.style.background = "";
+    document.body.style.background = "#212529";
     //#f8f9fa
   },
   destroyed: function () {

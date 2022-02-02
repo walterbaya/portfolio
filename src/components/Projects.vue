@@ -1,14 +1,14 @@
 <template>
 <!--px-5 -->
-  <div id="projects" class="bg-white general-container container py-2">
-    <div class="row ">
+  <div id="projects" class="bg-dark text-white general-container container py-2">
+    <div class="row">
       <div
         class="
           col-12
           d-flex
           justify-content-center
           align-items-center
-          bg-light
+          bg-secondary
           border border-1
         "
         id="firstrow"
@@ -16,9 +16,9 @@
         <img
           src="../assets/img/projects.svg"
           alt=""
-          class="logo w-25 h-50 mt-3"
+          class="logo  h-50 mt-3"
         />
-        <h1 class="text-dark bg-light title">Proyectos</h1>
+        <h1 class="text-white bg-secondary title">Proyectos</h1>
       </div>
     </div>
     <div class="row">

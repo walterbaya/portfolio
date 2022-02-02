@@ -62,14 +62,14 @@ $line-height-small: 17px;
             font-size: 0.8$big;
             font-weight: 500;
             font-family: 'Merienda One', cursive;
-            color: #4F4F4F;
+            color:#C4C4C4;
         }
 
         h2 {
             font-size: 0.7*$big;
             width: fit-content;
             font-weight: 400;
-            color: #828282;
+            color:#C4C4C4;
             border: solid 0.1vw;
         }
 
@@ -97,6 +97,7 @@ $line-height-small: 17px;
             font-size: $medium;
             font-style: italic;
             font-weight: 300;
+            margin-left: 0.58vw;
         }
     }
 
@@ -274,7 +275,7 @@ $line-height-small: 17px;
         min-height: 80px;
         img{
             width: 18%;
-            height: 100%;
+            height: 80px;
             position: absolute;
             top: 0;
             left: 10px;

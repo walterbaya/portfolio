@@ -20,7 +20,7 @@ export default {
     Navbar,
   },
   created: function () {
-    document.body.style.background = "#4d6d9a";
+    document.body.style.background = "#464866";
     //#f8f9fa
   },
   destroyed: function () {
@@ -33,6 +33,4 @@ export default {
 @import "assets/css/all.min.css";
 @import "assets/css/index.css";
 @import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Merienda+One&display=swap");
 </style>

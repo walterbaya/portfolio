@@ -1,8 +1,8 @@
-$seagrey: #5f6366;
-$seablue: #4d6d9a;
-$greyblue: #88bdbc;
-$pinkblue: #99ced3;
-$pink: #edb5bf;
+$seagrey: #25274d;
+$seablue: #464866;
+$greyblue: #aaabb8;
+$pinkblue: #2e9cca;
+$pink: #29648a;
 $font-weight-500 : 500;
 $font-weight-600 : 600;
 $width-medium: 360px;
@@ -26,50 +26,47 @@ $line-height-small: 17px;
 }
 
 .hoverWhite:hover {
-    color: white !important;
+    color: #aaabb8 !important;
 }
 
 .color-seagrey {
-    color: #5f6366 !important;
+    color: $seagrey !important;
 }
 
 .color-seablue {
-    color: #4d6d9a !important;
+    color: $seablue !important;
 }
 
 .color-greyblue {
-    color: #88bdbc !important;
+    color: $greyblue !important;
 }
 
 .color-pinkblue {
-    color: #99ced3 !important;
+    color: $pinkblue !important;
 }
 
 .color-pink {
-    color: #edb5bf !important;
-}
-.background-seagrey{
-    background: #5f6366 !important;
-}
-.background-seablue{
-    background: #4d6d9a !important;
-}
-.background-greyblue{
-    background: #88bdbc !important;
-}
-.background-pinkblue{
-    background: #99ced3 !important;
+    color: $pink !important;
 }
 
-.background-pink{
-    background: #edb5bf !important;
+.background-seagrey {
+    background: $seagrey !important;
 }
 
-#university{
-    font-weight: 600 !important;
+.background-seablue {
+    background: $seablue !important;
 }
-#degree{
-    font-weight: 100 !important;
+
+.background-greyblue {
+    background: $greyblue !important;
+}
+
+.background-pinkblue {
+    background: $pinkblue !important;
+}
+
+.background-pink {
+    background: $pink !important;
 }
 
 .logo {
@@ -79,14 +76,19 @@ $line-height-small: 17px;
 }
 
 .title {
-    font-weight: 500;
-    font-family: 'Merienda One', cursive;
+    font-weight: 500 !important;
     display: flex;
-    text-decoration: underline;
-    text-underline-offset: $medium;
     align-items: center;
     margin-right: 1em;
     font-size: $very-big;
+}
+
+#degree {
+    font-weight: 700 !important;
+}
+
+#university {
+    font-weight: 700 !important;
 }
 
 @media (min-width: 767px) {
@@ -108,6 +110,7 @@ $line-height-small: 17px;
     #biography {
         max-width: 100vw;
         height: 100vh;
+
         h1 {
             font-size: 0.8$big;
             font-weight: 500;
@@ -118,7 +121,7 @@ $line-height-small: 17px;
             font-size: 0.7*$big;
             width: fit-content;
             font-style: italic;
-            font-weight: 400;
+            font-weight: 800;
         }
 
 
@@ -132,9 +135,10 @@ $line-height-small: 17px;
         #biography-title {
             font-size: $very-very-big;
         }
+
         p {
             font-size: $small;
-            font-weight: 400;
+            font-weight: 500;
             text-align: left;
             font-style: italic;
         }
@@ -142,9 +146,10 @@ $line-height-small: 17px;
         a {
             font-size: $medium;
             font-style: italic;
-            font-weight: 300;
+            font-weight: 500;
             margin-left: 1.2vw;
         }
+
     }
 
     #certificates {
@@ -329,14 +334,12 @@ $line-height-small: 17px;
         h1 {
             font-size: $enormous;
             font-weight: 500;
-            font-family: 'Merienda One', cursive;
         }
 
         h2 {
             font-size: $very-big;
             width: fit-content;
             font-weight: 400;
-            border: solid 0.1vw;
         }
 
         p {

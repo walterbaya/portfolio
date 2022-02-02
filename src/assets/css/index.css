@@ -7,55 +7,47 @@
 }
 
 .hoverWhite:hover {
-  color: white !important;
+  color: #aaabb8 !important;
 }
 
 .color-seagrey {
-  color: #5f6366 !important;
+  color: #25274d !important;
 }
 
 .color-seablue {
-  color: #4d6d9a !important;
+  color: #464866 !important;
 }
 
 .color-greyblue {
-  color: #88bdbc !important;
+  color: #aaabb8 !important;
 }
 
 .color-pinkblue {
-  color: #99ced3 !important;
+  color: #2e9cca !important;
 }
 
 .color-pink {
-  color: #edb5bf !important;
+  color: #29648a !important;
 }
 
 .background-seagrey {
-  background: #5f6366 !important;
+  background: #25274d !important;
 }
 
 .background-seablue {
-  background: #4d6d9a !important;
+  background: #464866 !important;
 }
 
 .background-greyblue {
-  background: #88bdbc !important;
+  background: #aaabb8 !important;
 }
 
 .background-pinkblue {
-  background: #99ced3 !important;
+  background: #2e9cca !important;
 }
 
 .background-pink {
-  background: #edb5bf !important;
-}
-
-#university {
-  font-weight: 600 !important;
-}
-
-#degree {
-  font-weight: 100 !important;
+  background: #29648a !important;
 }
 
 .logo {
@@ -65,14 +57,19 @@
 }
 
 .title {
-  font-weight: 500;
-  font-family: "Merienda One", cursive;
+  font-weight: 500 !important;
   display: flex;
-  text-decoration: underline;
-  text-underline-offset: 1.2vw;
   align-items: center;
   margin-right: 1em;
   font-size: 2.7vw;
+}
+
+#degree {
+  font-weight: 700 !important;
+}
+
+#university {
+  font-weight: 700 !important;
 }
 
 @media (min-width: 767px) {
@@ -102,7 +99,7 @@
     font-size: 1.33vw;
     width: fit-content;
     font-style: italic;
-    font-weight: 400;
+    font-weight: 800;
   }
   #biography img {
     height: auto;
@@ -115,14 +112,14 @@
   }
   #biography p {
     font-size: 1vw;
-    font-weight: 400;
+    font-weight: 500;
     text-align: left;
     font-style: italic;
   }
   #biography a {
     font-size: 1.2vw;
     font-style: italic;
-    font-weight: 300;
+    font-weight: 500;
     margin-left: 1.2vw;
   }
 
@@ -273,13 +270,11 @@
   #biography h1 {
     font-size: 6vw;
     font-weight: 500;
-    font-family: "Merienda One", cursive;
   }
   #biography h2 {
     font-size: 2.7vw;
     width: fit-content;
     font-weight: 400;
-    border: solid 0.1vw;
   }
   #biography p {
     font-size: 2.7vw;

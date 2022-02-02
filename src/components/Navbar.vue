@@ -7,7 +7,7 @@
       justify-content-sm-start
       justify-content-end
       navbar-expand-lg
-      background-pink
+      background-seagrey
       "
     id="navigation-bar"
   >

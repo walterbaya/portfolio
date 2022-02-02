@@ -218,8 +218,10 @@
   }
 
   #navigation-bar {
-    max-width: 100% !important;
+    min-width: 100% !important;
     min-height: 80px;
+    position: fixed;
+    left: 0;
   }
   #navigation-bar img {
     width: 18%;

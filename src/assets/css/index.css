@@ -33,7 +33,8 @@
     max-width: 100% !important;
   }
   #navigation-bar img {
-    width: 50%;
+    width: 80%;
+    padding-bottom: 2em;
   }
 
   #biography {
@@ -54,21 +55,17 @@
   }
   #biography img {
     background: #C4C4C4;
-    border-radius: 60px;
     height: auto;
     max-width: min-content;
     max-height: 18vw;
-    padding: 1vw;
     margin-top: 1.2vw;
   }
   #biography #biography-title {
     font-size: 2.7vw;
   }
   #biography p {
-    font-size: 1.2vw;
+    font-size: 1vw;
     font-weight: 400;
-    margin-left: 0.1vw;
-    max-width: 400px;
     text-align: left;
   }
   #biography a {
@@ -76,7 +73,6 @@
     font-size: 1.2vw;
     font-style: italic;
     font-weight: 300;
-    padding: 1vw;
   }
 
   #certificates h1 {
@@ -157,21 +153,12 @@
     text-align: center;
   }
 
-  #projects h1 {
-    font-size: 2.7vw;
-    font-weight: 500;
-    font-family: "Merienda One", cursive;
-    color: white;
-    display: flex;
-    text-decoration: underline;
-    text-underline-offset: 1.2vw;
-    align-items: center;
+  #projects #firstrow {
+    max-height: 150px;
   }
   #projects #project {
-    height: min-content;
-    padding-right: 10vw;
-    padding-left: 10vw;
-    padding-top: 1.6vw;
+    max-height: 600px !important;
+    height: min-content !important;
   }
   #projects #project p,
 #projects #project a {
@@ -227,14 +214,15 @@
 
   #navigation-bar {
     max-width: 100% !important;
-    height: 70px;
+    min-height: 80px;
   }
   #navigation-bar img {
-    width: 100px;
-    height: 60px;
+    width: 18%;
+    height: 100%;
     position: absolute;
-    top: 4px;
+    top: 0;
     left: 10px;
+    padding: 5px;
   }
 
   #biography h1 {

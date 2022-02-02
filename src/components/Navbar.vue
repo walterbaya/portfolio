@@ -5,7 +5,7 @@
       bg-light
       d-flex
       flex-md-column
-      justify-content-md-start
+      justify-content-sm-start
       justify-content-end
       border-bottom border-secondary
       navbar-expand-lg
@@ -56,7 +56,7 @@
         </ul>
       </div>
       <div class="align-items-center justify-content-center d-flex"><img class="img-fluid rounded" src="../assets/img/walterbayaicon.png" alt="WalterBayaLogo"></div>
-      <ul class="navbar-nav d-none d-md-flex flex-md-column px-md-5 m-md-5">
+      <ul class="navbar-nav d-none d-md-flex flex-md-column px-md-3">
         <li class="nav-item">
           <router-link to="/biography" class="nav-link">Biografía</router-link>
         </li>

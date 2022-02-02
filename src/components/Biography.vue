@@ -13,23 +13,23 @@
         <h1 class="text-dark p-1 title" id="biography-title">Biografía</h1>
       </div>
     </div>
-    <div class="row mt-4 mb-1">
+    <div class="row mt-4 mb-1 px-md-5">
       <div class="col-12 col-md-4 p-0 m-0 d-flex justify-content-center">
         <img
           src="../assets/img/face.jpg"
-          class="w-100 img-fluid px-3px-md-5 bg-white border border-1"
+          class="w-100 img-fluid bg-white rounded border border-1"
           alt="walter-baya-face"
         />
       </div>
-      <div class="col-12 col-md-8 px-md-3 px-md-5 mt-3 d-flex flex-column justify-content-center">
-        <h1 class="p-2 mt-1">Walter Baya</h1>
-        <h2 class="mx-2 p-2 mt-1">Desarrollador de Software</h2>
-        <p class="p-2 mt-1 ">
+      <div class="col-12 col-md-8 px-md-3 px-md-5 mt-3 d-flex flex-column align-items-start">
+        <h1 class="p-1 mt-1">Walter Baya</h1>
+        <h2 class="p-2 m-1">Desarrollador de Software</h2>
+        <p class="mt-1 p-1">
           <strong>Apasionado por la tecnología y la computación</strong>, me motiva seguir
           aprendiendo cosas nuevas y realizar proyectos poniendo a prueba dichos
           aprendizajes.
         </p>
-        <ul class="list-unstyled  mx-0">
+        <ul class="list-unstyled">
           <li>
             <a href="" class="text-decoration-none"
               ><i class="fas fa-envelope"></i
@@ -45,14 +45,14 @@
         </ul>
       </div>
     </div>
-    <div class="row">
+    <div class="row px-md-5">
       <hr />
       <div class="col-12 px-3">
-        <h1 class="mt-1 p-2">Estudios Universitarios</h1>
+        <h1 class="mt-1 p-1 py-md-3">Estudios Universitarios</h1>
         <ul class="list-unstyled">
-          <h2 class="px-1 mx-2" id="university">Universidad de Buenos Aires</h2>
+          <h2 class="px-1 mx-2 py-md-2" id="university">Universidad de Buenos Aires</h2>
           <li>
-            <p class="mx-1 p-1" id="degree">
+            <p class="mx-1 p-1 py-md-3 px-md-2" id="degree">
               Licenciatura en Ciencias de la Computación
             </p>
           </li>

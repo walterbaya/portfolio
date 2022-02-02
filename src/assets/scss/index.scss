@@ -50,13 +50,14 @@ $line-height-small: 17px;
         height: 100vw;
         max-width: 100% !important;
         img{
-            width: 50%;
+            width: 80%;
+            padding-bottom: 2em;
         }
     }
 
     #biography {
         max-width: 100vw;
-
+        
         h1 {
             font-size: 0.8$big;
             font-weight: 500;
@@ -75,11 +76,9 @@ $line-height-small: 17px;
 
         img {
             background: $gray-2;
-            border-radius: 60px;
             height: auto;
             max-width: min-content;
             max-height: 3*$enormous;
-            padding: 1vw;
             margin-top: 1.2vw;
         }
 
@@ -88,10 +87,8 @@ $line-height-small: 17px;
         }
 
         p {
-            font-size: $medium;
+            font-size: $small;
             font-weight: 400;
-            margin-left: 0.1vw;
-            max-width: 400px;
             text-align: left;
         }
 
@@ -100,7 +97,6 @@ $line-height-small: 17px;
             font-size: $medium;
             font-style: italic;
             font-weight: 300;
-            padding: 1vw;
         }
     }
 
@@ -200,23 +196,13 @@ $line-height-small: 17px;
     }
 
     #projects {
-        h1 {
-            font-size: $very-big;
-            font-weight: 500;
-            font-family: 'Merienda One', cursive;
-            color: white;
-            display: flex;
-            text-decoration: underline;
-            text-underline-offset: $medium;
-            align-items: center;
+        #firstrow{
+            max-height: 150px;
         }
 
         #project {
-            height: min-content;
-            padding-right: 10vw;
-            padding-left: 10vw;
-            padding-top: 1.6vw;
-
+            max-height: 600px !important;
+            height:min-content !important;
             p,
             a {
                 font-size: $medium;
@@ -285,13 +271,14 @@ $line-height-small: 17px;
     
     #navigation-bar {
         max-width: 100% !important;
-        height: 70px;
+        min-height: 80px;
         img{
-            width: 100px;
-            height: 60px;
+            width: 18%;
+            height: 100%;
             position: absolute;
-            top: 4px;
+            top: 0;
             left: 10px;
+            padding: 5px;
         }
     }
 

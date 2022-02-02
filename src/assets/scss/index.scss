@@ -23,6 +23,7 @@ $line-height-small: 17px;
     height: 100vh;
 }
 
+
 .title {
     font-weight: 500;
     font-family: 'Merienda One', cursive;
@@ -51,7 +52,11 @@ $line-height-small: 17px;
         max-width: 100% !important;
         img{
             width: 80%;
-            padding-bottom: 2em;
+            margin-bottom: 2em;
+            margin-top: 2em;
+        }
+        .hoverWhite:hover{
+            color: white;
         }
     }
 
@@ -280,6 +285,9 @@ $line-height-small: 17px;
             top: 0;
             left: 10px;
             padding: 5px;
+        }
+        .hoverWhite:hover{
+            color: white;
         }
     }
 

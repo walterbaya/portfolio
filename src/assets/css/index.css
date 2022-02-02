@@ -34,7 +34,11 @@
   }
   #navigation-bar img {
     width: 80%;
-    padding-bottom: 2em;
+    margin-bottom: 2em;
+    margin-top: 2em;
+  }
+  #navigation-bar .hoverWhite:hover {
+    color: white;
   }
 
   #biography {
@@ -224,6 +228,9 @@
     top: 0;
     left: 10px;
     padding: 5px;
+  }
+  #navigation-bar .hoverWhite:hover {
+    color: white;
   }
 
   #biography h1 {

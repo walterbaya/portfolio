@@ -26,7 +26,7 @@
       <div class="navbar-collapse collapse" id="navbar">
         <ul class="navbar-nav d-md-none">
           <li class="nav-item">
-            <router-link to="/biography" class="nav-link mt-2"
+            <router-link to="/biography" class="nav-link mt-2 h1 hoverWhite"
               >Biografía</router-link
             >
           </li>
@@ -35,7 +35,7 @@
             <router-link to="/blogs" class="nav-link">Blogs</router-link>
           </li>-->
           <li class="nav-item">
-            <router-link to="/certificates" class="nav-link"
+            <router-link to="/certificates" class="nav-link h1 hoverWhite"
               >Certificados</router-link
             >
           </li>
@@ -45,26 +45,26 @@
             >
           </li>-->
           <li class="nav-item">
-            <router-link to="/habilities" class="nav-link"
+            <router-link to="/habilities" class="nav-link h1 hoverWhite"
               >Habilidades</router-link
             >
           </li>
           <li class="nav-item">
-            <router-link to="/projects" class="nav-link">Proyectos</router-link>
+            <router-link to="/projects" class="nav-link h1 hoverWhite">Proyectos</router-link>
           </li>
         </ul>
       </div>
       <div class="align-items-center justify-content-center d-flex"><img class="img-fluid rounded" src="../assets/img/walterbayaicon.png" alt="WalterBayaLogo"></div>
       <ul class="navbar-nav d-none d-md-flex flex-md-column px-md-3">
         <li class="nav-item">
-          <router-link to="/biography" class="nav-link">Biografía</router-link>
+          <router-link to="/biography" class="nav-link h1 hoverWhite">Biografía</router-link>
         </li>
         <!--<li class="nav-item">
           <router-link to="/blogs" class="nav-link">Blogs</router-link>
         </li>
         -->
         <li class="nav-item">
-          <router-link to="/certificates" class="nav-link"
+          <router-link to="/certificates" class="nav-link h1 hoverWhite"
             >Certificates</router-link
           >
         </li>
@@ -77,12 +77,12 @@
           -->
 
         <li class="nav-item">
-          <router-link to="/habilities" class="nav-link"
+          <router-link to="/habilities" class="nav-link h1  hoverWhite"
             >Habilidades</router-link
           >
         </li>
         <li class="nav-item">
-          <router-link to="/projects" class="nav-link">Proyectos</router-link>
+          <router-link to="/projects" class="nav-link h1 hoverWhite">Proyectos</router-link>
         </li>
       </ul>
     </div>

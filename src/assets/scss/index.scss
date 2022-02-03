@@ -130,6 +130,7 @@ $line-height-small: 17px;
             height: auto;
             max-width: min-content;
             max-height: 3*$enormous;
+            opacity: 0.6;
         }
 
         p {
@@ -334,7 +335,7 @@ $line-height-small: 17px;
         img {
             height: auto;
             border-radius: 60px;
-            opacity: 0.8;
+            opacity: 0.6;
         }
 
         a {

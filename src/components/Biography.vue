@@ -22,11 +22,12 @@
         </h1>
       </div>
     </div>
-    <div class="row mt-4 mt-md-4 mb-1 px-md-5">
+    <div class="row mt-4 mt-md-3 mb-1 px-md-5">
       <div class="col-12 col-md-4 p-0 m-0 d-flex justify-content-center">
         <img
+
           src="../assets/img/face.jpg"
-          class="w-100 img-fluid rounded border border-1 mt-4"
+          class="w-75 h-75 img-fluid rounded mt-md-5"
           alt="walter-baya-face"
         />
       </div>
@@ -34,17 +35,18 @@
         class="
           col-12 col-md-8
           px-md-3 px-md-5
-          mt-4
+          mt-md-4
+          mt-0
           d-flex
           flex-column
           align-items-start
         "
       >
-        <h1 class="color-greyblue px-md-3 pt-md-0 p-0 py-1">Walter Baya</h1>
-        <h4 class="text-black px-md-4  pb-3 mt-md-0 text-decoration-underline">
+        <h1 class="color-greyblue px-md-1 pt-md-0 p-0 py-1">Walter Baya</h1>
+        <h4 class="text-black px-md-1  pb-3 mt-md-0 text-decoration-underline">
           Desarrollador de Software
         </h4>
-        <p class="text-black px-md-4 px-1 mt-2">
+        <p class="text-black px-md-1 px-1 mt-2">
           <strong>Apasionado por la tecnología y la computación</strong>, me
           motiva seguir aprendiendo cosas nuevas y realizar proyectos poniendo a
           prueba dichos aprendizajes.

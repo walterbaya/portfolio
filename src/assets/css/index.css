@@ -106,6 +106,7 @@
     height: auto;
     max-width: min-content;
     max-height: 18vw;
+    opacity: 0.6;
   }
   #biography p {
     font-size: 1.2vw;
@@ -270,7 +271,7 @@
   #biography img {
     height: auto;
     border-radius: 60px;
-    opacity: 0.8;
+    opacity: 0.6;
   }
   #biography a {
     font-style: italic;

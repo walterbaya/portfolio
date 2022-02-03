@@ -27,7 +27,7 @@
         <img
 
           src="../assets/img/face.jpg"
-          class="w-75 h-75 img-fluid rounded mt-md-5"
+          class="w-100 img-fluid rounded mt-md-5"
           alt="walter-baya-face"
         />
       </div>

@@ -67,11 +67,11 @@
 }
 
 #degree {
-  font-weight: 700 !important;
+  font-weight: 400 !important;
 }
 
 #university {
-  font-weight: 700 !important;
+  font-weight: 500 !important;
 }
 
 @media (min-width: 767px) {
@@ -93,24 +93,22 @@
     height: 100vh;
   }
   #biography h1 {
-    font-size: 0.8 1.9vw;
     font-weight: 500;
-    font-family: "Merienda One", cursive;
   }
   #biography h2 {
-    font-size: 1.33vw;
+    font-size: 1.9vw;
     width: fit-content;
     font-style: italic;
     font-weight: 800;
+    text-align: left;
   }
   #biography img {
     height: auto;
     max-width: min-content;
     max-height: 18vw;
-    margin-top: 1.8vw;
   }
   #biography p {
-    font-size: 1vw;
+    font-size: 1.2vw;
     font-weight: 500;
     text-align: left;
     font-style: italic;
@@ -119,7 +117,6 @@
     font-size: 1.2vw;
     font-style: italic;
     font-weight: 500;
-    margin-left: 1.2vw;
   }
 
   #certificates h1 {
@@ -236,7 +233,14 @@
 }
 @media (max-width: 767px) {
   .general-container {
-    margin-top: 100px;
+    margin-top: 80px;
+  }
+
+  .title {
+    font-weight: 500 !important;
+    display: flex;
+    align-items: center;
+    font-size: 7.2vw;
   }
 
   #navigation-bar {
@@ -245,7 +249,7 @@
     position: fixed;
     overflow: visible;
     left: 0;
-    font-size: 6vw;
+    font-size: 3.8vw;
   }
   #navigation-bar img {
     width: 18%;
@@ -256,18 +260,11 @@
     padding: 5px;
   }
 
-  #biography h1 {
-    font-size: 6vw;
-    font-weight: 500;
-  }
   #biography h2 {
-    font-size: 2.7vw;
     width: fit-content;
     font-style: italic;
-    font-weight: 800;
   }
   #biography p {
-    font-size: 2.7vw;
     font-weight: 400;
   }
   #biography img {
@@ -276,10 +273,8 @@
     opacity: 0.8;
   }
   #biography a {
-    padding: 1vw;
-    font-size: 2.7vw;
     font-style: italic;
-    font-weight: 400;
+    font-weight: 500;
   }
 
   #habilities h1 {
@@ -287,8 +282,6 @@
     font-weight: 500;
     font-family: "Merienda One", cursive;
     display: flex;
-    text-decoration: underline;
-    text-underline-offset: 1.9vw;
     align-items: center;
     margin-right: 0.6em;
   }
@@ -339,12 +332,8 @@
   }
 
   #projects h1 {
-    font-size: 6vw;
     font-weight: 500;
-    font-family: "Merienda One", cursive;
     display: flex;
-    text-decoration: underline;
-    text-underline-offset: 1.9vw;
     align-items: center;
   }
   #projects #project {

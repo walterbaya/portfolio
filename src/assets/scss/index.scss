@@ -22,7 +22,9 @@ $line-height-small: 17px;
 
 
 #app {
-    height: 100vh;
+    height: 100vh !important;
+    margin-left: 0 !important;
+    padding-left: 0 !important;
 }
 
 .hoverWhite:hover {
@@ -80,7 +82,7 @@ $line-height-small: 17px;
     display: flex;
     align-items: center;
     margin-right: 1em;
-    font-size: $very-big;
+    font-size: $very-very-big;
 }
 
 #degree {
@@ -96,8 +98,8 @@ $line-height-small: 17px;
     #navigation-bar {
         font-size: $big;
         position: fixed;
-        width: inherit;
-        height: 100vw;
+        width: inherit !important;
+        height: 100vw !important;
         max-width: 100% !important;
 
         img {
@@ -129,11 +131,7 @@ $line-height-small: 17px;
             height: auto;
             max-width: min-content;
             max-height: 3*$enormous;
-            margin-top: 1.2vw;
-        }
-
-        #biography-title {
-            font-size: $very-very-big;
+            margin-top: 1.8vw;
         }
 
         p {
@@ -154,10 +152,7 @@ $line-height-small: 17px;
 
     #certificates {
         h1 {
-            font-size: $very-big;
-            font-weight: 500;
-            font-family: 'Merienda One', cursive;
-            margin-right: 1.2em;
+            margin-left: 1.2em;
         }
 
         #certificate-logo {
@@ -209,12 +204,8 @@ $line-height-small: 17px;
 
     #habilities {
         h1 {
-            font-size: $very-big;
             font-weight: 500;
-            font-family: 'Merienda One', cursive;
             display: flex;
-            text-decoration: underline;
-            text-underline-offset: $small;
             align-items: center;
             margin-right: 0.6em;
         }
@@ -248,7 +239,7 @@ $line-height-small: 17px;
         }
 
         #project {
-            max-height: 600px !important;
+            max-height:min-content !important;
             height: min-content !important;
 
             p,
@@ -312,8 +303,9 @@ $line-height-small: 17px;
         min-width: 100% !important;
         min-height: 80px;
         position: fixed;
+        overflow: visible;
         left: 0;
-
+        font-size: $enormous;
         img {
             width: 18%;
             height: 80px;
@@ -322,12 +314,6 @@ $line-height-small: 17px;
             left: 10px;
             padding: 5px;
         }
-
-        /*
-        .hoverWhite:hover{
-            color: white;
-        }
-        */
     }
 
     #biography {
@@ -339,7 +325,8 @@ $line-height-small: 17px;
         h2 {
             font-size: $very-big;
             width: fit-content;
-            font-weight: 400;
+            font-style: italic;
+            font-weight: 800;
         }
 
         p {
@@ -354,7 +341,7 @@ $line-height-small: 17px;
         }
 
         a {
-            padding: 1.7vw;
+            padding: 1vw;
             font-size: $very-big;
             font-style: italic;
             font-weight: 400;

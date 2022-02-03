@@ -1,18 +1,18 @@
 <template>
-  <div id="project" class="bg-white d-flex justify-content-center mt-5">
+  <div id="project" class="d-flex justify-content-center mt-5">
     <div class="card w-100">
       <img
         v-bind:alt="image"
         v-bind:src="getImage()"
         class="img-fluid w-100 card-img-top"
       />
-       <ul class="d-flex justify-content-around list-unstyled card-header bg-light text-dark border-bottom">
+       <ul class="d-flex justify-content-around list-unstyled card-header bg-white color-seablue border-bottom ">
         <li>#HTML</li>
         <li>#CSS</li>
         <li>#PHP</li>
         <li>#JAVA</li>
       </ul>
-      <div class="card-body bg-light text-dark">
+      <div class="card-body bg-white text-dark">
         <h5 class="card-title">{{ title }}</h5>
         <p class="card-text">
           {{ text }}

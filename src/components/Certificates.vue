@@ -1,9 +1,9 @@
 <template>
-  <div id="certificates" class="bg-dark px-5 py-4 py-md-2 px-lg-5 d-flex flex-column container general-container text-white">
+  <div id="certificates" class="background-seablue px-5 py-4 py-md-2 px-lg-5 d-flex flex-column container general-container text-white">
     <div class="row rounded">
-      <div class="col-12 p-1 d-flex justify-content-center align-items-center bg-secondary rounded border border-1">
-        <img src="../assets/img/certificates-icon.svg" alt="" class="py-md-0 mt-4 logo">
-        <h1 class="text-white h5 title">Certificaciones</h1>
+      <div class="col-12 p-1 d-flex justify-content-center align-items-center color-greyblue">
+        <i class="fas fa-certificate fa-3x mx-2 mt-2"></i>
+        <h1 class="py-2 mt-3  mx-2 title color-greyblue">Certificaciones</h1>
       </div>
     </div>
     <div class="row mt-4 mx-1 m-md-0 mt-md-4 px-md-5">  

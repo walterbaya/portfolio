@@ -1,30 +1,30 @@
 <template>
   <nav
     class="
-      navbar navbar-light
+      navbar navbar-dark
       d-flex
       flex-md-column
-      justify-content-sm-start
+      justify-content-md-start
       justify-content-end
       navbar-expand-lg
       background-seagrey
       "
     id="navigation-bar"
   >
-    <!--navbar-expand-lg
-      fixed-top-->
+
     <div class="px-3">
       <button
         class="navbar-toggler d-block d-md-none"
         data-bs-toggle="collapse"
         data-bs-target="#navbar"
         type="button"
+        v-on:click="clickevent"
         id="hamburguer"
       >
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="navbar-collapse collapse" id="navbar">
-        <ul class="navbar-nav d-md-none">
+        <ul class="navbar-nav d-md-none px-3">
           <li class="nav-item">
             <router-link to="/biography" class="nav-link mt-2 h3 hoverWhite"
               >Biografía</router-link
@@ -54,8 +54,8 @@
           </li>
         </ul>
       </div>
-      <div class="align-items-center justify-content-center d-flex"><img class="img-fluid rounded" src="../assets/img/walterbayaicon.png" alt="WalterBayaLogo"></div>
-      <ul class="navbar-nav d-none d-md-flex flex-md-column px-md-3">
+      <div class="align-items-center justify-content-center d-flex px-4"><img class="img-fluid rounded" src="../assets/img/walterbayaicon.png" alt="WalterBayaLogo"></div>
+      <ul class="navbar-nav d-none d-md-flex flex-md-column px-md-5">
         <li class="nav-item">
           <router-link to="/biography" class="nav-link h3 hoverWhite color-seablue">Biografía</router-link>
         </li>
@@ -92,8 +92,10 @@
 <script>
 export default {
   name: "Navbar",
+
   mounted() {
     document.addEventListener("scroll", this.fixedScrollingHandler);
+    this.fixedScrollingHandler();
   },
   data() {
     return {

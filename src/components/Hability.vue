@@ -8,7 +8,7 @@
         alt=""
       />
     </div>
-    <p class="p-1">{{ title }}</p>
+    <p class="p-1 color-greyblue">{{ title }}</p>
   </div>
 </template>
 

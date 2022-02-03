@@ -3,7 +3,9 @@
 }
 
 #app {
-  height: 100vh;
+  height: 100vh !important;
+  margin-left: 0 !important;
+  padding-left: 0 !important;
 }
 
 .hoverWhite:hover {
@@ -61,7 +63,7 @@
   display: flex;
   align-items: center;
   margin-right: 1em;
-  font-size: 2.7vw;
+  font-size: 3.8vw;
 }
 
 #degree {
@@ -76,8 +78,8 @@
   #navigation-bar {
     font-size: 1.9vw;
     position: fixed;
-    width: inherit;
-    height: 100vw;
+    width: inherit !important;
+    height: 100vw !important;
     max-width: 100% !important;
   }
   #navigation-bar img {
@@ -105,10 +107,7 @@
     height: auto;
     max-width: min-content;
     max-height: 18vw;
-    margin-top: 1.2vw;
-  }
-  #biography #biography-title {
-    font-size: 3.8vw;
+    margin-top: 1.8vw;
   }
   #biography p {
     font-size: 1vw;
@@ -124,10 +123,7 @@
   }
 
   #certificates h1 {
-    font-size: 2.7vw;
-    font-weight: 500;
-    font-family: "Merienda One", cursive;
-    margin-right: 1.2em;
+    margin-left: 1.2em;
   }
   #certificates #certificate-logo {
     max-height: 9vw;
@@ -168,12 +164,8 @@
   }
 
   #habilities h1 {
-    font-size: 2.7vw;
     font-weight: 500;
-    font-family: "Merienda One", cursive;
     display: flex;
-    text-decoration: underline;
-    text-underline-offset: 1vw;
     align-items: center;
     margin-right: 0.6em;
   }
@@ -200,7 +192,7 @@
     max-height: 150px;
   }
   #projects #project {
-    max-height: 600px !important;
+    max-height: min-content !important;
     height: min-content !important;
   }
   #projects #project p,
@@ -251,12 +243,9 @@
     min-width: 100% !important;
     min-height: 80px;
     position: fixed;
+    overflow: visible;
     left: 0;
-    /*
-    .hoverWhite:hover{
-        color: white;
-    }
-    */
+    font-size: 6vw;
   }
   #navigation-bar img {
     width: 18%;
@@ -274,7 +263,8 @@
   #biography h2 {
     font-size: 2.7vw;
     width: fit-content;
-    font-weight: 400;
+    font-style: italic;
+    font-weight: 800;
   }
   #biography p {
     font-size: 2.7vw;
@@ -286,7 +276,7 @@
     opacity: 0.8;
   }
   #biography a {
-    padding: 1.7vw;
+    padding: 1vw;
     font-size: 2.7vw;
     font-style: italic;
     font-weight: 400;

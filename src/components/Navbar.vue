@@ -26,7 +26,7 @@
       <div class="navbar-collapse collapse" id="navbar">
         <ul class="navbar-nav d-md-none px-3">
           <li class="nav-item">
-            <router-link to="/biography" class="nav-link mt-2 h3 hoverWhite"
+            <router-link to="/biography" class="nav-link mt-2  hoverWhite"
               >Biografía</router-link
             >
           </li>
@@ -35,7 +35,7 @@
             <router-link to="/blogs" class="nav-link">Blogs</router-link>
           </li>-->
           <li class="nav-item">
-            <router-link to="/certificates" class="nav-link h3 hoverWhite"
+            <router-link to="/certificates" class="nav-link  hoverWhite"
               >Certificados</router-link
             >
           </li>
@@ -45,12 +45,12 @@
             >
           </li>-->
           <li class="nav-item">
-            <router-link to="/habilities" class="nav-link h3 hoverWhite"
+            <router-link to="/habilities" class="nav-link  hoverWhite"
               >Habilidades</router-link
             >
           </li>
           <li class="nav-item">
-            <router-link to="/projects" class="nav-link h3 hoverWhite">Proyectos</router-link>
+            <router-link to="/projects" class="nav-link  hoverWhite">Proyectos</router-link>
           </li>
         </ul>
       </div>
@@ -65,7 +65,7 @@
         -->
         <li class="nav-item">
           <router-link to="/certificates" class="nav-link h3 hoverWhite color-seablue"
-            >Certificates</router-link
+            >Certificados</router-link
           >
         </li>
         <!--

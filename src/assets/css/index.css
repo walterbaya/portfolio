@@ -103,10 +103,13 @@
     font-style: italic;
     font-weight: 800;
   }
+  #biography #first-row {
+    padding-left: 5em !important;
+  }
   #biography img {
-    height: auto;
-    max-width: min-content;
     max-height: 18vw;
+    border-radius: 20px !important;
+    opacity: 0.5;
     margin-top: 1.8vw;
   }
   #biography p {

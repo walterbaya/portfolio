@@ -9,15 +9,15 @@
         <h1 class="p-2 mt-3 title color-greyblue" id="biography-title">Biografía</h1>
       </div>
     </div>
-    <div class="row mt-4 mt-md-5 mb-1 px-md-5">
+    <div class="row mt-4 mt-md-5 mb-1 px-md-5" id="first-row">
       <div class="col-12 col-md-4 p-0 m-0 d-flex justify-content-center">
         <img
           src="../assets/img/face.jpg"
-          class="w-100 img-fluid rounded border border-1"
+          class="w-100 img-fluid"
           alt="walter-baya-face"
         />
       </div>
-      <div class="col-12 col-md-8 px-md-3 px-md-5 mt-3 d-flex flex-column align-items-start">
+      <div class="col-12 col-md-8 px-md-5 mt-4 d-flex flex-column align-items-start">
         <h1 class="color-greyblue px-md-2 pt-md-0 p-0 py-2">Walter Baya</h1>
         <h2 class="text-black px-md-3 my-2 p-0 py-2 text-decoration-underline">Desarrollador de Software</h2>
         <p class="text-black px-md-3 px-0 py-2 mt-2">

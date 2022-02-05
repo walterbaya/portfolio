@@ -1,5 +1,4 @@
 <template>
-  <!--px-5 -->
   <div
     id="projects"
     class="bg-seagrey text-white general-container container py-2"
@@ -9,7 +8,7 @@
         class="col-12 d-flex justify-content-center align-items-center  color-greyblue"
         id="firstrow"
       >
-        <i class="fas fa-project-diagram fa-3x mt-2"></i>
+        <i class="fas fa-project-diagram fa-2x mt-3"></i>
         <h1 class="p-2 mt-3 title color-greyblue title">Proyectos</h1>
       </div>
     </div>

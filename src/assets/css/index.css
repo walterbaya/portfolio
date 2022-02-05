@@ -262,6 +262,7 @@
   #biography h1 {
     font-size: 6vw;
     font-weight: 500;
+    font-family: "Merienda One", cursive;
   }
   #biography h2 {
     font-size: 2.7vw;
@@ -290,8 +291,6 @@
     font-weight: 500;
     font-family: "Merienda One", cursive;
     display: flex;
-    text-decoration: underline;
-    text-underline-offset: 1.9vw;
     align-items: center;
     margin-right: 0.6em;
   }
@@ -346,8 +345,6 @@
     font-weight: 500;
     font-family: "Merienda One", cursive;
     display: flex;
-    text-decoration: underline;
-    text-underline-offset: 1.9vw;
     align-items: center;
   }
   #projects #project {

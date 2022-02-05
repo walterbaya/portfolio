@@ -5,7 +5,7 @@
   >
     <div class="row rounded">
       <div id="biography-container" class="col-12 d-flex justify-content-center align-items-center background-bluegrey color-greyblue mb-3">
-        <i class="far fa-user-circle fa-2x mt-2 mx-2"></i>
+        <i class="far fa-user-circle fa-3x mt-2 mx-2"></i>
         <h1 class="p-2 mt-3 title color-greyblue" id="biography-title">Biografía</h1>
       </div>
     </div>
@@ -27,13 +27,13 @@
         </p>
         <ul class="list-unstyled py-0 py-md-2 px-1">
           <li>
-            <a href="" class="text-decoration-none text-dark py-3"
+            <a href="" class="text-decoration-none text-dark py-3 hover-pinkblue"
               ><i class="fas fa-envelope"></i
               ><span class="px-1 px-md-2">walterbaya@yahoo.com</span></a
             >
           </li>
           <li class="my-md-1">
-            <a href="" class="text-decoration-none text-dark py-3"
+            <a href="" class="text-decoration-none text-dark py-3 hover-pinkblue"
               ><i class="fas fa-phone"></i
               ><span class="px-1 px-md-2">(+54) 11 3281 2848</span></a
             >

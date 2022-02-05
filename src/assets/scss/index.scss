@@ -27,10 +27,6 @@ $line-height-small: 17px;
     padding-left: 0 !important;
 }
 
-.hoverWhite:hover {
-    color: #aaabb8 !important;
-}
-
 .color-seagrey {
     color: $seagrey !important;
 }
@@ -69,6 +65,24 @@ $line-height-small: 17px;
 
 .background-pink {
     background: $pink !important;
+}
+
+.hoverWhite:hover {
+    color: #aaabb8 !important;
+}
+
+.hover-seablue:hover {
+    color: $seablue !important;
+}
+
+.hover-greyblue:hover {
+    color: $greyblue !important;
+}
+.hover-pinkblue:hover {
+    color: $pinkblue !important;
+}
+.hover-pink:hover {
+    color: $pink !important;
 }
 
 .logo {
@@ -249,7 +263,7 @@ $line-height-small: 17px;
             }
 
             li {
-                font-size: $big;
+                font-size: $medium;
             }
 
             img {
@@ -301,7 +315,6 @@ $line-height-small: 17px;
 
 
     #navigation-bar {
-        min-width: 100% !important;
         min-height: 80px;
         position: fixed;
         overflow: visible;
@@ -440,7 +453,7 @@ $line-height-small: 17px;
             }
 
             li {
-                font-size: $very-very-big;
+                font-size: $very-big;
             }
 
             img {

@@ -8,10 +8,6 @@
   padding-left: 0 !important;
 }
 
-.hoverWhite:hover {
-  color: #aaabb8 !important;
-}
-
 .color-seagrey {
   color: #25274d !important;
 }
@@ -50,6 +46,26 @@
 
 .background-pink {
   background: #29648a !important;
+}
+
+.hoverWhite:hover {
+  color: #aaabb8 !important;
+}
+
+.hover-seablue:hover {
+  color: #464866 !important;
+}
+
+.hover-greyblue:hover {
+  color: #aaabb8 !important;
+}
+
+.hover-pinkblue:hover {
+  color: #2e9cca !important;
+}
+
+.hover-pink:hover {
+  color: #29648a !important;
 }
 
 .logo {
@@ -203,7 +219,7 @@
     font-size: 1.2vw;
   }
   #projects #project li {
-    font-size: 1.9vw;
+    font-size: 1.2vw;
   }
   #projects #project img {
     height: 24vw;
@@ -243,7 +259,6 @@
   }
 
   #navigation-bar {
-    min-width: 100% !important;
     min-height: 80px;
     position: fixed;
     overflow: visible;
@@ -355,7 +370,7 @@
     font-size: 2.7vw;
   }
   #projects #project li {
-    font-size: 3.8vw;
+    font-size: 2.7vw;
   }
   #projects #project img {
     height: 45vw;

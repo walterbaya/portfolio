@@ -1,24 +1,17 @@
 <template>
-  <div id="project" class="d-flex justify-content-center mt-5">
+  <div
+    id="project"
+    class="d-flex justify-content-center mt-5"
+    @mouseover="hover = true"
+    @mouseleave="hover = false"
+  >
     <div class="card w-100">
-      <img
-        v-bind:alt="image"
-        v-bind:src="getImage()"
-        class="img-fluid w-100 card-img-top"
-      />
-       <ul class="d-flex justify-content-around list-unstyled card-header bg-white color-seablue border-bottom ">
-        <li>#HTML</li>
-        <li>#CSS</li>
-        <li>#PHP</li>
-        <li>#JAVA</li>
-      </ul>
-      <div class="card-body bg-white text-dark">
+      <img v-bind:alt="image" v-bind:src="getImage()" class="img-fluid w-100 card-img-top" />
+      <div class="card-img-overlay px-4 pb-5 background-black text-white" v-show="hover">
         <h5 class="card-title">{{ title }}</h5>
-        <p class="card-text">
-          {{ text }}
-        </p>
-        <a href="#" class="btn btn-outline-primary btn-lg m-2 rounded">Demo</a>
-        <a href="#" class="btn btn-primary btn-lg mr-2 my-2 rounded">Code</a>
+        <p class="card-text">{{ text }}</p>
+        <a href="#" class="btn btn-outline-dark rounded">Demo</a>
+        <a :href="this.link" class="btn btn-dark mx-2 rounded">Code</a>
       </div>
     </div>
   </div>
@@ -41,6 +34,7 @@ export default {
       text: this.project.text,
       link: this.project.link,
       title: this.project.title,
+      hover: false
     };
   },
 };

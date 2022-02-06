@@ -1,17 +1,8 @@
 <template>
   <nav
-    class="
-      navbar navbar-dark
-      d-flex
-      flex-md-column
-      justify-content-md-start
-      justify-content-end
-      navbar-expand-lg
-      background-seagrey
-      "
+    class="navbar navbar-light d-flex flex-md-column justify-content-md-start justify-content-end navbar-expand-lg background-seagrey"
     id="navigation-bar"
   >
-
     <div class="px-3">
       <button
         class="navbar-toggler d-block d-md-none"
@@ -26,18 +17,14 @@
       <div class="navbar-collapse collapse" id="navbar">
         <ul class="navbar-nav d-md-none px-3">
           <li class="nav-item">
-            <router-link to="/biography" class="nav-link mt-2  hoverWhite"
-              >Biografía</router-link
-            >
+            <router-link to="/biography" class="nav-link hoverWhite color-black">Biografía</router-link>
           </li>
           <!--
           <li class="nav-item">
             <router-link to="/blogs" class="nav-link">Blogs</router-link>
           </li>-->
           <li class="nav-item">
-            <router-link to="/certificates" class="nav-link  hoverWhite"
-              >Certificados</router-link
-            >
+            <router-link to="/certificates" class="nav-link hoverWhite color-black">Certificados</router-link>
           </li>
           <!--<li class="nav-item">
             <router-link to="/experiencies" class="nav-link"
@@ -45,30 +32,28 @@
             >
           </li>-->
           <li class="nav-item">
-            <router-link to="/habilities" class="nav-link  hoverWhite"
-              >Habilidades</router-link
-            >
+            <router-link to="/habilities" class="nav-link hoverWhite color-black">Habilidades</router-link>
           </li>
           <li class="nav-item">
-            <router-link to="/projects" class="nav-link  hoverWhite">Proyectos</router-link>
+            <router-link to="/projects" class="nav-link hoverWhite color-black">Proyectos</router-link>
           </li>
         </ul>
       </div>
-      <div class="align-items-center justify-content-center d-flex px-4"><img class="img-fluid rounded" src="../assets/img/walterbayaicon.png" alt="WalterBayaLogo"></div>
-      <ul class="navbar-nav d-none d-md-flex flex-md-column px-md-5">
-        <li class="nav-item">
-          <router-link to="/biography" class="nav-link h3 hoverWhite color-seablue">Biografía</router-link>
-        </li>
-        <!--<li class="nav-item">
+      <div class="align-items-center justify-content-center flex-column d-flex px-4 mt-2">
+        <img class="img-fluid rounded align-self-start mx-2 d-md-none" src="../assets/img/coding.png" alt="WalterBayaLogo" />
+        <ul class="navbar-nav d-none d-md-flex flex-md-column  justify-content-center px-md-5 pt-3">
+          <img class="img-fluid rounded align-self-start mx-2 d-none d-md-flex" src="../assets/img/coding.png" alt="WalterBayaLogo" />
+          <li class="nav-item mt-4">
+            <router-link to="/biography" class="nav-link hoverWhite color-black">Biografía</router-link>
+          </li>
+          <!--<li class="nav-item">
           <router-link to="/blogs" class="nav-link">Blogs</router-link>
         </li>
-        -->
-        <li class="nav-item">
-          <router-link to="/certificates" class="nav-link h3 hoverWhite color-seablue"
-            >Certificados</router-link
-          >
-        </li>
-        <!--
+          -->
+          <li class="nav-item">
+            <router-link to="/certificates" class="nav-link hoverWhite color-black">Certificados</router-link>
+          </li>
+          <!--
         <li class="nav-item">
           <router-link to="/experiencies" class="nav-link"
             >Experiencies</router-link
@@ -76,15 +61,14 @@
           </li>
           -->
 
-        <li class="nav-item">
-          <router-link to="/habilities" class="nav-link h3  hoverWhite color-seablue"
-            >Habilidades</router-link
-          >
-        </li>
-        <li class="nav-item">
-          <router-link to="/projects" class="nav-link h3 hoverWhite color-seablue">Proyectos</router-link>
-        </li>
-      </ul>
+          <li class="nav-item">
+            <router-link to="/habilities" class="nav-link hoverWhite color-black">Habilidades</router-link>
+          </li>
+          <li class="nav-item">
+            <router-link to="/projects" class="nav-link hoverWhite color-black">Proyectos</router-link>
+          </li>
+        </ul>
+      </div>
     </div>
   </nav>
 </template>
@@ -123,7 +107,7 @@ export default {
           div_content.classList.remove("d-none");
         }
       }
-      else{
+      else {
         div_content.classList.remove('fixed-top');
       }
     },

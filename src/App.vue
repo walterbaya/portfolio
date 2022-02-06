@@ -20,9 +20,8 @@ export default {
     Navbar,
   },
   created: function () {
-    document.body.style.background = "#464866";
-    //#f8f9fa
-  },
+    document.body.style.background = "black";
+   },
   destroyed: function () {
     document.body.style.backgroundColor = null;
   },

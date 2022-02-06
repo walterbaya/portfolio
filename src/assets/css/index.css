@@ -9,63 +9,51 @@
 }
 
 .color-seagrey {
-  color: #25274d !important;
+  color: #FFFFFF !important;
 }
 
-.color-seablue {
-  color: #464866 !important;
+.color-black {
+  color: #000000 !important;
 }
 
-.color-greyblue {
-  color: #aaabb8 !important;
-}
-
-.color-pinkblue {
-  color: #2e9cca !important;
+.color-grey {
+  color: #3f3f3f !important;
 }
 
 .color-pink {
-  color: #29648a !important;
+  color: #FFFFFF !important;
 }
 
 .background-seagrey {
-  background: #25274d !important;
+  background: #FFFFFF !important;
 }
 
-.background-seablue {
-  background: #464866 !important;
+.background-black {
+  background: #000000 !important;
 }
 
-.background-greyblue {
-  background: #aaabb8 !important;
-}
-
-.background-pinkblue {
-  background: #2e9cca !important;
+.background-grey {
+  background: #3f3f3f !important;
 }
 
 .background-pink {
-  background: #29648a !important;
+  background: #FFFFFF !important;
 }
 
 .hoverWhite:hover {
-  color: #aaabb8 !important;
+  color: #D1D1D1 !important;
 }
 
-.hover-seablue:hover {
-  color: #464866 !important;
+.hover-black:hover {
+  color: #000000 !important;
 }
 
-.hover-greyblue:hover {
-  color: #aaabb8 !important;
-}
-
-.hover-pinkblue:hover {
-  color: #2e9cca !important;
+.hover-grey:hover {
+  color: #3f3f3f !important;
 }
 
 .hover-pink:hover {
-  color: #29648a !important;
+  color: #FFFFFF !important;
 }
 
 .logo {
@@ -75,11 +63,8 @@
 }
 
 .title {
-  font-weight: 500 !important;
-  display: flex;
-  align-items: center;
-  margin-right: 1em;
-  font-size: 3.8vw;
+  font-size: 3.8vw !important;
+  margin-left: 4px;
 }
 
 #degree {
@@ -94,14 +79,10 @@
   #navigation-bar {
     font-size: 1.9vw;
     position: fixed;
-    width: inherit !important;
-    height: 100vw !important;
-    max-width: 100% !important;
+    height: 100vh !important;
   }
   #navigation-bar img {
-    width: 80%;
-    margin-bottom: 2em;
-    margin-top: 2em;
+    width: 70px;
   }
 
   #biography {
@@ -109,34 +90,23 @@
     height: 100vh;
   }
   #biography h1 {
-    font-size: 0.8 1.9vw;
+    font-size: 2.7vw;
     font-weight: 500;
-    font-family: "Merienda One", cursive;
+    margin-left: 4px;
   }
   #biography h2 {
     font-size: 1.33vw;
     width: fit-content;
-    font-style: italic;
-    font-weight: 800;
-  }
-  #biography #first-row {
-    padding-left: 5em !important;
-  }
-  #biography img {
-    max-height: 18vw;
-    border-radius: 20px !important;
-    opacity: 0.5;
-    margin-top: 1.8vw;
+    font-weight: 500;
   }
   #biography p {
     font-size: 1vw;
     font-weight: 500;
+    max-width: 400px;
     text-align: left;
-    font-style: italic;
   }
   #biography a {
     font-size: 1.2vw;
-    font-style: italic;
     font-weight: 500;
     margin-left: 1.2vw;
   }
@@ -225,6 +195,9 @@
     height: 24vw;
     object-fit: fill;
   }
+  #projects #project #overlay {
+    height: 400px !important;
+  }
 
   #blogs {
     height: 100vh;
@@ -255,23 +228,30 @@
 }
 @media (max-width: 767px) {
   .general-container {
-    margin-top: 100px;
+    margin-top: 80px;
+  }
+
+  .title {
+    font-size: 7.2vw !important;
+    margin-left: 4px;
   }
 
   #navigation-bar {
-    min-height: 80px;
+    min-height: 60px;
     position: fixed;
     overflow: visible;
     left: 0;
-    font-size: 6vw;
+    font-size: 3.8vw;
+    width: 100vw !important;
+    padding-right: 1em;
   }
   #navigation-bar img {
-    width: 18%;
-    height: 80px;
+    width: 80px;
+    height: 60px !important;
     position: absolute;
     top: 0;
     left: 10px;
-    padding: 5px;
+    padding: 10px;
   }
 
   #biography h1 {
@@ -293,12 +273,6 @@
     height: auto;
     border-radius: 60px;
     opacity: 0.8;
-  }
-  #biography a {
-    padding: 1vw;
-    font-size: 2.7vw;
-    font-style: italic;
-    font-weight: 400;
   }
 
   #habilities h1 {
@@ -355,13 +329,6 @@
     display: none;
   }
 
-  #projects h1 {
-    font-size: 6vw;
-    font-weight: 500;
-    font-family: "Merienda One", cursive;
-    display: flex;
-    align-items: center;
-  }
   #projects #project {
     margin-top: 4vw;
   }

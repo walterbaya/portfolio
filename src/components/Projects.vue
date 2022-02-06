@@ -8,13 +8,13 @@
         class="col-12 d-flex justify-content-center align-items-center  color-greyblue"
         id="firstrow"
       >
-        <i class="fas fa-project-diagram fa-3x mt-3"></i>
+        <i class="fas fa-project-diagram fa-2x mt-3"></i>
         <h1 class="p-2 mt-3 title color-greyblue title">Proyectos</h1>
       </div>
     </div>
-    <div class="row px-5">
+    <div class="row px-md-5">
       <div
-        class="col-12 col-md-6"
+        class="col-12 col-md-4"
         v-for="project in projects"
         v-bind:key="project.project"
       >

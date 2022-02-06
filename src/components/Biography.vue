@@ -12,7 +12,7 @@
     <div class="row mt-4 mt-md-2 mb-1 px-md-5 px-4">
       <div class="col-12 col-md-12 px-md-5 mt-md-0  d-flex flex-column align-items-start border border-1">
         <h1 class="px-md-2 pt-md-0 p-0 mt-4">Walter Baya</h1>
-        <h2 class="px-md-3 pt-1 px-1 mt-md-2">Desarrollador de Software</h2>
+        <h2 class="px-md-3 pt-1 px-1 mt-md-2">Software Developer</h2>
         <p class="px-md-3 p-1 pt-2">
           <strong>> Apasionado por la tecnología y la computación</strong>, me <br>> motiva seguir
           aprendiendo cosas nuevas y realizar <br>> proyectos poniendo a prueba dichos

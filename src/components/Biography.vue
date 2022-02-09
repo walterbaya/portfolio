@@ -4,9 +4,9 @@
     class="container py-2 general-container background-dark text-white px-2"
   >
     <div class="row rounded">
-      <div id="biography-container" class="col-12 d-flex justify-content-center align-items-center mb-3">
-        <i class="fas fa-terminal fa-3x"></i>
-        <h1 class="p-2 mt-1 title" id="biography-title">Biografía</h1>
+      <div id="biography-container" class="col-12 d-flex justify-content-center align-items-center my-3">
+        <i class="fas fa-terminal fa-2x mt-1"></i>
+        <h1 class="p-2 m-1 title" id="biography-title">Biografía</h1>
       </div>
     </div>
     <div class="row mt-4 mt-md-2 mb-1 px-md-5 px-4">

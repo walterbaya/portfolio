@@ -79,36 +79,20 @@
     ]
   },
   "projects": {
+    "Near-Earth-Asteroids": [
+      {
+        "title": "Near Earth Asteroids",
+        "text": "En este proyecto se consumió la API REST de la NASA con el fin de mostrar la cantidad de asteroides que pasaron cercanos a la tierra en un lapso de tiempo.",
+        "link": "https://github.com/walterbaya/NearAsteroidsProject",
+        "image": "nearasteroids.jpg"
+      }
+    ],
     "toon-shader": [
       {
         "title": "Toon: Shader",
         "text": "Proyecto de fin de curso para la materia fundamentos de la computación gráfica. Describe como se realizan las sombras para dar ese aspecto a caricatura.",
         "link": "https://github.com/walterbaya/Fundamentos-de-la-Computaci-n-Gr-fica/tree/main/Trabajo%20Practico%20Integrador",
         "image": "Toon-shader.jpg"
-      }
-    ],
-    "mockup1": [
-      {
-        "title": "Sitio Web Básico",
-        "text": "La idea de este proyecto, fue aprender a utilizar google fonts y aprender como utilizar imagenes adecuada, siguiendo el diseño de un mockup.",
-        "link": "aca va el link al repositorio",
-        "image": "mockup1.jpg"
-      }
-    ],
-    "musiquita-viajera": [
-      {
-        "title": "Musiquita Viajera",
-        "text": "Hice el sitio musiquita viajera como parte de mi curso de Maquetación Web, fue uno de los primeros proyectos que debía desarrollar",
-        "link": "aca va el link al repositorio",
-        "image": "musiquita-viajera.jpg"
-      }
-    ],
-    "skylight": [
-      {
-        "title": "Skylight",
-        "text": "Skylight fue el proyecto final de mi curso de maquetado web, la idea era a partir de un mockup copiar el diseño utilizando HTML5 y CSS3",
-        "link": "aca va el link al repositorio",
-        "image": "skylight.jpg"
       }
     ],
     "Ta-Te-Ti": [
@@ -134,8 +118,7 @@
         "link": "https://github.com/walterbaya/Algoritmos-y-estructuras-de-datos-1/tree/master/Trabajo-Practico",
         "image": "analisisHabitacional.jpg"
       }
-    ]
-    ,
+    ],
     "Base de Datos": [
       {
         "title": "Base de Datos",

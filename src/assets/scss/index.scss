@@ -241,6 +241,7 @@ $line-height-small: 17px;
 
             img {
                 height: 4*$enormous;
+                width: 100% ;
                 object-fit: fill;
             }
             #overlay{

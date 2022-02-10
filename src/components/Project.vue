@@ -10,8 +10,10 @@
       <div class="card-img-overlay p-4 background-black text-white" v-show="hover">
         <h5 class="card-title">{{ title }}</h5>
         <p class="card-text">{{ text }}</p>
-        <a href="#" class="btn btn-outline-dark rounded">Demo</a>
-        <a :href="this.link" class="btn btn-dark mx-2 rounded">Code</a>
+        <div class="d-flex justify-content-start">
+          <a href="#" class="btn btn-outline-primary rounded">Demo</a>
+          <a :href="this.link" class="btn btn-primary mx-2 rounded">Code</a>
+        </div>
       </div>
     </div>
   </div>

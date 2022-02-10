@@ -1,5 +1,5 @@
 * {
-  image-rendering: -webkit-optimize-contrast;
+  image-rendering: optimizeQuality;
 }
 
 #app {
@@ -143,6 +143,7 @@
     height: 350px;
     width: 100%;
     object-fit: fill;
+    object-position: center;
   }
   #projects #project #overlay {
     height: 400px !important;

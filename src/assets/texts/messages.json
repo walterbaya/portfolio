@@ -79,6 +79,14 @@
     ]
   },
   "projects": {
+    "Palma-Store": [
+      {
+        "title": "Palma Store",
+        "text": "Actualmente me encuentro desarrollando el sitio web de la tienda de calzado Palma Store, se está utilizando FIGMA para realizar los mockups.",
+        "link": "",
+        "image": "PalmaStore.jpg"
+      }
+    ],
     "Near-Earth-Asteroids": [
       {
         "title": "Near Earth Asteroids",

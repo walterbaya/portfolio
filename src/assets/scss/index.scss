@@ -14,7 +14,7 @@ $line-height-medium: 22px;
 $line-height-small: 17px;
 
 * {
-    image-rendering: -webkit-optimize-contrast;
+    image-rendering:optimizeQuality;
 }
 
 #app {
@@ -183,6 +183,7 @@ $line-height-small: 17px;
                 height: 350px;
                 width: 100% ;
                 object-fit: fill;
+                object-position: center;
             }
             #overlay{
                 height: 400px !important;

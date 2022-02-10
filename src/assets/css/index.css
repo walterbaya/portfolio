@@ -140,7 +140,7 @@
     height: min-content !important;
   }
   #projects #project img {
-    height: 24vw;
+    height: 350px;
     width: 100%;
     object-fit: fill;
   }
@@ -264,7 +264,7 @@
     margin-top: 4vw;
   }
   #projects #project img {
-    height: 45vw;
+    height: 70vw;
     object-fit: fill;
   }
 }

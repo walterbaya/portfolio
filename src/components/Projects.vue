@@ -12,7 +12,7 @@
         <h1 class="p-2 mt-3 title title">Proyectos</h1>
       </div>
     </div>
-    <div class="row px-md-5">
+    <div class="row px-md-4">
       <div
         class="col-12 col-lg-6 col-xl-4"
         v-for="project in projects"

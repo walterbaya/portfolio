@@ -179,9 +179,8 @@ $line-height-small: 17px;
         #project {
             max-height: min-content !important;
             height: min-content !important;
-
             img {
-                height: 4*$enormous;
+                height: 350px;
                 width: 100% ;
                 object-fit: fill;
             }
@@ -337,7 +336,7 @@ $line-height-small: 17px;
         #project {
             margin-top: 4vw;
             img {
-                height: 45vw;
+                height: 70vw;
                 object-fit: fill;
             }
         }

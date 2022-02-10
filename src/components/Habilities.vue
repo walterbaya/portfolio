@@ -6,9 +6,9 @@
         <h1 class="mt-4 p-2 title">Habilidades</h1>
       </div>
     </div>
-    <div class="row p-2 mt-4 px-md-5">
+    <div class="row p-2 px-md-5">
       <div
-        class="col-4 col-md-3 my-3 p-1 p-md-0 my-md-0"
+        class="col-4 col-md-3 my-4 p-2 p-md-0 my-md-0"
         v-for="hability in habilities.habilities1"
         v-bind:key="hability.hability"
       >

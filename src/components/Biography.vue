@@ -12,23 +12,23 @@
     <div class="row mt-4 mt-md-2 mb-1 px-md-5 px-4">
       <div class="col-12 col-md-12 px-md-5 mt-md-0  d-flex flex-column align-items-start border border-1">
         <h1 class="px-md-2 pt-md-0 p-0 mt-4">Walter Baya</h1>
-        <h2 class="px-md-3 pt-1 px-1 mt-md-2">Software Developer</h2>
+        <h3 class="px-md-3 pt-1 px-1 mt-md-2">Software Developer</h3>
         <p class="px-md-3 p-1 pt-2">
           <strong>> Apasionado por la tecnología y la computación</strong>, me <br>> motiva seguir
           aprendiendo cosas nuevas y realizar <br>> proyectos poniendo a prueba dichos
           aprendizajes.
         </p>
-        <ul class="list-unstyled py-md-2 mx-md-3 p-3  bg-white rounded">
+        <ul class="list-unstyled py-md-2 mx-md-1 p-3 rounded">
           <li class="rounded">
-            <a href="" class="text-decoration-none hover-grey color-black"
+            <a href="mailto:walterbaya@yahoo.com" class="text-decoration-none hover-white"
               ><i class="fas fa-envelope"></i
-              ><span class="px-1 px-md-2">walterbaya@yahoo.com</span></a
+              ><span class="px-1 px-md-3">walterbaya@yahoo.com</span></a
             >
           </li>
           <li class="my-md-1 mt-2 rounded">
-            <a href="" class="text-decoration-none hover-grey color-black"
+            <a href="tel:+54 1132812848" class="text-decoration-none hover-white"
               ><i class="fas fa-phone"></i
-              ><span class="px-1 px-md-2">(+54) 11 3281 2848</span></a
+              ><span class="px-1 px-md-3">(+54) 11 3281 2848</span></a
             >
           </li>
         </ul>
@@ -38,7 +38,7 @@
       <div class="col-12 px-md-5 mx-md-1 color-pink border border-1">
         <h1 class="py-md-1 py-2">Estudios Universitarios</h1>
         <ul class="list-unstyled">
-          <h2 class="py-1 mx-md-2 mx-1 py-md-1" id="university">Universidad de Buenos Aires</h2>
+          <h3 class="py-1 mx-md-2 mx-1 py-md-1">Universidad de Buenos Aires</h3>
           <li>
             <p class="mx-2" id="degree">
               > Licenciatura en Ciencias de la Computación

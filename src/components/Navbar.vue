@@ -16,9 +16,9 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="navbar-collapse collapse" id="navbar">
-          <ul class="navbar-nav d-md-none px-3">
+          <ul class="navbar-nav d-md-none py-3">
             <li class="nav-item">
-              <router-link to="/biography" class="nav-link hoverWhite color-black">Biografía</router-link>
+              <router-link to="/biography" class="nav-link hover-white color-black">Biografía</router-link>
             </li>
             <!--
           <li class="nav-item">

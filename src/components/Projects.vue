@@ -9,7 +9,7 @@
         id="firstrow"
       >
         <i class="fas fa-project-diagram fa-2x mt-3"></i>
-        <h1 class="p-2 mt-3 title title">Proyectos</h1>
+        <h1 class="p-2 mt-3 title">Proyectos</h1>
       </div>
     </div>
     <div class="row px-md-4">
@@ -40,6 +40,7 @@ export default {
           title: pro[key][0].title,
           text: pro[key][0].text,
           link: pro[key][0].link,
+          url:  pro[key][0].url,
           image: pro[key][0].image,
         });
       }

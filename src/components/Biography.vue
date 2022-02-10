@@ -10,9 +10,9 @@
       </div>
     </div>
     <div class="row mt-4 mt-md-2 mb-1 px-md-5 px-4">
-      <div class="col-12 col-md-12 px-md-5 mt-md-0  d-flex flex-column align-items-start border border-1">
+      <div class="col-12 col-md-12 px-md-5 mt-md-0  d-flex flex-column align-items-start">
         <h1 class="px-md-2 pt-md-0 p-0 mt-4">Walter Baya</h1>
-        <h3 class="px-md-3 pt-1 px-1 mt-md-2">Software Developer</h3>
+        <h5 class="px-md-3 px-1 mt-md-1">Software Developer</h5>
         <p class="px-md-3 p-1 pt-2">
           <strong>> Apasionado por la tecnología y la computación</strong>, me <br>> motiva seguir
           aprendiendo cosas nuevas y realizar <br>> proyectos poniendo a prueba dichos
@@ -34,14 +34,16 @@
         </ul>
       </div>
     </div>
-    <div class="row p-md-5 px-4">
-      <div class="col-12 px-md-5 mx-md-1 color-pink border border-1">
-        <h1 class="py-md-1 py-2">Estudios Universitarios</h1>
+    <div class="row px-md-5 px-4">
+      <div class="col-12 px-md-5 mx-md-2 color-pink">
+        <h1 class="py-md-1 py-1">Estudios Universitarios</h1>
         <ul class="list-unstyled">
-          <h3 class="py-1 mx-md-2 mx-1 py-md-1">Universidad de Buenos Aires</h3>
+          <h4 class="py-1 mx-md-2 mx-1">Universidad de Buenos Aires</h4>
           <li>
             <p class="mx-2" id="degree">
-              > Licenciatura en Ciencias de la Computación
+              > Analista Universitario en Computación (último Año - en Curso)
+              <br/>
+              > Licenciatura en Ciencias de la Computación (4to Año - en Curso)
             </p>
           </li>
         </ul>

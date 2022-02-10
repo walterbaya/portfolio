@@ -118,22 +118,6 @@
         "link": "https://github.com/walterbaya/Integrador-Java-Standard",
         "image": "concesionaria.jpg"
       }
-    ],
-    "AnalisisHabitacional": [
-      {
-        "title": "Analisis Habitacional",
-        "text": "Especificación y la implementación de algoritmos, se utilizó GoogleTest para testear, se exigió además un porcentaje de cobertura.",
-        "link": "https://github.com/walterbaya/Algoritmos-y-estructuras-de-datos-1/tree/master/Trabajo-Practico",
-        "image": "analisisHabitacional.jpg"
-      }
-    ],
-    "Base de Datos": [
-      {
-        "title": "Base de Datos",
-        "text": "Especificación, diseño e implementación de algoritmos propios de una base de datos con el objetivo de cumplir con ciertas complejidades temporales y espaciales.",
-        "link": "https://github.com/walterbaya/Algoritmos-y-Estructuras-de-Datos-II/tree/master/Trabajo%20Practico%20Integrador",
-        "image": "algoritmosII.jpg"
-      }
     ]
   },
   "blogs": {

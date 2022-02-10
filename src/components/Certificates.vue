@@ -2,7 +2,7 @@
   <div id="certificates" class="px-5 py-4 py-md-2 px-lg-5 d-flex flex-column container general-container text-white">
     <div class="row rounded">
       <div class="col-12 p-1 d-flex justify-content-center align-items-center">
-        <i class="fas fa-certificate fa-2x mx-2 mt-3"></i>
+        <i class="fas fa-certificate fa-2x mx-2 mt-2"></i>
         <h1 class="py-2 mt-3 mx-2 title">Certificaciones</h1>
       </div>
     </div>

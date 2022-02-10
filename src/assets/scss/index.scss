@@ -13,19 +13,6 @@ $small: 1vw;
 $line-height-medium: 22px;
 $line-height-small: 17px;
 
-img{
-    image-rendering: -moz-crisp-edges;
-    /* Firefox */
-    image-rendering: -o-crisp-edges;
-    /* Opera */
-    image-rendering: -webkit-optimize-contrast;
-    /* Webkit (non-standard naming) */
-    image-rendering: crisp-edges;
-    -ms-interpolation-mode: nearest-neighbor;
-    -webkit-backface-visibility: hidden;
-    -webkit-transform: translateZ(0) scale(1, 1);
-}
-
 #app {
     height: 100vh !important;
     margin-left: 0 !important;

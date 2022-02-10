@@ -1,5 +1,4 @@
 $black: #000000;
-$grey: #3f3f3f;
 $white: #FFFFFF;
 $font-weight-500 : 500;
 $font-weight-600 : 600;
@@ -24,37 +23,12 @@ $line-height-small: 17px;
     padding-left: 0 !important;
 }
 
-.color-seagrey {
-    color: $seagrey !important;
-}
-
 .color-black {
     color: $black !important;
 }
 
-.color-grey {
-    color: $grey !important;
-}
-
-.color-pink {
-    color: $pink !important;
-}
-
-.background-seagrey {
-    background: $seagrey !important;
-}
-
 .background-black {
     background: $black !important;
-}
-
-.background-grey {
-    background: $grey !important;
-}
-
-
-.background-white {
-    background: $white !important;
 }
 
 .hover-white:hover {

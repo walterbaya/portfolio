@@ -1,9 +1,9 @@
 <template>
-  <div id="habilities" class="px-5 py-2 bg-seagrey text-white container general-container">
+  <div id="habilities" class="px-5 py-2 text-white container general-container">
     <div class="row">
-      <div class="col-12 d-flex justify-content-center align-items-center  rounded pb-4  m-md-0 py-2 color-greyblue">
+      <div class="col-12 d-flex justify-content-center align-items-center  rounded pb-4  m-md-0 py-2">
         <i class="fas fa-code mt-4 p-2 fa-2x"></i>
-        <h1 class="color-greyblue mt-4 p-2 title">Habilidades</h1>
+        <h1 class="mt-4 p-2 title">Habilidades</h1>
       </div>
     </div>
     <div class="row p-2 mt-4 px-md-5">

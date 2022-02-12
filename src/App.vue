@@ -1,10 +1,10 @@
 <template>
   <div id="app" class="container-fluid">
     <div class="row">
-      <div class="col-12 col-md-3">
-        <Navbar></Navbar>
-      </div>
-      <div class="col-12 col-md-9">
+      <aside class="col-12 col-md-3">
+          <Navbar></Navbar>
+      </aside>
+      <div class="col-12 col-md-9 padding-left">
         <router-view></router-view>
       </div>
     </div>
@@ -21,7 +21,7 @@ export default {
   },
   created: function () {
     document.body.style.background = "black";
-   },
+  },
   destroyed: function () {
     document.body.style.backgroundColor = null;
   },

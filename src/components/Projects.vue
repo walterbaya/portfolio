@@ -1,7 +1,7 @@
 <template>
   <div
     id="projects"
-    class="text-white general-container container py-2 px-5"
+    class="text-white container general-container"
   >
     <div class="row">
       <div
@@ -12,7 +12,7 @@
         <h1 class="p-2 mt-3 title">Proyectos</h1>
       </div>
     </div>
-    <div class="row px-md-4">
+    <div class="row px-5">
       <div
         class="col-12 col-lg-6 col-xl-4"
         v-for="project in projects"

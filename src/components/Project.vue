@@ -12,7 +12,8 @@
         <p class="card-text">{{ text }}</p>
         <div class="d-flex justify-content-start">
           <a :href="this.link" class="btn btn-primary rounded">Código</a>
-          <a href="#" class="btn btn-outline-primary mx-2 rounded" v-show="isDeployed">Visita el sitio</a>
+          <a  
+          v-bind:href="this.deployLink" class="btn btn-outline-primary mx-2 rounded" v-show="isDeployed">Visita el sitio</a>
         </div>
       </div>
     </div>

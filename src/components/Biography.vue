@@ -36,11 +36,11 @@
     </div>
     <div class="row px-md-4 px-4">
       <div class="col-12 px-md-4 color-pink">
-        <h1 class="py-md-1 py-1">Estudios Universitarios</h1>
-        <ul class="list-unstyled mx-1">
-          <h5 class="mx-md-2">Universidad de Buenos Aires</h5>
+        <h1 class="py-md-1 py-1 mx-2">Estudios Universitarios</h1>
+        <ul class="list-unstyled">
+          <h5 class="mx-md-3">Universidad de Buenos Aires</h5>
           <li>
-            <p class="mx-1" id="degree">
+            <p class="mx-2" id="degree">
               > Analista Universitario en Computación (último Año - en Curso)
               <br/>
               > Licenciatura en Ciencias de la Computación (4to Año - en Curso)

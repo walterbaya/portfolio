@@ -1,7 +1,7 @@
 <template>
   <div
     id="biography"
-    class="container py-2 general-container background-dark text-white px-3"
+    class="container py-2 general-container background-dark text-white"
   >
     <div class="row rounded">
       <div id="biography-container" class="col-12 d-flex justify-content-center align-items-center my-3">
@@ -18,7 +18,7 @@
           aprendiendo cosas nuevas y realizar <br>> proyectos poniendo a prueba dichos
           aprendizajes.
         </p>
-        <ul class="list-unstyled py-md-2 mx-md-1 p-3 rounded">
+        <ul class="list-unstyled mx-2 py-3 py-md-2 mx-md-1">
           <li class="rounded">
             <a href="mailto:walterbaya@yahoo.com" class="text-decoration-none hover-white"
               ><i class="fas fa-envelope"></i
@@ -36,11 +36,11 @@
     </div>
     <div class="row px-md-5 px-4">
       <div class="col-12 px-md-5 mx-md-2 color-pink">
-        <h1 class="py-md-1 py-1">Estudios Universitarios</h1>
-        <ul class="list-unstyled">
-          <h4 class="py-1 mx-md-2 mx-1">Universidad de Buenos Aires</h4>
+        <h1 class="mx-1 py-md-1 py-1">Estudios Universitarios</h1>
+        <ul class="list-unstyled mx-1">
+          <h5 class="mx-md-2 mx-1">Universidad de Buenos Aires</h5>
           <li>
-            <p class="mx-2" id="degree">
+            <p class="mx-1" id="degree">
               > Analista Universitario en Computación (último Año - en Curso)
               <br/>
               > Licenciatura en Ciencias de la Computación (4to Año - en Curso)

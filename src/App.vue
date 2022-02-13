@@ -1,10 +1,10 @@
 <template>
   <div id="app" class="container-fluid">
     <div class="row">
-      <aside class="col-12 col-md-3">
+      <aside class="col-12 col-md-3 bg-white d-flex justify-content-center">
           <Navbar></Navbar>
       </aside>
-      <div class="col-12 col-md-9 padding-left">
+      <div class="col-12 col-md-9">
         <router-view></router-view>
       </div>
     </div>

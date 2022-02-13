@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="navbar navbar-light d-flex flex-md-column justify-content-md-start justify-content-end navbar-expand-lg bg-white"
+    class="navbar navbar-light d-flex flex-md-column justify-content-md-start justify-content-end navbar-expand-lg align-items-center"
     id="navigation-bar"
   >
     <div class="px-3">

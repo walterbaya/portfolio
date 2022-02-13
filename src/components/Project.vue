@@ -6,7 +6,7 @@
     @mouseleave="hover = false"
   >
     <div class="card w-100">
-      <img v-bind:alt="image" v-bind:src="getImage()" class="img-fluid w-100 card-img-top" />
+      <img v-bind:alt="image" v-bind:src="getImage()" class="img-fluid" />
       <div class="card-img-overlay p-4 background-black text-white" v-show="hover">
         <h5 class="card-title">{{ title }}</h5>
         <p class="card-text">{{ text }}</p>

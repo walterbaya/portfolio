@@ -84,6 +84,8 @@
         "title": "Palma Store",
         "text": "Actualmente me encuentro desarrollando el sitio web de la tienda de calzado Palma Store, se está utilizando FIGMA para realizar los mockups.",
         "link": "",
+        "isDeployed": false,
+        "deployLink": "",
         "image": "PalmaStore.jpg"
       }
     ],
@@ -92,6 +94,8 @@
         "title": "Near Earth Asteroids",
         "text": "En este proyecto se consumió la API REST de la NASA con el fin de mostrar la cantidad de asteroides que pasaron cercanos a la tierra en un lapso de tiempo.",
         "link": "https://github.com/walterbaya/NearAsteroidsProject",
+        "isDeployed": true,
+        "deployLink" : "https://near-earth-asteroids1.herokuapp.com",
         "image": "nearasteroids.jpg"
       }
     ],
@@ -100,6 +104,8 @@
         "title": "Toon: Shader",
         "text": "Proyecto de fin de curso para la materia fundamentos de la computación gráfica. Describe como se realizan las sombras para dar ese aspecto a caricatura.",
         "link": "https://github.com/walterbaya/Fundamentos-de-la-Computaci-n-Gr-fica/tree/main/Trabajo%20Practico%20Integrador",
+        "isDeployed": false,
+        "deployLink": "",
         "image": "Toon-shader.jpg"
       }
     ],
@@ -108,6 +114,8 @@
         "title": "Ta Te Ti",
         "text": "El Ta Te Ti fue desarrollado utilizando Java y Java FX, nos permite jugar una partida contra la PC.",
         "link": "https://github.com/walterbaya/TaTeTi",
+        "isDeployed": false,
+        "deployLink": "",
         "image": "Ta-Te-Ti.jpg"
       }
     ],
@@ -116,6 +124,8 @@
         "title": "Concesionaria",
         "text": "Proyecto integrador del curso de Java Standard Programming. Aplicación de gestión para una concesionaria.",
         "link": "https://github.com/walterbaya/Integrador-Java-Standard",
+        "isDeployed": false,
+        "deployLink": "",
         "image": "concesionaria.jpg"
       }
     ]

@@ -11,8 +11,8 @@
         <h5 class="card-title">{{ title }}</h5>
         <p class="card-text">{{ text }}</p>
         <div class="d-flex justify-content-start">
-          <a href="#" class="btn btn-outline-primary rounded">Demo</a>
-          <a :href="this.link" class="btn btn-primary mx-2 rounded">Code</a>
+          <a :href="this.link" class="btn btn-primary rounded">Código</a>
+          <a href="#" class="btn btn-outline-primary mx-2 rounded" v-show="isDeployed">Visita el sitio</a>
         </div>
       </div>
     </div>
@@ -36,6 +36,8 @@ export default {
       text: this.project.text,
       link: this.project.link,
       title: this.project.title,
+      isDeployed: this.project.isDeployed,
+      deployLink: this.project.deployLink,
       hover: false
     };
   },

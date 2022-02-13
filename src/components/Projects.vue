@@ -42,6 +42,8 @@ export default {
           link: pro[key][0].link,
           url:  pro[key][0].url,
           image: pro[key][0].image,
+          isDeployed: pro[key][0].isDeployed,
+          deployLink: pro[key][0].deployLink
         });
       }
       return projectList;

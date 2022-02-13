@@ -1,5 +1,5 @@
 <template>
-  <div id="habilities" class="px-3 py-2 text-white container general-container">
+  <div id="habilities" class="text-white container general-container">
     <div class="row">
       <div class="col-12 d-flex justify-content-center align-items-center  rounded pb-4  m-md-0 py-2">
         <i class="fas fa-code mt-3 p-2 fa-2x"></i>

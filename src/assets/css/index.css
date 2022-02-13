@@ -37,6 +37,7 @@
 @media (min-width: 767px) {
   #navigation-bar {
     position: fixed;
+    background: #FFFFFF;
     height: 100vh !important;
     font-size: 1.9vw;
   }

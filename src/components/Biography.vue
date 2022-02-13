@@ -1,7 +1,7 @@
 <template>
   <div
     id="biography"
-    class="container py-2 general-container background-dark text-white"
+    class="container general-container background-dark text-white"
   >
     <div class="row rounded">
       <div id="biography-container" class="col-12 d-flex justify-content-center align-items-center my-3">

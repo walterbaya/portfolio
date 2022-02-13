@@ -1,5 +1,5 @@
 <template>
-  <div id="experiencies" class="bg-light rounded p-5 ">
+  <div id="experiencies" class="bg-light rounded">
     <div class="row px-5">
       <div class="col-12 px-5">
         <div v-for="experiencie in experiencies" v-bind:key="experiencie.title">

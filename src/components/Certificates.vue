@@ -1,5 +1,5 @@
 <template>
-  <div id="certificates" class="px-3 py-4 py-md-2 d-flex flex-column container general-container text-white">
+  <div id="certificates" class="d-flex flex-column container general-container text-white">
     <div class="row rounded">
       <div class="col-12 p-1 d-flex justify-content-center align-items-center">
         <i class="fas fa-certificate fa-2x mx-2 mt-2"></i>

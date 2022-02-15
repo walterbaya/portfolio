@@ -149,6 +149,16 @@
           "image": "analisisHabitacional.jpg"
         }
       ],
+      "Diseño de Base de Datos": [
+        {
+          "title": "Diseño de Base de Datos en C++",
+          "text": "Especificación y diserño escritos en Latex, implementación de algoritmos con limitaciones de complejidad temporal y espacial para realizar una base de datos con funcionalidades como las del mundo real, se utilizó googleTest para realizar testing.",
+          "link": "https://github.com/walterbaya/Algoritmos-y-Estructuras-de-Datos-II/tree/master/Trabajo%20Practico%20Integrador",
+          "isDeployed": false,
+          "deployLink": " ",
+          "image": "baseDeDatos.jpg"
+        }
+      ],
     "Concesionaria": [
       {
         "title": "Concesionaria",

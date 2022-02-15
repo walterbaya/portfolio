@@ -20,7 +20,7 @@
         </p>
         <ul class="list-unstyled mx-2 py-3 py-md-2 mx-md-3">
           <li class="rounded">
-            <a href="mailto:walterbaya@yahoo.com" class="text-decoration-none hover-white"
+            <a href="mailto:walterbaya1996@gmail.com" class="text-decoration-none hover-white"
               ><i class="fas fa-envelope"></i
               ><span class="px-1 px-md-3">walterbaya1996@gmail.com</span></a
             >

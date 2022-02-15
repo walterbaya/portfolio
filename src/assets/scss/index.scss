@@ -169,7 +169,8 @@ $line-height-small: 17px;
     #projects {
         #project {
             img {
-                height: 400px;
+                object-position: center;
+                height: 360px;
                 object-fit: fill;
             }
         }

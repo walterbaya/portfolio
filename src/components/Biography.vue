@@ -22,7 +22,7 @@
           <li class="rounded">
             <a href="mailto:walterbaya@yahoo.com" class="text-decoration-none hover-white"
               ><i class="fas fa-envelope"></i
-              ><span class="px-1 px-md-3">walterbaya@yahoo.com</span></a
+              ><span class="px-1 px-md-3">walterbaya1996@gmail.com</span></a
             >
           </li>
           <li class="my-md-1 mt-2 rounded">

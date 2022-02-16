@@ -7,6 +7,7 @@ import Certificates from './components/Certificates.vue';
 //import Experiencies from './components/Experiencies.vue';
 import Habilities from './components/Habilities.vue';
 import Projects from './components/Projects.vue';
+import VueScrollTo from 'vue-scrollto';
 
 import {
   BootstrapVue,
@@ -24,6 +25,7 @@ Vue.use(BootstrapVue);
 Vue.use(IconsPlugin);
 //importamos el vue router
 Vue.use(VueRouter);
+Vue.use(VueScrollTo);
 
 const routes = [{
     path: '/biography',

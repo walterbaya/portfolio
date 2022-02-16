@@ -1,14 +1,14 @@
 <template>
-  <div id="habilities" class="text-white container general-container">
+  <div id="habilities" class="text-white container my-5">
     <div class="row">
       <div class="col-12 d-flex justify-content-center align-items-center  rounded pb-4  m-md-0 py-2">
         <i class="fas fa-code mt-3 p-2 fa-2x"></i>
         <h1 class="mt-4 p-2 title">Habilidades</h1>
       </div>
     </div>
-    <div class="row p-2 px-md-5">
+    <div class="row py-2 px-0">
       <div
-        class="col-4 col-md-3 my-4 p-2 p-md-0 my-md-0"
+        class="col-4 col-md-3 my-4 p-md-0 my-md-0"
         v-for="hability in habilities.habilities1"
         v-bind:key="hability.hability"
       >

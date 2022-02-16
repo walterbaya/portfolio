@@ -1,7 +1,6 @@
 <template>
   <div
-    id="projects"
-    class="text-white container general-container"
+    class="text-white container "
   >
     <div class="row">
       <div
@@ -14,7 +13,7 @@
     </div>
     <div class="row px-3">
       <div
-        class="col-12 col-lg-6 col-xl-4"
+        class="col-12 col-md-6 col-xl-4"
         v-for="project in projects"
         v-bind:key="project.project"
       >

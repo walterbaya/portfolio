@@ -142,7 +142,7 @@
       "Análisis Habitacional": [
         {
           "title": "Análisis Habitacional",
-          "text": "Especificación escrita en Latex e implementación de algoritmos con limitaciones de complejidad temporal y espacial para realizar un análisis habitacional, el código fue desarrollado en C++ y se utilizó googleTest para realizar testing.",
+          "text": "Especificación en Latex e implementación con limitaciones de complejidad temporal y espacial para realizar análisis habitacional. Se utilizó googleTest para realizar testing.",
           "link": "https://github.com/walterbaya/Algoritmos-y-estructuras-de-datos-1/tree/master/Trabajo-Practico",
           "isDeployed": false,
           "deployLink": " ",
@@ -152,7 +152,7 @@
       "Diseño de Base de Datos": [
         {
           "title": "Diseño de Base de Datos en C++",
-          "text": "Especificación y diserño escritos en Latex, implementación de algoritmos con limitaciones de complejidad temporal y espacial para realizar una base de datos con funcionalidades como las del mundo real, se utilizó googleTest para realizar testing.",
+          "text": "Especificación y diseño en Latex. Implementación bajo limitaciones de complejidad temporal y espacial para realizar una base de datos con funcionalidades comunes.",
           "link": "https://github.com/walterbaya/Algoritmos-y-Estructuras-de-Datos-II/tree/master/Trabajo%20Practico%20Integrador",
           "isDeployed": false,
           "deployLink": " ",

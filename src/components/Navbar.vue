@@ -17,25 +17,41 @@
       <div class="navbar-collapse collapse" id="navbar">
         <ul class="navbar-nav d-md-none py-3">
           <li class="nav-item">
-            <router-link to="/biography" class="nav-link hover-white color-black">Biografía</router-link>
+            <router-link
+              to="#"
+              v-scroll-to="'#biography'"
+              class="nav-link hover-white color-black"
+            >Biografía</router-link>
           </li>
           <!--
           <li class="nav-item">
             <router-link to="/blogs" class="nav-link">Blogs</router-link>
           </li>-->
-          <li class="nav-item">
-            <router-link to="/certificates" class="nav-link hover-white color-black">Certificados</router-link>
-          </li>
           <!--<li class="nav-item">
             <router-link to="/experiencies" class="nav-link"
               >Experiencies</router-link
             >
           </li>-->
           <li class="nav-item">
-            <router-link to="/habilities" class="nav-link hover-white color-black">Habilidades</router-link>
+            <router-link
+              to="#"
+              v-scroll-to="'#habilities'"
+              class="nav-link hover-white color-black"
+            >Habilidades</router-link>
           </li>
           <li class="nav-item">
-            <router-link to="/projects" class="nav-link hover-white color-black">Proyectos</router-link>
+            <router-link
+              to="#"
+              v-scroll-to="'#projects'"
+              class="nav-link hover-white color-black"
+            >Proyectos</router-link>
+          </li>
+          <li class="nav-item">
+            <router-link
+              to="#"
+              v-scroll-to="'#certificates'"
+              class="nav-link hover-white color-black"
+            >Certificados</router-link>
           </li>
         </ul>
       </div>
@@ -51,29 +67,42 @@
             src="../assets/img/coding.png"
             alt="WalterBayaLogo"
           />
-          <li class="nav-item mt-4">
-            <router-link to="/biography" class="nav-link hover-white color-black">Biografía</router-link>
-          </li>
-          <!--<li class="nav-item">
-          <router-link to="/blogs" class="nav-link">Blogs</router-link>
-        </li>
-          -->
           <li class="nav-item">
-            <router-link to="/certificates" class="nav-link hover-white color-black">Certificados</router-link>
+            <router-link
+              to="#"
+              v-scroll-to="'#biography'"
+              class="nav-link hover-white color-black"
+            >Biografía</router-link>
           </li>
           <!--
-        <li class="nav-item">
-          <router-link to="/experiencies" class="nav-link"
-            >Experiencies</router-link
-          >
-          </li>
-          -->
-
           <li class="nav-item">
-            <router-link to="/habilities" class="nav-link hover-white color-black">Habilidades</router-link>
+            <router-link to="/blogs" class="nav-link">Blogs</router-link>
+          </li>-->
+          <!--<li class="nav-item">
+            <router-link to="/experiencies" class="nav-link"
+              >Experiencies</router-link
+            >
+          </li>-->
+          <li class="nav-item">
+            <router-link
+              to="#"
+              v-scroll-to="'#habilities'"
+              class="nav-link hover-white color-black"
+            >Habilidades</router-link>
           </li>
           <li class="nav-item">
-            <router-link to="/projects" class="nav-link hover-white color-black">Proyectos</router-link>
+            <router-link
+              to="#"
+              v-scroll-to="'#projects'"
+              class="nav-link hover-white color-black"
+            >Proyectos</router-link>
+          </li>
+          <li class="nav-item">
+            <router-link
+              to="#"
+              v-scroll-to="'#certificates'"
+              class="nav-link hover-white color-black"
+            >Certificados</router-link>
           </li>
         </ul>
       </div>
@@ -87,6 +116,7 @@ export default {
 
   mounted() {
     document.addEventListener("scroll", this.fixedScrollingHandler);
+    document.addEventListener("onresize", this.fixedScrollingHandler);
     this.fixedScrollingHandler();
   },
   data() {

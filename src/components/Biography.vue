@@ -1,7 +1,6 @@
 <template>
   <div
-    id="biography"
-    class="container general-container background-dark text-white"
+    class="container background-dark text-white mt-5 mb-5 mt-md-0"
   >
     <div class="row rounded">
       <div id="biography-container" class="col-12 d-flex justify-content-center align-items-center my-3">

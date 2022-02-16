@@ -1,6 +1,7 @@
 #app {
   height: 100vh !important;
   margin-left: 0 !important;
+  padding-left: 0 !important;
 }
 
 .color-black {
@@ -154,10 +155,6 @@
   }
 }
 @media (max-width: 767px) {
-  .general-container {
-    margin-top: 80px;
-  }
-
   .title {
     font-size: 7.2vw !important;
     margin-left: 4px;

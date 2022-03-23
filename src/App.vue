@@ -9,12 +9,15 @@
         <section>
           <Biography id="biography"></Biography>
         </section>
-        <section  class="border-top border-white">
-          <Habilities></Habilities>
-        </section>
-        <section   id="projects" class="border-top border-white">
+        <hr/>
+        <section id="projects" class="border-top border-white">
           <Projects></Projects>
         </section>
+        <hr/>
+        <section class="border-top border-white">
+          <Habilities></Habilities>
+        </section>
+        <hr/>
         <section id="certificates" class="border-top border-white">
           <Certificates></Certificates>
         </section>
@@ -37,10 +40,7 @@ export default {
     Biography,
     Projects,
     Habilities,
-    Certificates
-  },
-  created: function () {
-    document.body.style.background = "black";
+    Certificates,
   },
   destroyed: function () {
     document.body.style.backgroundColor = null;

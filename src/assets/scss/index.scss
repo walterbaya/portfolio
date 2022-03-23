@@ -27,8 +27,16 @@ $line-height-small: 17px;
     background: $black !important;
 }
 
+.background-white {
+    background: $white !important;
+}
+
+.background-grey{
+    background: #3b3b3b;
+}
+
 .hover-white:hover {
-    color: #D1D1D1 !important;
+    color: grey !important;
 }
 
 .hover-black:hover {
@@ -46,8 +54,8 @@ $line-height-small: 17px;
     margin-left: 4px;
 }
 
-#degree {
-    font-weight: 700 !important;
+*{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 @media (min-width: 767px)  {
@@ -62,30 +70,15 @@ $line-height-small: 17px;
         }
 
         font-size: $big;
+        border-right: solid #3b3b3b;
     }
 
     #biography {
         max-width: 100vw;
         height: 100vh;
-
-        h1 {
-            font-weight: 500;
+        a{
+            font-size: medium;
         }
-
-        h2 {
-            font-weight: 800;
-        }
-
-        p {
-            font-weight: 500;
-            max-width: 600px;
-            text-align: left;
-        }
-
-        a {
-            font-weight: 700;
-        }
-
     }
 
     #certificates {
@@ -94,7 +87,7 @@ $line-height-small: 17px;
         }
 
         #certificate-logo {
-            max-height: 1.5*$enormous;
+            max-height: 0.8*$enormous;
         }
 
         #certificate {
@@ -218,7 +211,8 @@ $line-height-small: 17px;
         left: 0;
         width: 100vw !important;
         padding-right: 1em;
-        background-color: white;
+        background: $white;
+        border-bottom: solid grey;
         img {
             width: 70px;
             height: 60px !important;

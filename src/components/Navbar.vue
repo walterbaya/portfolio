@@ -1,6 +1,12 @@
 <template>
   <nav
-    class="navbar navbar-light d-flex flex-md-column justify-content-md-start justify-content-end navbar-expand-lg"
+    class="
+      navbar navbar-light
+      d-flex
+      flex-md-column
+      justify-content-md-start justify-content-end
+      navbar-expand-lg
+    "
     id="navigation-bar"
   >
     <div class="px-3">
@@ -21,7 +27,8 @@
               to="#"
               v-scroll-to="'#biography'"
               class="nav-link hover-white color-black"
-            >Biografía</router-link>
+              >Biografía</router-link
+            >
           </li>
           <!--
           <li class="nav-item">
@@ -37,42 +44,64 @@
               to="#"
               v-scroll-to="'#habilities'"
               class="nav-link hover-white color-black"
-            >Habilidades</router-link>
+              >Habilidades</router-link
+            >
           </li>
           <li class="nav-item">
             <router-link
               to="#"
               v-scroll-to="'#projects'"
               class="nav-link hover-white color-black"
-            >Proyectos</router-link>
+              >Proyectos</router-link
+            >
           </li>
           <li class="nav-item">
             <router-link
               to="#"
               v-scroll-to="'#certificates'"
               class="nav-link hover-white color-black"
-            >Certificados</router-link>
+              >Certificados</router-link
+            >
           </li>
         </ul>
       </div>
-      <div class="align-items-center justify-content-center flex-column d-flex px-4 mt-2">
+      <div
+        class="
+          align-items-center
+          justify-content-center
+          flex-column
+          d-flex
+          px-4
+          mt-2
+        "
+      >
         <img
           class="img-fluid rounded align-self-start mx-2 d-md-none"
           src="../assets/img/coding.png"
           alt="WalterBayaLogo"
         />
-        <ul class="navbar-nav d-none d-md-flex flex-md-column justify-content-center px-md-5 pt-3">
+        <ul
+          class="
+            navbar-nav
+            d-none d-md-flex
+            flex-md-column
+            justify-content-center
+            px-md-5
+            pt-3
+          "
+        >
           <img
             class="img-fluid rounded align-self-start mx-2 d-none d-md-flex"
             src="../assets/img/coding.png"
             alt="WalterBayaLogo"
           />
-          <li class="nav-item">
+          <li class="nav-item mt-5">
             <router-link
               to="#"
               v-scroll-to="'#biography'"
               class="nav-link hover-white color-black"
-            >Biografía</router-link>
+              >Biografía</router-link
+            >
           </li>
           <!--
           <li class="nav-item">
@@ -86,23 +115,26 @@
           <li class="nav-item">
             <router-link
               to="#"
-              v-scroll-to="'#habilities'"
+              v-scroll-to="'#projects'"
               class="nav-link hover-white color-black"
-            >Habilidades</router-link>
+              >Proyectos</router-link
+            >
           </li>
           <li class="nav-item">
             <router-link
               to="#"
-              v-scroll-to="'#projects'"
+              v-scroll-to="'#habilities'"
               class="nav-link hover-white color-black"
-            >Proyectos</router-link>
+              >Habilidades</router-link
+            >
           </li>
           <li class="nav-item">
             <router-link
               to="#"
               v-scroll-to="'#certificates'"
               class="nav-link hover-white color-black"
-            >Certificados</router-link>
+              >Certificados</router-link
+            >
           </li>
         </ul>
       </div>
@@ -133,7 +165,7 @@ export default {
       const navbar = document.getElementById("navbar");
 
       if (window.outerWidth <= 767) {
-        div_content.classList.add('fixed-top');
+        div_content.classList.add("fixed-top");
         if (this.currentScrollPosition > pastScrollPosition) {
           navbar.classList.remove("show");
           navbar.classList.add("hide");
@@ -144,9 +176,8 @@ export default {
           div_content.classList.add("d-flex");
           div_content.classList.remove("d-none");
         }
-      }
-      else {
-        div_content.classList.remove('fixed-top');
+      } else {
+        div_content.classList.remove("fixed-top");
       }
     },
   },

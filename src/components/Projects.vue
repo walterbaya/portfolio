@@ -1,17 +1,17 @@
 <template>
   <div
-    class="text-white container "
+    class="container my-5"
   >
     <div class="row">
       <div
         class="col-12 d-flex justify-content-center align-items-center"
         id="firstrow"
       >
-        <i class="fas fa-project-diagram fa-2x mt-3"></i>
-        <h1 class="p-2 mt-3 title">Proyectos</h1>
+        <i class="fas fa-project-diagram fa-2x"></i>
+        <h1 class="p-2 title">Proyectos</h1>
       </div>
     </div>
-    <div class="row px-3">
+    <div class="row px-3 pt-5">
       <div
         class="col-12 col-md-6 col-xl-4"
         v-for="project in projects"

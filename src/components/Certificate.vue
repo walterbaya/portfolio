@@ -1,5 +1,5 @@
 <template>
-  <div class="card bg-dark m-2" id="certificate">
+  <div class="card m-2" id="certificate">
     <img
       id="certificateImage"
       v-bind:src="image.src"

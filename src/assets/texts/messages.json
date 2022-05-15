@@ -101,11 +101,11 @@
     ],
     "Palma-Store": [
       {
-        "title": "Palma Store",
-        "text": "Actualmente me encuentro desarrollando el sitio web de la tienda de calzado Palma Store, se está utilizando FIGMA para realizar los mockups.",
+        "title": "To do Item List",
+        "text": "Desarrollo de un to do item list, que permite crear carpetas en las cuales podemos agregar y borrar elementos.",
         "link": "",
         "isDeployed": false,
-        "deployLink": "",
+        "deployLink": "https://github.com/walterbaya/to-do-item-creation",
         "image": "PalmaStore.jpg"
       }
     ],
@@ -183,26 +183,10 @@
   "experiencies": {
     "experiencie1": [
       {
-        "image": "adidas.png",
-        "date": "Feb 2017 - Current",
-        "title": "Front-end developer",
-        "text": "Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie."
-      }
-    ],
-    "experiencie2": [
-      {
-        "image": "hym.png",
-        "date": "Aug 2016 - Feb 2018",
-        "title": "Full-stack developer",
-        "text": "Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie."
-      }
-    ],
-    "experiencie3": [
-      {
-        "image": "nivea.png",
-        "date": "Jun 2015 - Aug 2016",
-        "title": "Junior front-end developer",
-        "text": "Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie."
+        "image": "masterdata.jpg",
+        "date": "Marzo  2022 - Actualidad",
+        "title": "Junior Java Developer",
+        "text": "Relizo tareas de desarrollo backend utilizando Java, principalmente con Spring y tareas frontend con VueJS."
       }
     ]
   }

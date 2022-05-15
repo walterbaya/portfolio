@@ -10,6 +10,10 @@
           <Biography id="biography"></Biography>
         </section>
         <hr/>
+        <section id="experiencies" class="border-top border-white">
+          <Experiencies></Experiencies>
+        </section>
+        <hr/>
         <section id="projects" class="border-top border-white">
           <Projects></Projects>
         </section>
@@ -32,6 +36,7 @@ import Biography from "./components/Biography.vue";
 import Projects from "./components/Projects.vue";
 import Habilities from "./components/Habilities.vue";
 import Certificates from "./components/Certificates.vue";
+import Experiencies from "./components/Experiencies.vue";
 
 export default {
   name: "App",
@@ -41,6 +46,7 @@ export default {
     Projects,
     Habilities,
     Certificates,
+    Experiencies
   },
   destroyed: function () {
     document.body.style.backgroundColor = null;

@@ -34,11 +34,12 @@
           <li class="nav-item">
             <router-link to="/blogs" class="nav-link">Blogs</router-link>
           </li>-->
-          <!--<li class="nav-item">
-            <router-link to="/experiencies" class="nav-link"
-              >Experiencies</router-link
+          <li class="nav-item">
+            <router-link to="/experiencies" class="nav-link hover-white color-black"
+              v-scroll-to="'#experiencies'"
+              >Experiencia</router-link
             >
-          </li>-->
+          </li>
           <li class="nav-item">
             <router-link
               to="#"
@@ -107,11 +108,12 @@
           <li class="nav-item">
             <router-link to="/blogs" class="nav-link">Blogs</router-link>
           </li>-->
-          <!--<li class="nav-item">
-            <router-link to="/experiencies" class="nav-link"
-              >Experiencies</router-link
+          <li class="nav-item">
+            <router-link to="/experiencies" class="nav-link hover-white color-black"
+              v-scroll-to="'#experiencies'"
+              >Experiencia</router-link
             >
-          </li>-->
+          </li>
           <li class="nav-item">
             <router-link
               to="#"

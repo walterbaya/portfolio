@@ -1,10 +1,10 @@
 <template>
   <div id="experience" class="m-4 p-2 rounded">
     <div class="row">
-      <div class="col-3 pt-4 pl-5">
-        <img v-bind:src="getImage()" class="img-fluid w-75" alt="" />
+      <div class="col-3">
+        <img v-bind:src="getImage()" class="img-fluid w-100" alt="experiencie.title" />
       </div>
-      <div class="col-9">
+      <div class="col-9 py-1">
         <div class="pb-3">
           <h2>{{ experiencie.date }}</h2>
           <h1>{{ experiencie.title }}</h1>

@@ -28,7 +28,7 @@ export default {
         temp.push({
           title: exp[key][0].title,
           text: exp[key][0].text,
-          link: exp[key][0].link,
+          date: exp[key][0].date,
           image: exp[key][0].image,
         });
       }

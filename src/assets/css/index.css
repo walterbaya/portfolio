@@ -76,9 +76,6 @@
     display: none;
   }
 
-  #experiencies {
-    height: 100vh;
-  }
   #experiencies #experience {
     font-weight: 500;
     font-family: Montserrat;
@@ -86,7 +83,6 @@
   }
   #experiencies #experience img {
     height: auto;
-    max-width: 3.8vw;
   }
   #experiencies #experience h2 {
     line-height: 17px;

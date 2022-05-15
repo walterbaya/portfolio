@@ -100,8 +100,6 @@ $line-height-small: 17px;
     }
 
     #experiencies {
-        height: 100vh;
-
         #experience {
             font-weight: $font-weight-500;
             font-family: Montserrat;
@@ -109,7 +107,6 @@ $line-height-small: 17px;
 
             img {
                 height: auto;
-                max-width: $very-very-big;
             }
 
             h2 {

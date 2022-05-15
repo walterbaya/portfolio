@@ -44,7 +44,7 @@
           <li>
             <p id="degree">
               <br/>
-              Licenciatura en Ciencias Matemáticas
+              Analista Universitario en Computación
               <br/>
               Licenciatura en Ciencias de la Computación
             </p>

@@ -103,10 +103,10 @@
       {
         "title": "To do Item List",
         "text": "Desarrollo de un to do item list, que permite crear carpetas en las cuales podemos agregar y borrar elementos.",
-        "link": "",
+        "link": "https://github.com/walterbaya/to-do-item-creation",
         "isDeployed": false,
-        "deployLink": "https://github.com/walterbaya/to-do-item-creation",
-        "image": "PalmaStore.jpg"
+        "deployLink": "",
+        "image": "folders.jpg"
       }
     ],
     "Near-Earth-Asteroids": [

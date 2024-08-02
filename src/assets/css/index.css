@@ -224,7 +224,6 @@
     margin-top: 4vw;
   }
   #projects #project img {
-    height: 300px;
     object-fit: fill;
   }
 }

@@ -99,6 +99,29 @@
         "image": "error404.svg"
       }
     ],
+    "Slider-pokemones": [
+      {
+        "title": "Slider Infinito de Pokemones",
+        "text": "Aplicación que consume una API de pokemones y los muestra en un slider utilizando IONIC.",
+        "link": "https://github.com/walterbaya/tech-task-agencia-austral",
+        "isDeployed": false,
+        "deployLink": "",
+        "image": "slider-infinito-pokemones.jpg"
+      }
+    ]
+
+    ,
+    "Videojuego": [
+      {
+        "title": "Videojuego de preguntas y respuestas",
+        "text": "Trabajo práctico universitario en el cual se desarrolló un videojuego en lenguaje Visual Basic que interactua con una base de datos MySQL.",
+        "link": "https://github.com/walterbaya/ESBA/tree/main/Segundo%20Cuatrimestre/Programacion%20Visual/TP-FINAL",
+        "isDeployed": false,
+        "deployLink": "",
+        "image": "proyecto-final-programacion-visual.jpg"
+      }
+    ]
+    ,
     "Palma-Store": [
       {
         "title": "Sistema de Gestión Palma Store",
@@ -106,7 +129,7 @@
         "link": "https://github.com/walterbaya/palma-store",
         "isDeployed": false,
         "deployLink": "",
-        "image": "folders.jpg"
+        "image": "tienda-palma-store.jpg"
       }
     ],
     "Near-Earth-Asteroids": [

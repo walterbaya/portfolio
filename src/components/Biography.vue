@@ -29,10 +29,10 @@
           </li>
           <li class="my-md-3 mt-2 rounded">
             <a
-              href="tel:+54 1132812848"
+              href="tel:+54 1128653459"
               class="text-decoration-none hover-white"
               ><i class="fas fa-phone"></i
-              ><span class="px-1 px-md-3">(+54) 11 3281 2848</span></a
+              ><span class="px-1 px-md-3">(+54) 11 2865 3459</span></a
             >
           </li>
         </ul>
@@ -40,13 +40,13 @@
       <div class="col-12 col-md-6 background-grey text-white p-5">
         <h2 class="py-md-1">Estudios Universitarios</h2>
         <ul class="list-unstyled">
-          <h4 class="mt-md-4 mt-3">Universidad de Buenos Aires</h4>
+          <h4 class="mt-md-4 mt-3">Instituto de Estudios Superiores de Buenos Aires (ESBA)</h4>
           <li>
             <p id="degree">
               <br/>
-              Analista Universitario en Computación
+              Analista Programador
               <br/>
-              Licenciatura en Ciencias de la Computación
+              Analista de Sistemas (En Curso)
             </p>
           </li>
         </ul>

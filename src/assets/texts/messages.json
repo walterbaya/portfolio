@@ -101,9 +101,9 @@
     ],
     "Palma-Store": [
       {
-        "title": "To do Item List",
-        "text": "Desarrollo de un to do item list, que permite crear carpetas en las cuales podemos agregar y borrar elementos.",
-        "link": "https://github.com/walterbaya/to-do-item-creation",
+        "title": "Sistema de Gestión Palma Store",
+        "text": "Palma Store es una tienda de calzado y marroquinería de cuero para la cual se está desarrollando un sistema de gestión principalmente utilizando NodeJS y React.",
+        "link": "https://github.com/walterbaya/palma-store",
         "isDeployed": false,
         "deployLink": "",
         "image": "folders.jpg"
@@ -114,7 +114,7 @@
         "title": "Near Earth Asteroids",
         "text": "En este proyecto se consumió la API REST de la NASA con el fin de mostrar la cantidad de asteroides que pasaron cercanos a la tierra en un lapso de tiempo.",
         "link": "https://github.com/walterbaya/NearAsteroidsProject",
-        "isDeployed": true,
+        "isDeployed": false,
         "deployLink": "https://near-earth-asteroids1.herokuapp.com",
         "image": "nearasteroids.jpg"
       }

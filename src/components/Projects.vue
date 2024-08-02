@@ -13,7 +13,7 @@
     </div>
     <div class="row px-3 pt-5">
       <div
-        class="col-12 col-md-6 col-xl-4"
+        class="col-12 col-md-4"
         v-for="project in projects"
         v-bind:key="project.project"
       >

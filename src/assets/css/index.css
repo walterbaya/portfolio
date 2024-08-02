@@ -224,11 +224,8 @@
     margin-top: 4vw;
   }
   #projects #project img {
-    max-width: 100%;
-    height: auto;
-    image-rendering: -webkit-optimize-contrast; /* Webkit (Safari, Chrome) */
-    image-rendering: crisp-edges;               /* Firefox */
-    image-rendering: pixelated;                 /* Para imágenes pixel art */
+    height: 300px;
+    object-fit: fill;
   }
 }
 

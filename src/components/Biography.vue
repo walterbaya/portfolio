@@ -37,7 +37,7 @@
           </li>
         </ul>
       </div>
-      <div class="col-12 col-md-6 background-grey text-white p-5">
+      <div class="col-12 col-md-6 bg-light text-success p-5">
         <h2 class="py-md-1">Estudios Universitarios</h2>
         <ul class="list-unstyled">
           <h4 class="mt-md-4 mt-3">Instituto de Estudios Superiores de Buenos Aires (ESBA)</h4>

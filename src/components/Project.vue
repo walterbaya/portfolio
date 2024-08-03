@@ -6,8 +6,8 @@
     @mouseleave="hover = false"
   >
     <div class="card w-100">
-      <img v-bind:alt="image" v-bind:src="getImage()" class="img-fluid" />
-      <div class="card-img-overlay p-4 background-black text-white" v-show="hover">
+      <img v-bind:alt="image" v-bind:src="getImage()" class="img-fluid w-100" />
+      <div class="card-body p-4">
         <h5 class="card-title">{{ title }}</h5>
         <p class="card-text">{{ text }}</p>
         <div class="d-flex justify-content-start">

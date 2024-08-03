@@ -159,10 +159,10 @@ $line-height-small: 17px;
 
     #projects {
         #project {
+            height: 600px;
             img {
-                object-position: center;
-                height: 360px;
-                object-fit: fill;
+                height: 260px;
+                width: 100%;
             }
         }
     }

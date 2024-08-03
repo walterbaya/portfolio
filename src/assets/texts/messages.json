@@ -134,7 +134,7 @@
         "link": "https://github.com/walterbaya/tech-task-agencia-austral",
         "isDeployed": false,
         "deployLink": "",
-        "image": "slider-infinito-pokemones.png"
+        "image": "slider-infinito-pokemones.svg"
       }
     ]
 
@@ -157,7 +157,7 @@
         "link": "https://github.com/walterbaya/palma-store",
         "isDeployed": false,
         "deployLink": "",
-        "image": "tienda-palma-store.jpg"
+        "image": "tienda-palma-store.svg"
       }
     ],
     "Near-Earth-Asteroids": [
@@ -234,12 +234,19 @@
   "experiencies": {
     "experiencie1": [
       {
+        "image": "maletin.svg",
+        "date": "Marzo  2023 - Actualidad",
+        "title": "Freelancer",
+        "text": "Trabajo como independiente ofreciendo soluciones a diferentes tipos de clientes, esto me permite continuar aplicando mis conocimientos constantemente e ir ganando experiencia mediante el desarrollo de proyectos aplicando tecnología diversa."}
+    ],
+    "experiencie2": [
+      {
         "image": "grupomercel.jpg",
         "date": "Noviembre  2022 - Marzo 2023",
         "title": "Analista programador Java",
         "text": "Trabajé en el proyecto SGI de Swiss Medical de forma interdisciplinaria con miembros del equipo de dicha empresa. Optimicé y actualicé código relacionado al frontend en backbone. Creé documentación para facilitar el ingreso a los futuros integrantes del proyecto. Desarrollé diferentes tareas en Java versión 1.6. Trabajé con Redhat Fuse principalmente desarrollando bundles escritos en Camel."}
     ],
-    "experiencie2": [
+    "experiencie3": [
       {
         "image": "masterdata.jpg",
         "date": "Marzo  2022 - Noviembre 2022",

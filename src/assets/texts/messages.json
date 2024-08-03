@@ -70,11 +70,39 @@
         "percentage": 65
       }
     ],
-    "Vue JS": [
+    "Vue_JS": [
       {
         "title": "Vue JS",
         "image": "Vue_JS.svg",
         "percentage": 45
+      }
+    ],
+    "React_JS": [
+      {
+        "title": "React JS",
+        "image": "React.svg",
+        "percentage": 75
+      }
+    ],
+    "Node_JS": [
+      {
+        "title": "Node JS",
+        "image": "NodeJS.svg",
+        "percentage": 75
+      }
+    ],
+    "Angular_JS": [
+      {
+        "title": "Angular JS",
+        "image": "AngularJS.svg",
+        "percentage": 75
+      }
+    ],
+    "Selenium": [
+      {
+        "title": "Selenium",
+        "image": "Selenium.svg",
+        "percentage": 75
       }
     ]
   },
@@ -206,10 +234,17 @@
   "experiencies": {
     "experiencie1": [
       {
+        "image": "grupomercel.jpg",
+        "date": "Noviembre  2022 - Marzo 2023",
+        "title": "Analista programador Java",
+        "text": "Trabajé en el proyecto SGI de Swiss Medical de forma interdisciplinaria con miembros del equipo de dicha empresa. Optimicé y actualicé código relacionado al frontend en backbone. Creé documentación para facilitar el ingreso a los futuros integrantes del proyecto. Desarrollé diferentes tareas en Java versión 1.6. Trabajé con Redhat Fuse principalmente desarrollando bundles escritos en Camel."}
+    ],
+    "experiencie2": [
+      {
         "image": "masterdata.jpg",
-        "date": "Marzo  2022 - Actualidad",
+        "date": "Marzo  2022 - Noviembre 2022",
         "title": "Junior Java Developer",
-        "text": "Relizo tareas de desarrollo backend utilizando Java, principalmente con Spring y tareas frontend con VueJS."
+        "text": "Participé en el desarrollo y actualización de un sistema de gestión de medicamentos. En el Frontend trabajé principalmente con VueJS junto con Bootstrap y Sass. En el Backend trabajé con Java versión 1.8 - 11 Utilicé principalmente SVN como gestor de repositorios."
       }
     ]
   }

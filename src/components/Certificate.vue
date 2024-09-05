@@ -6,12 +6,8 @@
       class="card-img img-fluid w-100"
       alt=""
     />
-    <div class="card-img-overlay" id="text">
+    <div class="card-img-overlay d-none" id="text">
       <h5 class="card-title">{{ image.title }}</h5>
-      <p class="card-text">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quidem
-        esse quae et. Blanditiis optio perferendis voluptates aliquid
-      </p>
     </div>
   </div>
 </template>

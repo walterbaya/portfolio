@@ -8,7 +8,7 @@
     </div>
     <div class="row mt-4 mx-1 pt-5">  
       <div
-        class="col-12 col-md-6 p-0 p-md-2 p-lg-4 rounded"
+        class="col-12 col-md-4 p-0 p-md-2 p-lg-4 rounded"
         v-for="certificate in certificates"
         v-bind:key="certificate.certificate"
       >

@@ -4,7 +4,7 @@ import VueRouter from 'vue-router';
 import Biography from './components/Biography.vue';
 //import Blogs from './components/Blogs.vue';
 import Certificates from './components/Certificates.vue';
-//import Experiencies from './components/Experiencies.vue';
+import Experiencies from './components/Experiencies.vue';
 import Habilities from './components/Habilities.vue';
 import Projects from './components/Projects.vue';
 import VueScrollTo from 'vue-scrollto';
@@ -31,16 +31,10 @@ const routes = [{
     path: '/biography',
     component: Biography
   },
-  /*
-  {
-    path: '/blogs',
-    component: Blogs
-  },
   {
     path: '/experiencies',
     component: Experiencies
   },
-  */
   {
     path: '/certificates',
     component: Certificates
@@ -57,6 +51,13 @@ const routes = [{
     path: '/',
     component: Biography
   }
+
+    /*
+  {
+    path: '/blogs',
+    component: Blogs
+  },
+  */
 ]
 
 const router = new VueRouter({

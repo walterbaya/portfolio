@@ -1,11 +1,13 @@
 <template>
-  <div id="experiencies" class="rounded my-5">
-    <div class="row px-5">
-      <div class="col-12 px-5">
-        <div v-for="experiencie in experiencies" v-bind:key="experiencie.title">
-          <Experiencie :experiencie="experiencie"></Experiencie>
-        </div>
+  <div class="rounded container mt-md-4 my-5">
+    <div class="row">
+      <div class="col-12 p-1 d-flex justify-content-center align-items-center">
+        <i class="fas fa-briefcase fa-2x mx-3"></i>
+        <h1>Experiencia</h1>
       </div>
+    </div>
+    <div class="row" v-for="experiencie in experiencies" v-bind:key="experiencie.title">
+        <Experiencie :experiencie="experiencie"></Experiencie>
     </div>
   </div>
 </template>

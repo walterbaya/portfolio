@@ -3,8 +3,8 @@
     <div class="row">
       <div class="col-12 d-flex justify-content-center align-items-center  rounded pb-4  m-md-0">
         <i class="fas fa-code p-2 fa-2x mt-4"></i>
-        <!--Anteriormente se llamaba habilidades, pero ahora se llama tecnologias-->
-        <h1 class="mt-4 p-2 title">Tecnologías</h1>
+        <!--Anteriormente se llamaba habilidades, pero ahora deberia llamarse tecnologias-->
+        <h1>Habilidades</h1>
       </div>
     </div>
     <div class="row pb-2  pt-5 px-0">

@@ -1,12 +1,11 @@
 <template>
-  <div class="container mt-5 mb-5 mt-md-0">
-    <div class="row rounded">
+  <div class="container mt-md-4 mt-5">
+    <div class="row">
       <div
-        id="biography-container"
-        class="col-12 d-flex justify-content-center align-items-center my-3"
+        class="col-12 d-flex justify-content-center align-items-center p-1"
       >
-        <i class="fas fa-terminal fa-2x mt-1"></i>
-        <h1 class="p-2 m-1 title" id="biography-title">Biografía</h1>
+        <i class="fas fa-terminal fa-2x mx-3"></i>
+        <h1>Biografía</h1>
       </div>
     </div>
     <div class="row mt-md-4 mb-1 p-md-5">

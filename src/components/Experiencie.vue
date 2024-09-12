@@ -1,5 +1,5 @@
 <template>
-  <div id="experience" class="m-4 p-2 rounded">
+  <div class="container m-4 p-2 rounded">
     <div class="row">
       <div class="col-3">
         <img v-bind:src="getImage()" class="img-fluid w-100" alt="experiencie.title" />

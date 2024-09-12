@@ -4,6 +4,10 @@
   padding-left: 0 !important;
 }
 
+.cubes {
+  background-image: url("../img//cubes.png") !important;
+}
+
 .color-white {
   color: white !important;
   text-shadow: 4px 4px 7px rgba(0,0,0,0.6);

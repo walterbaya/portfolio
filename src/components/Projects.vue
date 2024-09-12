@@ -6,11 +6,11 @@
       <div
         class="col-12 p-1 d-flex justify-content-center align-items-center"
       >
-        <i class="fas fa-project-diagram fa-2x mx-3"></i>
+        <i class="fas fa-project-diagram fa-2x mx-2"></i>
         <h1>Proyectos</h1>
       </div>
     </div>
-    <div class="row">
+    <div class="row mt-5">
       <div
         class="col-12 col-md-4"
         v-for="project in projects"

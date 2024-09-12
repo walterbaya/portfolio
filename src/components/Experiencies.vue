@@ -1,12 +1,12 @@
 <template>
-  <div class="rounded container mt-md-4 my-5">
+  <div class="container mt-md-4 my-5">
     <div class="row">
       <div class="col-12 p-1 d-flex justify-content-center align-items-center">
-        <i class="fas fa-briefcase fa-2x mx-3"></i>
+        <i class="fas fa-briefcase fa-2x mx-2"></i>
         <h1>Experiencia</h1>
       </div>
     </div>
-    <div class="row" v-for="experiencie in experiencies" v-bind:key="experiencie.title">
+    <div class="row mt-5" v-for="experiencie in experiencies" v-bind:key="experiencie.title">
         <Experiencie :experiencie="experiencie"></Experiencie>
     </div>
   </div>

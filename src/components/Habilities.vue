@@ -1,15 +1,15 @@
 <template>
-  <div id="habilities" class="container my-4">
+  <div id="habilities" class="container mt-md-4 mt-5">
     <div class="row">
-      <div class="col-12 d-flex justify-content-center align-items-center  rounded pb-4  m-md-0">
-        <i class="fas fa-code p-2 fa-2x mt-4"></i>
+      <div class="col-12 d-flex justify-content-center align-items-center  rounded pb-4  m-md-0 p-1">
+        <i class="fas fa-code p-2 fa-2x mx-2"></i>
         <!--Anteriormente se llamaba habilidades, pero ahora deberia llamarse tecnologias-->
         <h1>Habilidades</h1>
       </div>
     </div>
-    <div class="row pb-2  pt-5 px-0">
+    <div class="row mt-5">
       <div
-        class="col-4 col-md-3 my-4 p-md-0 my-md-0"
+        class="col-4 col-md-2 p-md-0 my-md-0"
         v-for="hability in habilities.habilities1"
         v-bind:key="hability.hability"
       >

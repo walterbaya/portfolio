@@ -4,13 +4,12 @@
       navbar navbar-light
       d-flex
       flex-md-column
-      justify-content-end
       navbar-expand-lg
-      bg-dark
+      bg-dark      
+      w-100
     "
-    id="navigation-bar"
   >
-    <div class="px-3 w-100">
+    <div class="px-5 w-100">
       <button
         class="navbar-toggler d-block d-md-none"
         data-bs-toggle="collapse"

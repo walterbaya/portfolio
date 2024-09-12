@@ -18,7 +18,7 @@
           <br/>Desde que nací me dí cuenta del gran impacto que tiene la tecnología en nuestras vidas, facilitando procesos de nuestro día a día.
           Me gustaría ser parte de esto, mejorando y generando tecnología de gran calidad y participando activamente del proceso creativo. 
           <br/>Este es mi perfil de github: <br/>
-          <a class="link">https://github.com/walterbaya</a> <br/>
+          <a class="link" href="https://github.com/walterbaya">https://github.com/walterbaya</a> <br/>
           Actualmente estoy realizando la carrera de Analista de Sistemas en ESBA Barrio Norte finalizando el tercer cuatrimestre. 
           <br/>
           También me encunetro en el 3er año de Licenciatura en Ciencias de la Computación en la Universidad de Buenos Aires.

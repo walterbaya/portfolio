@@ -10,7 +10,7 @@
       </div>
     </div>
     <div class="row mt-md-4 mb-1 p-md-5">
-      <div class="col-12 col-md-6 d-flex flex-column align-items-start pt-5 pb-3 px-5">
+      <div class="col-12 col-lg-6 d-flex flex-column align-items-start pt-5 pb-3 px-5">
         <h1>Walter Baya</h1>
         <h4 class="p-md-1 mt-md-2 mt-3">Software Developer</h4>
         <p class="mt-md-2 p-md-1 mt-4">
@@ -37,7 +37,7 @@
           </li>
         </ul>
       </div>
-      <div class="col-12 col-md-6 bg-light text-success p-5">
+      <div class="col-12 col-lg-6 bg-light text-dark p-5">
         <h2 class="py-md-1">Estudios Universitarios</h2>
         <ul class="list-unstyled">
           <h4 class="mt-md-4 mt-3">Instituto de Estudios Superiores de Buenos Aires (ESBA)</h4>

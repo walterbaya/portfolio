@@ -11,7 +11,7 @@
   >
     <div class="px-3">
       <button
-        class="navbar-toggler d-block"
+        class="navbar-toggler d-block d-md-none"
         data-bs-toggle="collapse"
         data-bs-target="#navbar"
         type="button"

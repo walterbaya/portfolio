@@ -20,12 +20,9 @@
           <br/>Este es mi perfil de github: <br/>
           <a class="link" href="https://github.com/walterbaya">https://github.com/walterbaya</a> <br/>
           Actualmente estoy realizando la carrera de Analista de Sistemas en ESBA Barrio Norte finalizando el tercer cuatrimestre. 
-          <br/>
-          También me encunetro en el 3er año de Licenciatura en Ciencias de la Computación en la Universidad de Buenos Aires.
-
           <br/>Para ponerte en contacto conmigo puedes enviarme un mail o también un Whatsapp a las siguientes direcciones <br/>
         </p>
-        <ul class="list-unstyled mx-1 py-3 mt-md-1">
+        <ul class="list-unstyled mx-1 py-3 ">
           <li class="rounded">
             <a
               href="mailto:walterbaya1996@gmail.com"
@@ -44,7 +41,7 @@
           </li>
         </ul>
       </div>
-      <div class="col-12 bg-dark text-light rounded p-5">
+      <div class="col-12 bg-dark text-light rounded px-5 py-2">
         <h2 class="py-md-1">Estudios Universitarios</h2>
         <ul class="list-unstyled">
           <h4 class="mt-md-4 mt-3 bg-success">Instituto de Estudios Superiores de Buenos Aires (ESBA)</h4>
@@ -54,15 +51,6 @@
               Analista Programador
               <br/>
               Analista de Sistemas (En Curso)
-            </p>
-          </li>
-        </ul>
-        <ul class="list-unstyled">
-          <h4 class="mt-md-4 mt-3 bg-primary">Universidad de Buenos Aires</h4>
-          <li>
-            <p id="degree">
-              <br/>
-              Licenciatura en Ciencias de la Computación
             </p>
           </li>
         </ul>

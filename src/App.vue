@@ -1,12 +1,12 @@
 <template>
-  <div class="container-fluid cubes p-0 m-0">
-    <div class="row w-100 m-0 p-0">
-      <aside class="col-12 m-0 p-0">
+  <div class="container-fluid cubes bg-dark" >
+    <div class="row">
+      <aside class="col-12 px-0 mx-0">
         <Navbar></Navbar>
       </aside>
     </div>
-    <div class="row w-100" >
-      <div class="col-12 p-3">
+    <div class="row">
+      <div class="col-12p-3">
         <router-view></router-view>
       </div>
     </div>

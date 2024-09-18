@@ -241,14 +241,14 @@
     ],
     "experiencie2": [
       {
-        "image": "grupomercel.jpg",
+        "image": "grupomercel.png",
         "date": "Noviembre  2022 - Marzo 2023",
         "title": "Analista programador Java",
         "text": "Trabajé en el proyecto SGI de Swiss Medical de forma interdisciplinaria con miembros del equipo de dicha empresa. Optimicé y actualicé código relacionado al frontend en backbone. Creé documentación para facilitar el ingreso a los futuros integrantes del proyecto. Desarrollé diferentes tareas en Java versión 1.6. Trabajé con Redhat Fuse principalmente desarrollando bundles escritos en Camel."}
     ],
     "experiencie3": [
       {
-        "image": "masterdata.jpg",
+        "image": "masterdata.png",
         "date": "Marzo  2022 - Noviembre 2022",
         "title": "Junior Java Developer",
         "text": "Participé en el desarrollo y actualización de un sistema de gestión de medicamentos. En el Frontend trabajé principalmente con VueJS junto con Bootstrap y Sass. En el Backend trabajé con Java versión 1.8 - 11 Utilicé principalmente SVN como gestor de repositorios."

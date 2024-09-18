@@ -6,10 +6,13 @@
       </aside>
     </div>
     <div class="row">
-      <div class="col-12 p-3">
+      <div class="col-12 p-3 d-md-block">
         <router-view></router-view>
       </div>
     </div>
+    <footer class="row">
+    
+    </footer>
   </div>
 </template>
 

@@ -8,7 +8,7 @@
     </div>
     <div class="row bg-light px-2">
       <div
-        class="col-4 col-md-2 p-md-0 my-md-0"
+        class="col-4 p-md-0 my-md-0"
         v-for="hability in habilities.habilities1"
         v-bind:key="hability.hability"
       >

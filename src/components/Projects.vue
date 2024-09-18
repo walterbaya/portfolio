@@ -1,19 +1,19 @@
 <template>
   <div
-    class="container my-5"
+    id="projects"
+    class="container px-0"
   >
     <div class="row">
       <div
-        class="col-12 d-flex justify-content-center align-items-center"
-        id="firstrow"
+        class="col-12 p-1 d-flex justify-content-center align-items-center bg-dark text-white"
       >
-        <i class="fas fa-project-diagram fa-2x"></i>
-        <h1 class="p-2 title">Proyectos</h1>
+        <i class="fas fa-project-diagram fa-2x mx-2"></i>
+        <h1 class="py-2">Proyectos</h1>
       </div>
     </div>
-    <div class="row px-3 pt-5">
+    <div class="row bg-light px-4">
       <div
-        class="col-12 col-md-4"
+        class="col-12 col-xl-4 col-md-6 px-3"
         v-for="project in projects"
         v-bind:key="project.project"
       >

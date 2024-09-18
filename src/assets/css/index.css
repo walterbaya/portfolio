@@ -1,7 +1,9 @@
 #app {
-  height: 100vh !important;
-  margin-left: 0 !important;
-  padding-left: 0 !important;
+  height: auto !important;
+}
+
+.cubes {
+  background-image: url("../img/cubes.png") !important;
 }
 
 .color-black {
@@ -44,23 +46,6 @@
 }
 
 @media (min-width: 767px) {
-  #navigation-bar {
-    position: fixed;
-    background: #FFFFFF;
-    height: 100vh !important;
-    font-size: 1.9vw;
-    border-right: solid #3b3b3b;
-  }
-  #navigation-bar img {
-    width: 6vw;
-  }
-  #biography {
-    max-width: 100vw;
-    height: 100vh;
-  }
-  #biography a {
-    font-size: medium;
-  }
   #certificates h1 {
     margin-left: 1.2em;
   }
@@ -147,24 +132,6 @@
   .title {
     font-size: 7.2vw !important;
     margin-left: 4px;
-  }
-  #navigation-bar {
-    min-height: 60px;
-    position: fixed;
-    overflow: visible;
-    left: 0;
-    width: 100vw !important;
-    padding-right: 1em;
-    background: #FFFFFF;
-    border-bottom: solid grey;
-  }
-  #navigation-bar img {
-    width: 70px;
-    height: 60px !important;
-    position: absolute;
-    top: 0;
-    left: 10px;
-    padding: 10px;
   }
   #habilities h1 {
     font-weight: 500;

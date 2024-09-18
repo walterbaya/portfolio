@@ -1,13 +1,13 @@
 <template>
   <div
+    class="d-flex mt-5 rounded pb-4 h-100"
     id="project"
-    class="d-flex justify-content-center mt-5"
     @mouseover="hover = true"
     @mouseleave="hover = false"
   >
-    <div class="card w-100">
+    <div class="card w-100 d-flex justify-content-center align-items-stretch">
       <img v-bind:alt="image" v-bind:src="getImage()" class="img-fluid w-100" />
-      <div class="card-body p-4">
+      <div class="p-4 d-none">
         <h5 class="card-title">{{ title }}</h5>
         <p class="card-text">{{ text }}</p>
         <div class="d-flex justify-content-start">

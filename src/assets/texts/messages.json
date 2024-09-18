@@ -1,5 +1,12 @@
 {
   "habilities": {
+    "Java": [
+      {
+        "title": "Java",
+        "image": "Java.svg",
+        "percentage": 55
+      }
+    ],
     "Bootstrap": [
       {
         "title": "Bootstrap",
@@ -19,13 +26,6 @@
         "title": "Html CSS",
         "image": "Html_CSS.svg",
         "percentage": 80
-      }
-    ],
-    "Java": [
-      {
-        "title": "Java",
-        "image": "Java.svg",
-        "percentage": 55
       }
     ],
     "Javascript": [
@@ -63,13 +63,6 @@
         "percentage": 50
       }
     ],
-    "Springboot": [
-      {
-        "title": "Springboot",
-        "image": "Springboot.svg",
-        "percentage": 65
-      }
-    ],
     "Vue_JS": [
       {
         "title": "Vue JS",
@@ -104,7 +97,15 @@
         "image": "Selenium.svg",
         "percentage": 75
       }
+    ],
+    "Springboot": [
+      {
+        "title": "Springboot",
+        "image": "Springboot.svg",
+        "percentage": 65
+      }
     ]
+    
   },
   "projects": {
     "My-Team-Page": [

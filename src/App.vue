@@ -1,16 +1,16 @@
 <template>
-  <div id="app" class="container-fluid cubes w-100" >
+  <div id="app" class="container-fluid w-100" >
     <div class="row">
       <aside class="col-12 px-0">
         <Navbar></Navbar>
       </aside>
     </div>
     <div class="row">
-      <div class="col-12 p-3 d-md-block">
+      <div class="col-12 py-3 d-md-block">
         <router-view></router-view>
       </div>
     </div>
-    <div class="row d-md-none">
+    <div class="row d-md-none mt-3">
       <Footer></Footer>
     </div>
   </div>

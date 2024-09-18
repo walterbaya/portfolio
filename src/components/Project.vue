@@ -1,6 +1,7 @@
 <template>
   <div
     class="d-flex mt-5 rounded pb-4 h-100"
+    id="project"
     @mouseover="hover = true"
     @mouseleave="hover = false"
   >

@@ -1,11 +1,11 @@
 <template>
   <nav
     class="
-      navbar navbar-light
+      navbar navbar-dark
       d-flex
       flex-md-column
       navbar-expand-lg
-      bg-dark      
+      bg-dark     
       w-100
     "
   >
@@ -89,7 +89,6 @@
             align-items-center
             d-none d-md-flex
             justify-content-between
-            w-50
           ">
           <div class="image-container align-self-start mx-2 d-none d-md-flex bg-white p-2">
           
@@ -107,7 +106,6 @@
             align-items-center
             d-none d-md-flex
             justify-content-around
-            w-75
           "
         >
 

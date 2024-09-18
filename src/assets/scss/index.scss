@@ -13,10 +13,13 @@ $small: 1vw;
 $line-height-medium: 22px;
 $line-height-small: 17px;
 
+
 #app {
-    height: 100vh !important;
-    margin-left: 0 !important;
-    padding-left: 0 !important;
+    height: auto !important;
+}
+
+.cubes {
+    background-image: url("../img/cubes.png") !important;
 }
 
 .color-black {
@@ -59,27 +62,6 @@ $line-height-small: 17px;
 }
 
 @media (min-width: 767px)  {
-
-    
-    #navigation-bar {
-        position: fixed;
-        background: $white;
-        height: 100vh !important;
-        img {
-            width: 6vw;
-        }
-
-        font-size: $big;
-        border-right: solid #3b3b3b;
-    }
-
-    #biography {
-        max-width: 100vw;
-        height: 100vh;
-        a{
-            font-size: medium;
-        }
-    }
 
     #certificates {
         h1 {
@@ -158,6 +140,7 @@ $line-height-small: 17px;
     }
 
     #projects {
+
         #project {
             height: 600px;
             img {
@@ -199,25 +182,6 @@ $line-height-small: 17px;
     .title {
         font-size: 1.2*$enormous !important;
         margin-left: 4px;
-    }
-
-    #navigation-bar {
-        min-height: 60px;
-        position: fixed;
-        overflow: visible;
-        left: 0;
-        width: 100vw !important;
-        padding-right: 1em;
-        background: $white;
-        border-bottom: solid grey;
-        img {
-            width: 70px;
-            height: 60px !important;
-            position: absolute;
-            top: 0;
-            left: 10px;
-            padding: 10px;
-        }
     }
 
     #habilities {

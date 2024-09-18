@@ -1,5 +1,5 @@
 <template>
-  <div class="container mt-1">
+  <div id="biography" class="container bg-light p-0">
     <div class="row">
       <div
         class="col-12 bg-dark text-white d-flex justify-content-center align-items-center p-1 m-0"
@@ -9,7 +9,7 @@
       </div>
     </div>
     <div class="row mb-1 mt-0">
-      <div class="col-12 d-flex flex-column bg-white justify-content-center align-items-start pb-3 p-5">
+      <div class="col-12 d-flex flex-column bg-light justify-content-center align-items-start pb-3 p-5">
         <h1>Walter Baya</h1>
         <h4 class="p-md-1 mt-md-1 mt-1">Software Developer</h4>
         <p class="mt-md-2 p-md-1 mt-4">
@@ -41,7 +41,7 @@
           </li>
         </ul>
       </div>
-      <div class="col-12 border-top bg-white text-dark p-5 py-2">
+      <div class="col-12 border-top bg-light text-dark p-5 py-2">
         <h2 class="py-md-1">Estudios Universitarios</h2>
         <ul class="list-unstyled">
           <h4 class="mt-md-4 mt-3">Instituto de Estudios Superiores de Buenos Aires (ESBA)</h4>

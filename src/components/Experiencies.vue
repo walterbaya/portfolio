@@ -1,5 +1,5 @@
 <template>
-  <div class="container mt-1">
+  <div class="container px-0">
     <div class="row">
       <div class="bg-dark  text-white col-12 p-1 d-flex justify-content-center align-items-center">
         <i class="fas fa-briefcase fa-2x mx-2"></i>

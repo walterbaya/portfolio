@@ -10,19 +10,21 @@
         <router-view></router-view>
       </div>
     </div>
-    <footer class="row">
-    
-    </footer>
+    <div class="row d-md-none">
+      <Footer></Footer>
+    </div>
   </div>
 </template>
 
 <script>
 import Navbar from "./components/Navbar.vue";
+import Footer from "./components/Footer.vue";
 
 export default {
   name: "App",
   components: {
     Navbar,
+    Footer
   },
   destroyed: function () {
     document.body.style.backgroundColor = null;

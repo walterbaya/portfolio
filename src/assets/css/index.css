@@ -1,3 +1,4 @@
+/* Color Theme Swatches in Hex */
 #app {
   height: auto !important;
 }
@@ -129,6 +130,19 @@
   }
 }
 @media (max-width: 767px) {
+  #footer-start-project {
+    position: relative !important;
+    bottom: 40px !important;
+    border-radius: 1em !important;
+  }
+  .social-media {
+    object-fit: fill !important;
+    border-radius: 100em !important;
+    border: solid 1px #FFFFFF !important;
+  }
+  .social-media a {
+    background-color: white !important;
+  }
   .title {
     font-size: 7.2vw !important;
     margin-left: 4px;

@@ -43,7 +43,7 @@
                     <h5 class="mt-5 border-bottom pb-2">Universidad de Buenos Aires</h5>
                     <li>
                         <p>
-                            Licenciatura en Ciencias Matemáticas (En Curso)
+                            Licenciatura en Ciencias Matemáticas <br/>(En Curso)
                         </p>
                     </li>
                 </ul>

@@ -1,10 +1,10 @@
 <template>
-  <div id="biography" class="container bg-light p-0">
+  <div id="biography" class="container bg-light pt-0">
     <div class="row">
       <div
         class="col-12 bg-dark text-white d-flex justify-content-center align-items-center p-1 m-0"
       >
-        <i class="fas fa-terminal fa-2x mx-2"></i>
+        <i class="fa fa-terminal fa-2x mx-2"></i>
         <h1 class="py-2">Biografía</h1>
       </div>
     </div>
@@ -13,25 +13,19 @@
         <h1>Walter Baya</h1>
         <h4 class="p-md-1 mt-md-1 mt-1">Software Developer</h4>
         <p class="mt-md-2 p-md-1 mt-4">
-          ¡Hola! soy Walter
-          Me encanta el desarrollo de software y disfruto llevando las ideas a la realidad, con el objetivo de resolver problemas del mundo real.
-          <br/>Desde que nací me dí cuenta del gran impacto que tiene la tecnología en nuestras vidas, facilitando procesos de nuestro día a día.
-          <br/>Me gustaría ser parte de esto, mejorando y generando tecnología de gran calidad y participando activamente del proceso creativo. 
-          <br/>Este es mi perfil de github: 
-          <a class="link" href="https://github.com/walterbaya">https://github.com/walterbaya</a> <br/>
+          ¡Hola! soy Walter Me apasiona el desarrollo de software y disfruto llevando las ideas a la realidad, con el objetivo de resolver problemas del mundo real.
           Actualmente estoy realizando la carrera de Analista de Sistemas en ESBA Barrio Norte finalizando el tercer cuatrimestre. 
-          <br/>Para ponerte en contacto conmigo puedes enviarme un mail o también un Whatsapp a las siguientes direcciones <br/>
         </p>
         <ul class="list-unstyled mx-1 py-3 ">
           <li class="rounded">
             <a
               href="mailto:walterbaya1996@gmail.com"
-              class="text-decoration-none hover-white"
+              class="text-decoration-none hover-white d-none d-md-block"
               ><i class="fas fa-envelope"></i
               ><span class="px-1 px-md-3">walterbaya1996@gmail.com</span></a
             >
           </li>
-          <li class="my-md-3 mt-2 rounded">
+          <li class="my-md-3 mt-2 rounded d-md-block d-none">
             <a
               href="tel:+54 1128653459"
               class="text-decoration-none hover-white"

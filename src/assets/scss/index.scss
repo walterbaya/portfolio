@@ -13,6 +13,14 @@ $small: 1vw;
 $line-height-medium: 22px;
 $line-height-small: 17px;
 
+//Color Palette
+
+/* Color Theme Swatches in Hex */
+$A-House-of-Bees-1-1-hex: #D6AA58;
+$A-House-of-Bees-1-2-hex: #A9CDD4;
+$A-House-of-Bees-1-3-hex: #E1EBF0;
+$A-House-of-Bees-1-4-hex: #FFFFFF;
+$A-House-of-Bees-1-5-hex: #477A91;
 
 #app {
     height: auto !important;
@@ -179,6 +187,25 @@ $line-height-small: 17px;
 }
 
 @media (max-width: 767px) {
+
+    #footer-start-project{
+        position: relative !important;
+        bottom: 40px !important;
+        border-radius: 1em !important;
+    }
+
+    .social-media{
+        object-fit: fill !important;
+        border-radius: 100em !important;
+        border: solid 1px #FFFFFF !important;
+        a{
+            background-color: white !important;
+        }
+    }
+
+    
+
+
     .title {
         font-size: 1.2*$enormous !important;
         margin-left: 4px;

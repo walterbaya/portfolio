@@ -1,11 +1,12 @@
 <template>
-<nav class="
-      navbar navbar-dark
-      d-flex
-      flex-md-column
-      navbar-expand-md
-      bg-dark     
-      w-100
+<nav class="   
+    border-bottom-blue
+    navbar navbar-dark
+    d-flex
+    flex-md-column
+    navbar-expand-md
+    w-100
+
     ">
     <div class="px-md-5 w-100">
 
@@ -13,11 +14,11 @@
             navbar-nav
             align-items-center
             d-flex
-            justify-content-center
-          ">
-            <div class="image-container align-self-start mx-2 d-flex bg-white p-2">
-
-                <img class="img-fluid rounded  d-flex" src="../assets/img/coding.svg" alt="WalterBayaLogo" />
+            flex-row
+            justify-content-between 
+        ">
+            <div class="image-container align-self-start mx-2 d-flex p-2 logo">
+                <img class="img-fluid rounded  d-flex" src="../assets/img/icon.png" alt="WalterBayaLogo" />
             </div>
 
             <ul class="
@@ -26,14 +27,14 @@
             d-md-flex
             d-none
             justify-content-around
-          ">
+        ">
 
                 <li class="nav-item">
                     <router-link to="biography" class="nav-link hover-white color-white h5">biografía</router-link>
                 </li>
-                  <!--
+                <!--
                 <li class="nav-item">
-                  <router-link to="/blogs" class="nav-link h5">Blogs</router-link>
+                    <router-link to="/blogs" class="nav-link h5">Blogs</router-link>
                 </li>-->
                 <li class="nav-item">
                     <router-link to="/experiencies" class="nav-link hover-white color-white h5">experiencia</router-link>

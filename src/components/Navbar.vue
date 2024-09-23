@@ -51,16 +51,49 @@
             </ul>
 
         </div>
+        
     </div>
 </nav>
 </template>
 
 <script>
 export default {
-    name: "Navbar",
+  name: "Navbar",
 
-    data() {
-        return {};
+  mounted() {
+    document.addEventListener("scroll", this.fixedScrollingHandler);
+    document.addEventListener("onresize", this.fixedScrollingHandler);
+    this.fixedScrollingHandler();
+  },
+  data() {
+    return {
+      currentScrollPosition: 0,
+    };
+  },
+  methods: {
+    fixedScrollingHandler: function () {
+      //We keep the current scroll position updated all the time.
+      const pastScrollPosition = this.currentScrollPosition;
+      this.currentScrollPosition = window.scrollY;
+      const div_content = document.getElementById("navigation-bar");
+      const navbar = document.getElementById("navbar");
+
+      if (window.outerWidth <= 767) {
+        div_content.classList.add("fixed-top");
+        if (this.currentScrollPosition > pastScrollPosition) {
+          navbar.classList.remove("show");
+          navbar.classList.add("hide");
+          div_content.classList.remove("d-flex");
+          div_content.classList.add("d-none");
+        }
+        if (this.currentScrollPosition < pastScrollPosition) {
+          div_content.classList.add("d-flex");
+          div_content.classList.remove("d-none");
+        }
+      } else {
+        div_content.classList.remove("fixed-top");
+      }
     },
+  },
 };
 </script>

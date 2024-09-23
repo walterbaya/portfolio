@@ -1,5 +1,5 @@
 <template>
-  <div id="hability" class="m-2 m-md-0 h-100 mx-md-2 my-md-1">
+  <div id="hability" class="m-2 m-md-0 h-100 mx-md-2 my-md-1 p-3">
     <div class="d-flex align-content-center justify-content-center">
       <img
         id="certificateImage"
@@ -8,7 +8,7 @@
         alt=""
       />
     </div>
-    <p class="p-1 color-greyblue">{{ title }}</p>
+    <p class="p-1 color-greyblue text-center">{{ title }}</p>
   </div>
 </template>
 

@@ -1,12 +1,12 @@
 <template>
   <div class="container px-0">
     <div class="row">
-      <div class="bg-dark  text-white col-12 p-1 d-flex justify-content-center align-items-center">
-        <i class="fas fa-briefcase fa-2x mx-2"></i>
-        <h1 class="py-2">Experiencia</h1>
+      <div class=" mb-5 text-light border-yellow bg-blue col-12 p-1 d-flex justify-content-center align-items-center">
+        <i class="fas fa-briefcase fa-2x mx-2 text-yellow"></i>
+        <h1 class="pt-2 text-dark-blue">Experiencia</h1>
       </div>
     </div>
-    <div class="row py-4 bg-light" v-for="experiencie in experiencies" v-bind:key="experiencie.title">
+    <div class="row px-4 py-2" v-for="experiencie in experiencies" v-bind:key="experiencie.title">
         <Experiencie :experiencie="experiencie"></Experiencie>
     </div>
   </div>

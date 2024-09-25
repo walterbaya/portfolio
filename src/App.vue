@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="container-fluid w-100" >
+  <div id="app" class="container-fluid w-100 px-0" >
     <div class="row">
       <aside class="col-12 px-0">
         <Navbar></Navbar>
@@ -20,10 +20,10 @@
           <Projects></Projects>
         </section>
         <section class="border-top border-white">
-          <Habilities></Habilities>
+          <Certificates></Certificates>
         </section>
         <section class="border-top border-white">
-          <Certificates></Certificates>
+          <UniversityStudies></UniversityStudies>
         </section>
       </div>
     </div>
@@ -39,8 +39,8 @@ import Footer from "./components/Footer.vue";
 import Biography from "./components/Biography.vue";
 import Experiencies from "./components/Experiencies.vue";
 import Projects from "./components/Projects.vue";
-import Habilities from "./components/Habilities.vue";
 import Certificates from "./components/Certificates.vue";
+import UniversityStudies from "./components/UniversityStudies.vue";
 
 export default {
   name: "App",
@@ -49,8 +49,8 @@ export default {
     Biography,
     Experiencies,
     Projects,
-    Habilities,
     Certificates,
+    UniversityStudies,
     Footer
   },
   destroyed: function () {

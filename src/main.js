@@ -5,7 +5,6 @@ import Biography from './components/Biography.vue';
 //import Blogs from './components/Blogs.vue';
 import Certificates from './components/Certificates.vue';
 import Experiencies from './components/Experiencies.vue';
-import Habilities from './components/Habilities.vue';
 import Projects from './components/Projects.vue';
 import VueScrollTo from 'vue-scrollto';
 
@@ -38,10 +37,6 @@ const routes = [{
   {
     path: '/certificates',
     component: Certificates
-  },
-  {
-    path: '/habilities',
-    component: Habilities
   },
   {
     path: '/projects',

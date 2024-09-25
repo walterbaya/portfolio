@@ -1,6 +1,5 @@
 <template>
 <nav class="   
-    border-bottom-blue
     navbar navbar-dark
     d-flex
     flex-md-column
@@ -17,7 +16,7 @@
             flex-row
             justify-content-between 
         ">
-            <div class="image-container align-self-start mx-2 d-flex p-2 logo">
+            <div class="image-container align-self-start ms-3 d-flex p-2 logo">
                 <img class="img-fluid rounded  d-flex" src="../assets/img/icon.png" alt="WalterBayaLogo" />
             </div>
 
@@ -61,9 +60,9 @@ export default {
   name: "Navbar",
 
   mounted() {
-    document.addEventListener("scroll", this.fixedScrollingHandler);
-    document.addEventListener("onresize", this.fixedScrollingHandler);
-    this.fixedScrollingHandler();
+    //document.addEventListener("scroll", this.fixedScrollingHandler);
+    //document.addEventListener("onresize", this.fixedScrollingHandler);
+    //this.fixedScrollingHandler();
   },
   data() {
     return {
@@ -71,7 +70,7 @@ export default {
     };
   },
   methods: {
-    fixedScrollingHandler: function () {
+    /*fixedScrollingHandler: function () {
       //We keep the current scroll position updated all the time.
       const pastScrollPosition = this.currentScrollPosition;
       this.currentScrollPosition = window.scrollY;
@@ -94,6 +93,7 @@ export default {
         div_content.classList.remove("fixed-top");
       }
     },
+    */
   },
 };
 </script>

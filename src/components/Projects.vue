@@ -1,18 +1,17 @@
 <template>
   <div
-    class="container bg-yellow px-0"
+    class="d-flex flex-column container px-0"
   >
     <div class="row">
       <div
-        class="col-12 p-1 d-flex justify-content-center align-items-center bg-blue  border-yellow text-white"
+        class="col-12 p-4 d-flex justify-content-center align-items-center bg-dark  text-white"
       >
-        <i class="fas fa-project-diagram fa-2x mx-2 text-yellow"></i>
-        <h1 class="pt-2 text-dark-blue">Proyectos</h1>
+        <h1 class="section-title">Proyectos</h1>
       </div>
     </div>
-    <div class="row bg-light px-4">
+    <div class="row">
       <div
-        class="col-12 col-xl-4 col-md-6 px-3"
+        class="col-12"
         v-for="project in projects"
         v-bind:key="project.project"
       >

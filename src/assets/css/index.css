@@ -1,62 +1,28 @@
-/* Color Theme Swatches in Hex */
-.bg-yellow {
-  background-color: #D6AA58 !important;
-}
-
-.bg-blue {
-  background-color: #A9CDD4 !important;
-}
-
-.bg-grey {
-  background-color: #E1EBF0 !important;
-}
-
-.bg-dark-blue {
-  background-color: #477A91 !important;
-}
-
-.text-yellow {
-  color: #D6AA58 !important;
-}
-
-.text-blue {
-  color: #A9CDD4 !important;
-}
-
-.text-grey {
-  color: #E1EBF0 !important;
-}
-
-.text-dark-blue {
-  color: #477A91 !important;
-}
-
-.border-yellow {
-  border-bottom: solid !important;
-  border-color: #D6AA58 !important;
-}
-
-.border-bottom-blue {
-  border-bottom: solid !important;
-  border-color: #A9CDD4 !important;
-}
-
-.border-grey {
-  border-bottom: solid !important;
-  border-color: #E1EBF0 !important;
-}
-
-.border-blue {
-  border-bottom: solid !important;
-  border-color: #477A91 !important;
-}
-
 #app {
   height: auto !important;
 }
 
 .cubes {
   background-image: url("../img/cubes.png") !important;
+}
+.title-style{
+  font-weight: bolder !important;
+  font-size: 46px !important;
+}
+
+.experience-date{
+  font-weight: lighter !important;
+  font-size: 14px !important;
+}
+
+.experience-title{
+  font-weight: lighter !important;
+  font-size: 30px !important;
+}
+
+.section-title{
+  font-weight: lighter !important;
+  font-size: 36px !important;
 }
 
 .color-black {

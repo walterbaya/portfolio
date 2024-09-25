@@ -1,15 +1,12 @@
 <template>
-  <div id="experience" class="container">
+  <div class="container">
     <div class="row">
-      <div class="col-md-2  col-3 d-flex  justify-content-center align-items-center">
-        <img v-bind:src="getImage()" class=" p-xl-3 img-fluid w-100" />
-      </div>
       <div class="col-md-10 col-12 d-flex flex-column justify-content-center">
         <div class="pb-3">
-          <h2 class="h5">{{ experiencie.date }}</h2>
-          <h1 class="h3">{{ experiencie.title }}</h1>
+          <h1 class="experience-title">{{ experiencie.title }}</h1>
+          <h2 class="experience-date">{{ experiencie.date }}</h2>
         </div>
-        <p >
+        <p class="border-grey pb-3">
           {{ experiencie.text }}
         </p>
       </div>

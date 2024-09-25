@@ -1,21 +1,22 @@
 <template>
   <div
-    class="d-flex mt-5 rounded pb-4 h-100"
-    id="project"
+    class="border d-flex justify-content-center py-3 px-2"
     @mouseover="hover = true"
     @mouseleave="hover = false"
   >
-    <div class="card w-100 d-flex justify-content-center align-items-stretch">
-      <img v-bind:alt="image" v-bind:src="getImage()" class="img-fluid w-100" />
-      <div class="p-4 d-none">
-        <h5 class="card-title">{{ title }}</h5>
-        <p class="card-text">{{ text }}</p>
-        <div class="d-flex justify-content-start">
-          <a :href="this.link" class="btn btn-primary rounded align-middle text-center">Código</a>
-          <a  
-          v-bind:href="this.deployLink" class="btn btn-outline-primary mx-2 rounded align-middle text-center" v-show="isDeployed">Visita el sitio</a>
+    <div class="row w-100 d-flex justify-content-center">
+      <div class=" card col-12 px-0 d-flex flex-column justify-content-between">
+        <!--<picture><img v-bind:alt="image" v-bind:src="getImage()" class="img-fluid" /></picture>-->
+        <div class="px-4">
+        <h5 class="card-title text-center text-dark-blue">{{ title }}</h5>
+        <p class="card-text text-center">{{ text }}</p>
+      </div>
+        <div class="d-flex justify-content-center align-items-end py-2">
+          <a :href="this.link" class="px-2">Código</a>
+          <a  v-bind:href="this.deployLink" class="px-2" v-show="isDeployed">Visitar</a>
         </div>
       </div>
+
     </div>
   </div>
 </template>

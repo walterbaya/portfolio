@@ -7,25 +7,25 @@
         "percentage": 55
       }
     ],
-    "Bootstrap": [
+    "Springboot": [
       {
-        "title": "Bootstrap",
-        "image": "Bootstrap.svg",
-        "percentage": 100
-      }
-    ],
-    "Git": [
-      {
-        "title": "Git",
-        "image": "Git.svg",
+        "title": "Springboot",
+        "image": "Springboot.svg",
         "percentage": 65
       }
     ],
-    "Html_CSS": [
+    "JUnit": [
       {
-        "title": "Html CSS",
-        "image": "Html_CSS.svg",
-        "percentage": 80
+        "title": "JUnit",
+        "image": "JUnit.svg",
+        "percentage": 65
+      }
+    ],
+    "Selenium": [
+      {
+        "title": "Selenium",
+        "image": "Selenium.svg",
+        "percentage": 75
       }
     ],
     "Javascript": [
@@ -33,34 +33,6 @@
         "title": "Javascript",
         "image": "Javascript.svg",
         "percentage": 60
-      }
-    ],
-    "My_SQL": [
-      {
-        "title": "My SQL",
-        "image": "My_SQL.svg",
-        "percentage": 30
-      }
-    ],
-    "Patrones_de_diseño": [
-      {
-        "title": "Patrones de Diseño",
-        "image": "Patrones_de_diseño.svg",
-        "percentage": 50
-      }
-    ],
-    "Programación_Orientada_a_Objetos": [
-      {
-        "title": "Programación Orientada a Objetos",
-        "image": "Programación_Orientada_a_Objetos.svg",
-        "percentage": 80
-      }
-    ],
-    "SASS_SCSS": [
-      {
-        "title": "SASS SCSS",
-        "image": "SASS_SCSS.svg",
-        "percentage": 50
       }
     ],
     "Vue_JS": [
@@ -77,13 +49,6 @@
         "percentage": 75
       }
     ],
-    "Node_JS": [
-      {
-        "title": "Node JS",
-        "image": "NodeJS.svg",
-        "percentage": 75
-      }
-    ],
     "Angular_JS": [
       {
         "title": "Angular JS",
@@ -91,21 +56,34 @@
         "percentage": 75
       }
     ],
-    "Selenium": [
+    "Bootstrap": [
       {
-        "title": "Selenium",
-        "image": "Selenium.svg",
-        "percentage": 75
+        "title": "Bootstrap",
+        "image": "Bootstrap.svg",
+        "percentage": 100
       }
     ],
-    "Springboot": [
+    "SASS_SCSS": [
       {
-        "title": "Springboot",
-        "image": "Springboot.svg",
+        "title": "SASS SCSS",
+        "image": "SASS_SCSS.svg",
+        "percentage": 50
+      }
+    ],
+    "Git": [
+      {
+        "title": "Git",
+        "image": "Git.svg",
         "percentage": 65
       }
-    ]
-    
+    ],
+    "My_SQL": [
+      {
+        "title": "My SQL",
+        "image": "My_SQL.svg",
+        "percentage": 30
+      }
+    ]    
   },
   "projects": {
     "My-Team-Page": [
@@ -222,6 +200,22 @@
       }
     ]
   },
+  "certificates": [
+      {
+        "title": "Java Web Developer (Educacion IT)",
+        "url": "https://api.alumni.education/achievement/certificate/generate?hash=879967fc-b319-4bbe-951f-2d7d53edab7d&format=pdf&_gl=1*pybad*_ga*MjA1MjI5NjAwMC4xNzI3MTE1Mjk4*_ga_R8GR8LL2B8*MTcyNzI3NDIzOC4yLjEuMTcyNzI3NDM3OC41Ny4wLjE3MzY1ODk5Njg."
+      },
+      {
+        "title": "IBM Full Stack Software Developer Professional Certificate",
+        "url": "https://coursera.org/share/9723665317eaa11e12049268aec7d62f"
+      },
+      {
+        "title": "Software Testing and Automation Specialization University of Minnesota",
+        "url": "https://coursera.org/share/2edd86db719f7e24043ee5c56371a716"
+      }
+    ]
+
+  ,
   "blogs": {
     "blog1": [
       {

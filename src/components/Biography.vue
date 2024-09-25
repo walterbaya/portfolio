@@ -6,8 +6,8 @@
     </div>
     <div class="row mb-1 mt-0">
         <div class="col-12 d-flex flex-column justify-content-center align-items-center pb-3 p-5">
-            <div class="text-dark-blue w-100 text-center">
-                <h1>Walter Baya</h1>
+            <div class="w-100 text-center">
+                <h1 class="title-style">Walter Baya</h1>
                 <h4 class="p-md-1 mt-md-1 mt-1">Software Developer</h4>
             </div>
             <p class="mt-md-2 p-md-1 mt-4 text-center">
@@ -22,32 +22,6 @@
                     <a href="tel:+54 1128653459" class="text-decoration-none hover-white"><i class="fas fa-phone"></i><span class="px-1 px-md-3">(+54) 11 2865 3459</span></a>
                 </li>
             </ul>
-        </div>
-        <div class="col-12 border-top text-dark p-5 py-2">
-            <div>
-                <img class="w-100" src="../assets/img/university.jpg" />
-            </div>
-            <div class="pb-5 text-center">
-                <h5 class="py-md-1 h5 bg-blue text-dark-blue rounded">Estudios Universitarios</h5>
-                <ul class="list-unstyled">
-                    <h5 class="mt-5 border-bottom pb-2">ESBA Barrio Norte</h5>
-                    <li>
-                        <p>
-                            Analista Programador
-                            <br />
-                            Analista de Sistemas (En Curso)
-                        </p>
-                    </li>
-                </ul>
-                <ul class="list-unstyled">
-                    <h5 class="mt-5 border-bottom pb-2">Universidad de Buenos Aires</h5>
-                    <li>
-                        <p>
-                            Licenciatura en Ciencias Matemáticas <br/>(En Curso)
-                        </p>
-                    </li>
-                </ul>
-            </div>
         </div>
     </div>
 

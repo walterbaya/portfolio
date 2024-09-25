@@ -4,7 +4,6 @@
         <div id="footer-start-project" class="bg-dark p-3 d-flex flex-column align-items-center">
             <h3 class="h3 text-center text-white">¿Necesitas un sitio web?</h3>   
             <button class="btn btn-white border-1 mt-4 bg-white ">Contactar</button> 
-            
         </div>
     </div>
     <ul class="list-group d-flex flex-row  justify-content-evenly pb-4">

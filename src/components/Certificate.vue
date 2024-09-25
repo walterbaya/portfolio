@@ -1,6 +1,6 @@
 <template>
-  <div class="card">
-    <div class="p-5">
+  <div class="card p-3 mb-3">
+    <div>
       <a href={url} class="link">{{title}}</a>
     </div>
   </div>

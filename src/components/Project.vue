@@ -1,11 +1,11 @@
 <template>
   <div
-    class="border d-flex justify-content-center py-3 px-2"
+    class="d-flex justify-content-center py-3 px-2"
     @mouseover="hover = true"
     @mouseleave="hover = false"
   >
     <div class="row w-100 d-flex justify-content-center">
-      <div class=" card col-12 px-0 d-flex flex-column justify-content-between">
+      <div class=" card col-12 px-0 py-3 d-flex flex-column justify-content-between">
         <!--<picture><img v-bind:alt="image" v-bind:src="getImage()" class="img-fluid" /></picture>-->
         <div class="px-4">
         <h5 class="card-title text-center text-dark-blue">{{ title }}</h5>

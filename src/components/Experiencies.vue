@@ -1,12 +1,14 @@
 <template>
-  <div class="container px-0">
+  <div class="px-0">
     <div class="row">
       <div class="mb-5 bg-dark col-12 p-4 d-flex justify-content-center align-items-center">
         <h1 class="text-white section-title">Experiencia</h1>
       </div>
     </div>
-    <div class="row px-4 py-2" v-for="experiencie in experiencies" v-bind:key="experiencie.title">
+    <div class="container">
+      <div class="row " v-for="experiencie in experiencies" v-bind:key="experiencie.title">
         <Experiencie :experiencie="experiencie"></Experiencie>
+      </div>
     </div>
   </div>
 </template>

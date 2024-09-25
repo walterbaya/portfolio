@@ -1,12 +1,12 @@
 <template>
-  <div id="app" class="container-fluid w-100 px-0" >
+  <div id="app" class="container-fluid" >
     <div class="row">
       <aside class="col-12 px-0">
         <Navbar></Navbar>
       </aside>
     </div>
     <div class="row">
-      <div class="col-12 py-3 d-none d-md-block">
+      <div class="col-12 py-3 py-md-0 d-none d-md-block">
         <router-view></router-view>
       </div>
       <div class="col-12 py-3 d-block d-md-none">

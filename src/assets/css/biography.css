@@ -1,0 +1,132 @@
+/* Estilos modernos con variables CSS */
+.biography-section {
+  --primary-color: #2a2a72;
+  --secondary-color: #009ffd;
+  --accent-color: #ff3c00;
+  --text-light: #f8f9fa;
+}
+
+.section-header {
+  background: linear-gradient(
+    135deg,
+    var(--primary-color),
+    var(--secondary-color)
+  );
+  padding: 6rem 0;
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+  margin-bottom: 4rem;
+}
+
+.section-title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 3.5rem;
+  text-align: center;
+  color: var(--text-light);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.profile-card {
+  max-width: 800px;
+  margin: -8rem auto 0;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  padding: 3rem;
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+.profile-card:hover {
+  transform: translateY(-5px);
+}
+
+.name-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.8rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.gradient-text {
+  background: linear-gradient(45deg, var(--primary-color), var(--accent-color));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.position-subtitle {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  color: #666;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.bio-text {
+  line-height: 1.8;
+  font-size: 1.1rem;
+  color: #444;
+}
+
+.highlight {
+  font-weight: 600;
+  color: var(--primary-color);
+  font-size: 1.2rem;
+}
+
+.institution {
+  font-weight: 600;
+  color: var(--accent-color);
+}
+
+/* Estilos avanzados para el botón */
+.cta-button {
+  position: relative;
+  background: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 1rem 2.5rem;
+  font-size: 1.1rem;
+  border-radius: 50px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  margin-top: 2rem;
+}
+
+.hover-effect {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 0;
+  height: 0;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  transition: width 0.3s, height 0.3s;
+}
+
+.cta-button:hover {
+  background: var(--secondary-color);
+  box-shadow: 0 5px 15px rgba(0, 159, 253, 0.4);
+}
+
+.cta-button:hover .hover-effect {
+  width: 200px;
+  height: 200px;
+}
+
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 2.5rem;
+  }
+  
+  .profile-card {
+    padding: 2rem;
+    margin-top: -5rem;
+  }
+  
+  .name-title {
+    font-size: 2rem;
+  }
+}

@@ -1,75 +1,136 @@
 <template>
-<nav class="navbar navbar-expand-md navbar-light">
-  <div class="navbar-brand image-container align-self-start ms-3 d-flex p-2 logo">
-    <img class="img-fluid rounded  d-flex" src="../assets/img/icon.png" alt="WalterBayaLogo" />
-  </div>
-  <div class="collapse navbar-collapse justify-content-between px-3 d-none d-md-flex" id="navbarText">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <router-link to="biography" class="nav-link h5 text-dark">biografía</router-link>
-      </li>
-      <li class="nav-item">
-        <router-link to="/experiencies" class="nav-link  text-dark h5">experiencia</router-link>
-      </li>
-      <li class="nav-item">
-        <router-link to="/projects" class="nav-link text-dark h5">proyectos</router-link>
-      </li>
-      <li class="nav-item">
-        <router-link to="/certificates" class="nav-link text-dark h5">certificados</router-link>
-      </li>
-    </ul>
+  <nav class="main-nav" :class="{ 'scrolled': isScrolled }">
+    <div class="nav-container">
+      <!-- Logo con animación -->
+      <router-link to="/" class="brand-logo">
+        <img 
+          src="../assets/img/icon.png" 
+          alt="Walter Baya Logo"
+          class="logo-image"
+          @mouseenter="addLogoHover"
+          @mouseleave="removeLogoHover"
+        />
+      </router-link>
 
-    <ul class="list-group d-flex flex-row  justify-content-evenly">
-        <li class="list-group-item p-0 border-0"><a href="https://www.linkedin.com/in/walterbaya" class="p-2"><i class="fa-brands fa-linkedin fa-xl text-dark"></i></a></li>
-        <li class="list-group-item p-0 border-0"><a href="https://github.com/walterbaya" class="p-2"><i class="fa-brands fa-github fa-xl text-dark"></i></a></li>
-        <li class="list-group-item p-0 border-0"><a href ="mailto:walterbaya1996@gmail.com" class="p-2"><i class="fa-regular fa-envelope fa-xl text-dark"></i></a></li>
-        <li class="list-group-item p-0 border-0"><a href="#" class="p-2"><i class="fa-brands fa-youtube fa-xl text-dark" ></i></a></li>
-        <li class="list-group-item p-0 border-0"><a href="tel:+54 1128653459" class="p-2"><i class="fa-brands fa-whatsapp fa-xl text-dark"></i></a></li>
-    </ul>
-  </div>
-</nav>
+      <!-- Menú principal -->
+      <div class="nav-links">
+        <router-link 
+          v-for="link in navigationLinks" 
+          :key="link.path"
+          :to="link.path"
+          class="nav-item text-decoration-none"
+          active-class="active"
+        >
+          {{ link.label }}
+          <div class="link-underline"></div>
+        </router-link>
+      </div>
 
+      <!-- Redes sociales con tooltips -->
+      <div class="social-links">
+        <a 
+          v-for="social in socialLinks"
+          :key="social.id"
+          :href="social.url"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="social-icon"
+          :aria-label="social.name"
+        >
+          <i :class="social.icon"></i>
+          <span class="tooltip">{{ social.name }}</span>
+        </a>
+      </div>
+
+      <!-- Menú móvil -->
+      <button 
+        class="mobile-menu-btn"
+        @click="toggleMobileMenu"
+        aria-label="Toggle navigation menu"
+      >
+        <div class="menu-bar" :class="{ 'open': isMobileMenuOpen }"></div>
+      </button>
+    </div>
+
+    <!-- Menú móvil desplegable -->
+    <transition name="slide-down">
+      <div v-show="isMobileMenuOpen" class="mobile-menu">
+        <router-link 
+          v-for="link in navigationLinks" 
+          :key="link.path"
+          :to="link.path"
+          class="mobile-nav-item"
+          @click="closeMobileMenu"
+        >
+          {{ link.label }}
+        </router-link>
+        <div class="mobile-social-links">
+          <a 
+            v-for="social in socialLinks"
+            :key="social.id"
+            :href="social.url"
+            class="mobile-social-icon"
+          >
+            <i :class="social.icon"></i>
+          </a>
+        </div>
+      </div>
+    </transition>
+  </nav>
 </template>
 
 <script>
-export default {
-  name: "Navbar",
+import "@/assets/css/navbar.css";
 
-  mounted() {
-    //document.addEventListener("scroll", this.fixedScrollingHandler);
-    //document.addEventListener("onresize", this.fixedScrollingHandler);
-    //this.fixedScrollingHandler();
-  },
+export default {
+  name: 'Navbar',
   data() {
     return {
-      currentScrollPosition: 0,
-    };
+      isScrolled: false,
+      isMobileMenuOpen: false,
+      navigationLinks: [
+        { path: '/biography', label: 'Biografía' },
+        { path: '/experiences', label: 'Experiencia' },
+        { path: '/projects', label: 'Proyectos' },
+        { path: '/certificates', label: 'Certificados' }
+      ],
+      socialLinks: [
+        { id: 1, name: 'LinkedIn', icon: 'fa-brands fa-linkedin', url: 'https://www.linkedin.com/in/walterbaya' },
+        { id: 2, name: 'GitHub', icon: 'fa-brands fa-github', url: 'https://github.com/walterbaya' },
+        { id: 3, name: 'Email', icon: 'fa-regular fa-envelope', url: 'mailto:walterbaya1996@gmail.com' },
+        { id: 4, name: 'WhatsApp', icon: 'fa-brands fa-whatsapp', url: 'tel:+541128653459' }
+      ]
+    }
+  },
+  mounted() {
+    window.addEventListener('scroll', this.handleScroll)
+    window.addEventListener('resize', this.handleResize)
+  },
+  beforeDestroy() {
+    window.removeEventListener('scroll', this.handleScroll)
+    window.removeEventListener('resize', this.handleResize)
   },
   methods: {
-    /*fixedScrollingHandler: function () {
-      //We keep the current scroll position updated all the time.
-      const pastScrollPosition = this.currentScrollPosition;
-      this.currentScrollPosition = window.scrollY;
-      const div_content = document.getElementById("navigation-bar");
-      const navbar = document.getElementById("navbar");
-
-      if (window.outerWidth <= 767) {
-        div_content.classList.add("fixed-top");
-        if (this.currentScrollPosition > pastScrollPosition) {
-          navbar.classList.remove("show");
-          navbar.classList.add("hide");
-          div_content.classList.remove("d-flex");
-          div_content.classList.add("d-none");
-        }
-        if (this.currentScrollPosition < pastScrollPosition) {
-          div_content.classList.add("d-flex");
-          div_content.classList.remove("d-none");
-        }
-      } else {
-        div_content.classList.remove("fixed-top");
+    handleScroll() {
+      this.isScrolled = window.scrollY > 50
+    },
+    handleResize() {
+      if (window.innerWidth > 768) {
+        this.isMobileMenuOpen = false
       }
     },
-    */
-  },
-};
+    toggleMobileMenu() {
+      this.isMobileMenuOpen = !this.isMobileMenuOpen
+    },
+    closeMobileMenu() {
+      this.isMobileMenuOpen = false
+    },
+    addLogoHover(e) {
+      e.target.classList.add('logo-hover')
+    },
+    removeLogoHover(e) {
+      e.target.classList.remove('logo-hover')
+    }
+  }
+}
 </script>

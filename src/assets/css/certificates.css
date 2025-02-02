@@ -1,0 +1,40 @@
+.certificates-section {
+    padding: 4rem 0;
+    background: #f8f9fa;
+  }
+  
+  .section-header {
+    text-align: center;
+    padding: 6rem 0;
+    background: linear-gradient(135deg, #2a2a72, #3a3a8a);
+    color: white;
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    margin-bottom: 4rem;
+  }
+  
+  .section-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .certificates-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+  }
+  
+  @media (max-width: 768px) {
+    .section-title {
+      font-size: 2rem;
+    }
+    
+    .certificates-grid {
+      grid-template-columns: 1fr;
+      padding: 0 1rem;
+    }
+  }

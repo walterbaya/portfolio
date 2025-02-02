@@ -1,57 +1,48 @@
 <template>
-  <div
-    class="d-flex flex-column px-0"
-  >
-    <div class="row">
-      <div
-        class="col-12 p-4 d-flex justify-content-center align-items-center bg-dark  text-white"
-      >
-        <h1 class="section-title">Proyectos</h1>
-      </div>
+  <section class="projects-section">
+    <div class="projects-header">
+      <h2 class="section-title">Mis Proyectos</h2>
     </div>
-    <div class="container">
-      <div class="row">
-        <div
-          class="col-12"
-          v-for="project in projects"
-          v-bind:key="project.project"
-        >
-          <Project :project="project"></Project>
-        </div>
-      </div>
+
+    <div class="projects-grid">
+      <Project 
+        v-for="(project, index) in processedProjects"
+        :key="`project-${index}`"
+        :project="project"
+        class="project-card"
+      />
     </div>
-  </div>
+  </section>
 </template>
 
 <script>
+import "@/assets/css/projects.css";
 import Project from "./Project.vue";
-import txt from "../assets/texts/messages.json";
-
-const pro = txt["projects"];
+import projectsData from "../assets/texts/messages.json";
 
 export default {
   name: "Projects",
+  components: { Project },
   computed: {
-    projects() {
-      var projectList = [];
-      for (const key in pro) {
-        projectList.push({
-          title: pro[key][0].title,
-          text: pro[key][0].text,
-          link: pro[key][0].link,
-          url:  pro[key][0].url,
-          image: pro[key][0].image,
-          isDeployed: pro[key][0].isDeployed,
-          deployLink: pro[key][0].deployLink
-        });
-      }
-      return projectList;
-    },
+    processedProjects() {
+      return Object.values(projectsData.projects).map(proj => ({
+        ...proj[0],
+        // Agregar placeholder si no hay imagen
+        image: require(`@/assets/img/projects/${proj[0].image}`),
+        
+        // Normalizar URLs
+        repoUrl: proj[0].url,
+        demoUrl: proj[0].isDeployed ? proj[0].deployLink : null,
+        // Generar tags automáticos
+        tags: this.extractTags(proj[0].text)
+      }))
+    }
   },
-  components: {
-    Project,
-  },
-};
+  methods: {
+    extractTags(text) {
+      const techKeywords = ['Vue', 'React', 'Node', 'JavaScript', 'Java', 'MongoDB', 'AWS'];
+      return [...new Set(text.match(new RegExp(techKeywords.join('|'), 'gi')) || [])];
+    }
+  }
+}
 </script>
-
-

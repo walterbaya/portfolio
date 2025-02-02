@@ -31,7 +31,7 @@ const routes = [{
     component: Biography
   },
   {
-    path: '/experiencies',
+    path: '/experiences',
     component: Experiencies
   },
   {

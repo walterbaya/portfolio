@@ -226,28 +226,71 @@
       }
     ]
   },
-  "experiencies": {
-    "experiencie1": [
-      {
-        "image": "maletin.svg",
-        "date": "Marzo  2023 - Actualidad",
-        "title": "Freelancer",
-        "text": "Trabajo como independiente ofreciendo soluciones a diferentes tipos de clientes, esto me permite continuar aplicando mis conocimientos constantemente e ir ganando experiencia mediante el desarrollo de proyectos aplicando tecnología diversa."}
-    ],
-    "experiencie2": [
-      {
-        "image": "grupomercel.png",
-        "date": "Noviembre  2022 - Marzo 2023",
-        "title": "Analista programador Java",
-        "text": "Trabajé en el proyecto SGI de Swiss Medical de forma interdisciplinaria con miembros del equipo de dicha empresa. Optimicé y actualicé código relacionado al frontend en backbone. Creé documentación para facilitar el ingreso a los futuros integrantes del proyecto. Desarrollé diferentes tareas en Java versión 1.6. Trabajé con Redhat Fuse principalmente desarrollando bundles escritos en Camel."}
-    ],
-    "experiencie3": [
-      {
-        "image": "masterdata.png",
-        "date": "Marzo  2022 - Noviembre 2022",
-        "title": "Junior Java Developer",
-        "text": "Participé en el desarrollo y actualización de un sistema de gestión de medicamentos. En el Frontend trabajé principalmente con VueJS junto con Bootstrap y Sass. En el Backend trabajé con Java versión 1.8 - 11 Utilicé principalmente SVN como gestor de repositorios."
-      }
-    ]
-  }
+    "experiencies": {
+      "experiencie1": [
+        {
+          "image": "maletin.svg",
+          "date": "2023-03~actualidad",
+          "title": "Freelancer",
+          "type": "full-time",
+          "techStack": ["Vue.js", "React", "Node.js", "MongoDB", "AWS"],
+          "achievements": [
+            "Implementación de arquitecturas escalables",
+            "Optimización de performance en aplicaciones existentes"
+          ],
+          "text": "Trabajo como independiente ofreciendo soluciones a diferentes tipos de clientes, aplicando tecnologías modernas y mejores prácticas de desarrollo.",
+          "metadata": {
+            "startDate": "2023-03-01",
+            "endDate": null,
+            "location": "Buenos Aires, Argentina"
+          }
+        }
+      ],
+      "experiencie2": [
+        {
+          "image": "grupomercel.png",
+          "date": "2022-11~2023-03",
+          "title": "Analista programador Java",
+          "type": "contratado",
+          "techStack": ["Java 1.6", "Redhat Fuse", "Camel", "Backbone.js"],
+          "achievements": [
+            "Optimización de código frontend en Backbone",
+            "Documentación técnica para onboarding"
+          ],
+          "text": "Participación en proyecto SGI de Swiss Medical, trabajando en:",
+          "details": [
+            "Desarrollo de bundles en Camel",
+            "Mantenimiento de código Java legacy"
+          ],
+          "metadata": {
+            "startDate": "2022-11-01",
+            "endDate": "2023-03-01",
+            "location": "Buenos Aires, Argentina"
+          }
+        }
+      ],
+      "experiencie3": [
+        {
+          "image": "masterdata.png",
+          "date": "2022-03~2022-11",
+          "title": "Junior Java Developer",
+          "type": "contratado",
+          "techStack": ["Vue.js", "Bootstrap", "Sass", "Java 8-11", "SVN"],
+          "achievements": [
+            "Implementación de componentes frontend en Vue.js",
+            "Migración de versión Java 8 a 11"
+          ],
+          "text": "Desarrollo de sistema de gestión de medicamentos con:",
+          "details": [
+            "Frontend en Vue.js con Bootstrap",
+            "Backend en Java 8-11"
+          ],
+          "metadata": {
+            "startDate": "2022-03-01",
+            "endDate": "2022-11-01",
+            "location": "Buenos Aires, Argentina"
+          }
+        }
+      ]
+    }
 }

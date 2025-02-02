@@ -1,42 +1,38 @@
 <template>
-  <div class="px-0">
-    <div class="row">
-      <div class="mb-5 bg-dark col-12 p-4 d-flex justify-content-center align-items-center">
-        <h1 class="text-white section-title">Experiencia</h1>
-      </div>
+  <section class="experiences-section">
+    <div class="header-section">
+      <h1 class="section-title">Experiencia Profesional</h1>
     </div>
-    <div class="container">
-      <div class="row " v-for="experiencie in experiencies" v-bind:key="experiencie.title">
-        <Experiencie :experiencie="experiencie"></Experiencie>
+
+    <div class="timeline-container">
+      <div 
+        v-for="(experience, index) in orderedExperiences"
+        :key="index"
+        class="timeline-item"
+        :class="{ 'left': index % 2 === 0, 'right': index % 2 !== 0 }"
+      >
+        <div class="timeline-content">
+          <Experience :experience="experience" :index="index" />
+        </div>
       </div>
+      <div class="timeline-line"></div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>
-import Experiencie from "./Experiencie.vue";
-import txt from "../assets/texts/messages.json";
-
-const exp = txt["experiencies"];
+import "@/assets/css/experiencies.css";
+import Experience from './Experience.vue'
+import experiencesData from '../assets/texts/messages.json'
 
 export default {
-  name: "Experiencies",
-  components: {
-    Experiencie,
-  },
+  components: { Experience },
   computed: {
-    experiencies() {
-      var temp = [];
-      for (const key in exp) {
-        temp.push({
-          title: exp[key][0].title,
-          text: exp[key][0].text,
-          date: exp[key][0].date,
-          image: exp[key][0].image,
-        });
-      }
-      return temp;
-    },
-  },
-};
+    orderedExperiences() {
+      return Object.values(experiencesData.experiencies)
+        .map(exp => exp[0])
+        .sort((a, b) => new Date(b.metadata.startDate) - new Date(a.metadata.startDate))
+    }
+  }
+}
 </script>

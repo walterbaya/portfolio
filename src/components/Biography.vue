@@ -1,40 +1,48 @@
 <template>
-<div id="biography" class="pt-0">
-    <div class="row d-md-block d-none">
-      <div class="mb-5 bg-dark col-12 p-4 d-flex justify-content-center align-items-center">
-        <h1 class="text-white section-title">Biografía</h1>
-      </div>
+  <section id="biography" class="biography-section">
+    <!-- Encabezado con efecto parallax -->
+    <div class="section-header parallax-bg">
+      <h1 class="section-title">Biografía</h1>
     </div>
 
     <div class="container">
-
-        <div class="row">
-        <div class="col-12 d-flex flex-column justify-content-center align-items-center">
-            <div class="w-100 text-center">
-                <h1 class="title-style">Walter Baya</h1>
-                <h4 class="p-md-1 mt-md-1 mt-1">Software Developer</h4>
-            </div>
-            <p class="mt-md-2 px-0 px-md-5 py-md-3 mt-4 text-center">
-                ¡Hola! soy Walter Me apasiona el desarrollo de software y disfruto llevando las ideas a la realidad, con el objetivo de resolver problemas del mundo real.
-                Actualmente estoy realizando la carrera de Analista de Sistemas en ESBA Barrio Norte finalizando el tercer cuatrimestre.
+      <div class="content-wrapper">
+        <!-- Tarjeta de presentación con efecto 3D -->
+        <div class="profile-card">
+          <h1 class="name-title">
+            <span class="gradient-text">Walter Baya</span>
+          </h1>
+          <h2 class="position-subtitle">Software Developer</h2>
+          
+          <!-- Texto biográfico mejorado -->
+          <div class="bio-text">
+            <p class="lead">
+              <span class="highlight">¡Hola! 👋 Soy Walter</span>
             </p>
-                <div class="d-md-flex d-none flex-row justify-content-center px-4">
-        <div id="footer-start-project" class="bg-dark p-3 d-flex flex-column align-items-center">
-            <h3 class="h3 text-center text-white">¿Necesitas un sitio web?</h3>   
-            <button class="btn btn-white border-1 mt-4 bg-white ">Contactar</button> 
-        </div>
-    </div>
-            
-        </div>
-        </div>
-    </div>
+            <p class="description">
+              Apasionado desarrollador de software especializado en transformar ideas en soluciones digitales innovadoras. 
+              Actualmente cursando el tercer cuatrimestre de la carrera de Analista de Sistemas en 
+              <span class="institution">ESBA Barrio Norte</span>.
+            </p>
+          </div>
 
-
-</div>
+          <!-- Botón con animación -->
+          <div class="cta-wrapper">
+            <button class="cta-button">
+              <span class="cta-text">Contactar</span>
+              <div class="hover-effect"></div>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 </template>
 
 <script>
+import "@/assets/css/biography.css";
+
 export default {
-    name: "Biography",
+  name: "Biography",
 };
 </script>

@@ -22,7 +22,7 @@
             <p class="description">
               Apasionado desarrollador de software especializado en transformar ideas en soluciones digitales innovadoras. 
               Actualmente cursando el último cuatrimestre de la carrera de Analista de Sistemas en 
-              <span class="institution">ESBA Barrio Norte</span>. <br/>Próximamente cursando Ingeniería Informática en <span class="institution">UNLAM</span>
+              <span class="institution">ESBA Barrio Norte</span>. 
             </p>
           </div>
 

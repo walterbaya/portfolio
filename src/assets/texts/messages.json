@@ -86,49 +86,16 @@
     ]    
   },
   "projects": {
-    "My-Team-Page": [
+    "Catálogo Mayorista Online": [
       {
-        "title": "My Team Page",
-        "text": "Diseño y desarrollo web responsive dutilizando Bootstrap, Css y HTML5 de devChallenges.",
-        "link": "https://github.com/walterbaya/My-Team-Page",
+        "title": "Catálogo Mayorista Online",
+        "text": "Template de catalogo mayorista realizado para empresa del rubro calzado .",
+        "link": "https://catalogo-mayorista.netlify.app/",
         "isDeployed": true,
-        "deployLink": "https://pedantic-jones-827c5b.netlify.app",
-        "image": "team.svg"
+        "deployLink": "https://catalogo-mayorista.netlify.app/",
+        "image": "catalogo-mayorista.jpg"
       }
     ],
-    "error-404": [
-      {
-        "title": "Error 404",
-        "text": "Diseño y desarrollo web responsive dutilizando Bootstrap, Css y HTML5, desafío de devChallenges.",
-        "link": "https://github.com/walterbaya/Error-404",
-        "isDeployed": true,
-        "deployLink": "https://wonderful-golick-5ba2bf.netlify.app",
-        "image": "error404.svg"
-      }
-    ],
-    "Slider-pokemones": [
-      {
-        "title": "Slider Infinito de Pokemones",
-        "text": "Aplicación que consume una API de pokemones y los muestra en un slider utilizando IONIC.",
-        "link": "https://github.com/walterbaya/tech-task-agencia-austral",
-        "isDeployed": false,
-        "deployLink": "",
-        "image": "slider-infinito-pokemones.svg"
-      }
-    ]
-
-    ,
-    "Videojuego": [
-      {
-        "title": "Videojuego de preguntas y respuestas",
-        "text": "Trabajo práctico universitario en el cual se desarrolló un videojuego en lenguaje Visual Basic que interactua con una base de datos MySQL.",
-        "link": "https://github.com/walterbaya/ESBA/tree/main/Segundo%20Cuatrimestre/Programacion%20Visual/TP-FINAL",
-        "isDeployed": false,
-        "deployLink": "",
-        "image": "proyecto-final-programacion-visual.png"
-      }
-    ]
-    ,
     "Palma-Store": [
       {
         "title": "Sistema de Gestión Palma Store",
@@ -136,7 +103,7 @@
         "link": "https://github.com/walterbaya/palma-store",
         "isDeployed": false,
         "deployLink": "",
-        "image": "tienda-palma-store.svg"
+        "image": "tienda-palma-store.jpg"
       }
     ],
     "Near-Earth-Asteroids": [
@@ -149,6 +116,17 @@
         "image": "nearasteroids.jpg"
       }
     ],
+    "Videojuego": [
+      {
+        "title": "Videojuego de preguntas y respuestas",
+        "text": "Trabajo práctico universitario en el cual se desarrolló un videojuego en lenguaje Visual Basic que interactua con una base de datos MySQL.",
+        "link": "https://github.com/walterbaya/ESBA/tree/main/Segundo%20Cuatrimestre/Programacion%20Visual/TP-FINAL",
+        "isDeployed": false,
+        "deployLink": "",
+        "image": "proyecto-final-programacion-visual.png"
+      }
+    ]
+    ,
     "toon-shader": [
       {
         "title": "Toon: Shader",
@@ -169,26 +147,6 @@
         "image": "Ta-Te-Ti.jpg"
       }
     ],
-      "Análisis Habitacional": [
-        {
-          "title": "Análisis Habitacional",
-          "text": "Especificación en Latex e implementación con limitaciones de complejidad temporal y espacial para realizar análisis habitacional. Se utilizó googleTest para realizar testing.",
-          "link": "https://github.com/walterbaya/Algoritmos-y-estructuras-de-datos-1/tree/master/Trabajo-Practico",
-          "isDeployed": false,
-          "deployLink": " ",
-          "image": "analisisHabitacional.jpg"
-        }
-      ],
-      "Diseño de Base de Datos": [
-        {
-          "title": "Diseño de Base de Datos en C++",
-          "text": "Especificación y diseño en Latex. Implementación bajo limitaciones de complejidad temporal y espacial para realizar una base de datos con funcionalidades comunes.",
-          "link": "https://github.com/walterbaya/Algoritmos-y-Estructuras-de-Datos-II/tree/master/Trabajo%20Practico%20Integrador",
-          "isDeployed": false,
-          "deployLink": " ",
-          "image": "baseDeDatos.jpg"
-        }
-      ],
     "Concesionaria": [
       {
         "title": "Concesionaria",
